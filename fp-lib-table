@@ -1,4 +1,3 @@
 (fp_lib_table
   (lib (name pellet_dispenser_controller)(type KiCad)(uri ${KIPRJMOD}/pellet_dispenser_controller.pretty)(options "")(descr ""))
-  (lib (name odor_spike_hold)(type KiCad)(uri ${KIPRJMOD}/odor_spike_hold.pretty)(options "")(descr ""))
 )
