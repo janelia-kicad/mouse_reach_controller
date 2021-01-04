@@ -1,0 +1,8 @@
+* Supplemental Bill of Materials
+#+RESULTS: supplemental-parts
+| Item | Quantity | Manufacturer         | Manufacturer Part Number | Vendor   | Vendor Part Number | Description                     |
+|------+----------+----------------------+--------------------------+----------+--------------------+---------------------------------|
+|    1 |        1 | SparkFun Electronics |                DEV-15583 | Digi-Key | 1568-DEV-15583-ND  | TEENSY 4.0                      |
+|    2 |        2 | Molex                |               0022284146 | Digi-Key | WM24210-ND         | CONN HEADER VERT 14POS 2.54MM   |
+|    3 |        1 | Qualtek              |               3021075-03 | Digi-Key | Q1223-ND           | USB 2.0 A MALE TO USB 2.0 MICRO |
+#+tblfm: $1=@#-1

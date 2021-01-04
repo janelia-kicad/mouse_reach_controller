@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name y_arena_odor_controller)(type Legacy)(uri ${KIPRJMOD}/y_arena_odor_controller.lib)(options "")(descr ""))
+  (lib (name odor_spike_hold)(type Legacy)(uri ${KIPRJMOD}/odor_spike_hold.lib)(options "")(descr ""))
+)
