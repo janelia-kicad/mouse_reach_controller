@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title pellet_dispenser_controller)
+    (title mouse_reach_controller)
     (rev 1.0)
     (company Janelia)
   )

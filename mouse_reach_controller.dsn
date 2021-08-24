@@ -1,4 +1,4 @@
-(pcb /home/polidorop/git/kicad/pellet_dispenser_controller/pellet_dispenser_controller.dsn
+(pcb /home/polidorop/git/kicad/mouse_reach_controller/mouse_reach_controller.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -53,10 +53,10 @@
     )
   )
   (placement
-    (component pellet_dispenser_controller:SPDT_SLIDE_500A_SM
+    (component mouse_reach_controller:SPDT_SLIDE_500A_SM
       (place SW1 88265 -129540 front 0 (PN SPDT_SLIDE_500A_SM))
     )
-    (component pellet_dispenser_controller:DCJACK_3PAD_SMD_RA
+    (component mouse_reach_controller:DCJACK_3PAD_SMD_RA
       (place P1 67945 -130175 front 180 (PN PWR_JACK_2.1x5.5_SMD_RA))
     )
     (component odor_spike_hold:LED0805
@@ -160,35 +160,35 @@
       (place R23 94615 -109220 back 0 (PN 390))
       (place R26 94615 -104140 back 0 (PN 390))
     )
-    (component pellet_dispenser_controller:SM0402
+    (component mouse_reach_controller:SM0402
       (place R1 80645 -126365 back 0 (PN 390))
     )
-    (component pellet_dispenser_controller:LED0805
+    (component mouse_reach_controller:LED0805
       (place L1 79375 -126365 front 0 (PN LED_GRN))
     )
-    (component pellet_dispenser_controller:FIDUCIAL
+    (component mouse_reach_controller:FIDUCIAL
       (place FID1 53975 -53975 front 180 (PN FIDUCIAL))
       (place FID2 122555 -53975 front 180 (PN FIDUCIAL))
       (place FID3 122555 -128270 front 180 (PN FIDUCIAL))
       (place FID4 53975 -128270 front 180 (PN FIDUCIAL))
     )
-    (component "pellet_dispenser_controller:MOUNTING_HOLE_4-40"
+    (component "mouse_reach_controller:MOUNTING_HOLE_4-40"
       (place MH1 92710 -85090 back 0 (PN VAL**))
       (place MH2 64770 -56515 back 0 (PN VAL**))
       (place MH3 120650 -56515 back 0 (PN VAL**))
     )
-    (component pellet_dispenser_controller:SM0805
+    (component mouse_reach_controller:SM0805
       (place C1 63500 -107315 front 0 (PN 10uF))
     )
-    (component pellet_dispenser_controller:CFP15
+    (component mouse_reach_controller:CFP15
       (place D1 67945 -107315 front 180 (PN DIODE_SCHOTTKY_45V_10A))
     )
-    (component pellet_dispenser_controller:TEENSY_4.0
+    (component mouse_reach_controller:TEENSY_4.0
       (place TEENSY1 108585 -113030 front 180 (PN TEENSY_4.0))
     )
   )
   (library
-    (image pellet_dispenser_controller:SPDT_SLIDE_500A_SM
+    (image mouse_reach_controller:SPDT_SLIDE_500A_SM
       (outline (path signal 279.4  -2540 3810  -635 5715))
       (outline (path signal 279.4  3810 3175  3724.93 2857.5  3492.5 2625.07  3175 2540
             2857.5 2625.07  2625.07 2857.5  2540 3175  2625.07 3492.5  2857.5 3724.93
@@ -213,7 +213,7 @@
       (pin Rect[T]Pad_3000x2500_um @1 5000 0)
       (pin Rect[T]Pad_3000x2500_um @2 -5000 0)
     )
-    (image pellet_dispenser_controller:DCJACK_3PAD_SMD_RA
+    (image mouse_reach_controller:DCJACK_3PAD_SMD_RA
       (outline (path signal 381  4500 0  4500 -14500))
       (outline (path signal 381  4500 -14500  -4500 -14500))
       (outline (path signal 381  -4500 -14500  -4500 0))
@@ -311,7 +311,7 @@
       (pin Rect[T]Pad_600x700_um (rotate 270) 2 0 -500)
       (pin Rect[T]Pad_600x700_um (rotate 270) 1 0 500)
     )
-    (image pellet_dispenser_controller:SM0402
+    (image mouse_reach_controller:SM0402
       (outline (path signal 177.8  400 200  400 850))
       (outline (path signal 177.8  400 850  -400 850))
       (outline (path signal 177.8  -400 850  -400 200))
@@ -321,7 +321,7 @@
       (pin Rect[T]Pad_600x700_um (rotate 270) 2 0 -500)
       (pin Rect[T]Pad_600x700_um (rotate 270) 1 0 500)
     )
-    (image pellet_dispenser_controller:LED0805
+    (image mouse_reach_controller:LED0805
       (outline (path signal 127  -127 381  -127 127))
       (outline (path signal 127  127 381  -127 381))
       (outline (path signal 127  127 127  127 381))
@@ -332,7 +332,7 @@
       (pin Rect[T]Pad_1193.8x1193.8_um (rotate 90) 2 0 1054.1)
       (pin Rect[T]Pad_1193.8x1193.8_um (rotate 90) 1 0 -1054.1)
     )
-    (image pellet_dispenser_controller:FIDUCIAL
+    (image mouse_reach_controller:FIDUCIAL
       (outline (path signal 100  500 0  420.627 -270.32  207.708 -454.816  -71.157 -494.911
             -327.43 -377.875  -479.746 -140.866  -479.746 140.866  -327.43 377.875
             -71.157 494.911  207.708 454.816  420.627 270.32  500 0))
@@ -342,7 +342,7 @@
             467.617 586.374  675.727 325.413  750 0))
       (pin Round[T]Pad_500_um ~ 0 0)
     )
-    (image "pellet_dispenser_controller:MOUNTING_HOLE_4-40"
+    (image "mouse_reach_controller:MOUNTING_HOLE_4-40"
       (outline (path signal 228.6  2540 0  2460.2 -631.672  2225.82 -1223.65  1851.58 -1738.75
             1361 -2144.59  784.903 -2415.68  159.488 -2534.99  -475.949 -2495.01
             -1081.48 -2298.26  -1619.06 -1957.1  -2054.9 -1492.97  -2361.63 -935.036
@@ -352,7 +352,7 @@
             2460.2 631.672  2540 0))
       (pin Round[A]Pad_3556_um 1 0 0)
     )
-    (image pellet_dispenser_controller:SM0805
+    (image mouse_reach_controller:SM0805
       (outline (path signal 177.8  889 635  889 1524))
       (outline (path signal 177.8  889 1524  -889 1524))
       (outline (path signal 177.8  -889 1524  -889 635))
@@ -362,7 +362,7 @@
       (pin Rect[T]Pad_787.4x1600.2_um (rotate 270) 2 0 -1041.4)
       (pin Rect[T]Pad_787.4x1600.2_um (rotate 270) 1 0 1041.4)
     )
-    (image pellet_dispenser_controller:CFP15
+    (image mouse_reach_controller:CFP15
       (outline (path signal 228.6  -2300 3750  2300 3750))
       (outline (path signal 228.6  2300 3750  2300 -3750))
       (outline (path signal 228.6  2300 -3750  -2300 -3750))
@@ -371,7 +371,7 @@
       (pin Rect[T]Pad_1600x1440_um 2@1 -1065 2780)
       (pin Rect[T]Pad_3800x4960_um 1 0 -1020)
     )
-    (image pellet_dispenser_controller:TEENSY_4.0
+    (image mouse_reach_controller:TEENSY_4.0
       (outline (path signal 177.8  5080 6350  -5080 6350))
       (outline (path signal 177.8  5080 -3810  5080 6350))
       (outline (path signal 177.8  -5080 -3810  5080 -3810))
