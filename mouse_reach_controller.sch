@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "mouse_reach_controller"
 Date ""
 Rev "1.0"
@@ -106,9 +106,84 @@ F 3 "" H 9450 1700 50  0001 C CNN
 $EndComp
 NoConn ~ 9250 1700
 $Sheet
-S 6250 2100 1850 1450
+S 6250 2100 1050 1100
 U 6183F861
 F0 "stepper_controller" 50
 F1 "stepper_controller.sch" 50
+F2 "MOSI" I L 6250 2500 50 
+F3 "MISO" O L 6250 2600 50 
+F4 "~CS" I L 6250 2700 50 
+F5 "VDD" U L 6250 2200 50 
+F6 "GND" U L 6250 2300 50 
+F7 "UART_0" B L 6250 2900 50 
+F8 "UART_1" B L 6250 3000 50 
+F9 "UART_2" B L 6250 3100 50 
 $EndSheet
+$Comp
+L mouse_reach_controller:TEENSY_4.1_PIN_RECEPTACLES TEENSY?
+U 1 1 6188FA93
+P 2950 2200
+F 0 "TEENSY?" H 2950 3099 60  0000 C CNN
+F 1 "TEENSY_4.1_PIN_RECEPTACLES" H 2950 2992 60  0000 C CNN
+F 2 "mouse_reach_controller:TEENSY_4.1_PIN_RECEPTACLES" H 2950 3250 60  0001 C CNN
+F 3 "" H 3000 4950 60  0000 C CNN
+F 4 "Digi-Key" H 2950 3350 60  0001 C CNN "Vendor"
+F 5 "ED90331-ND" H 2950 3450 60  0001 C CNN "Vendor Part Number"
+F 6 "CONN PIN RCPT .025-.037 SOLDER" H 2950 3550 60  0001 C CNN "Description"
+F 7 "48" H 2950 2200 50  0001 C CNN "Quantity"
+F 8 "Mill-Max Manufacturing Corp." H 2950 2200 50  0001 C CNN "Manufacturer"
+F 9 "0305-0-15-15-47-27-10-0" H 2950 2200 50  0001 C CNN "Manufacturer Part Number"
+	1    2950 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1550 1600 1550
+Text Label 1600 1550 2    50   ~ 0
+GND
+Wire Wire Line
+	4200 1750 4300 1750
+Text Label 4300 1750 0    50   ~ 0
+VDD
+Wire Wire Line
+	6250 2200 6150 2200
+Text Label 6150 2200 2    50   ~ 0
+VDD
+Wire Wire Line
+	6250 2300 6150 2300
+Text Label 6150 2300 2    50   ~ 0
+GND
+Wire Wire Line
+	1700 2750 1600 2750
+Text Label 1600 2750 2    50   ~ 0
+MOSI
+Wire Wire Line
+	1700 2850 1600 2850
+Text Label 1600 2850 2    50   ~ 0
+MISO
+Wire Wire Line
+	1700 2650 1600 2650
+Text Label 1600 2650 2    50   ~ 0
+~CS
+Wire Wire Line
+	6250 2700 6150 2700
+Text Label 6150 2700 2    50   ~ 0
+~CS
+Wire Wire Line
+	6250 2500 6150 2500
+Text Label 6150 2500 2    50   ~ 0
+MOSI
+Wire Wire Line
+	6250 2600 6150 2600
+Text Label 6150 2600 2    50   ~ 0
+MISO
+$Sheet
+S 6250 3550 1000 750 
+U 6189524A
+F0 "buzzer_driver" 50
+F1 "buzzer_driver.sch" 50
+$EndSheet
+Wire Wire Line
+	4200 1550 4300 1550
+Text Label 4300 1550 0    50   ~ 0
+VCC
 $EndSCHEMATC
