@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -70,22 +70,6 @@ Text Label 2350 3250 0    50   ~ 0
 VDD
 Text Label 2350 3850 0    50   ~ 0
 GND
-$Comp
-L mouse_reach_controller:TMC429 U?
-U 1 1 618481D2
-P 5750 3450
-F 0 "U?" H 6000 4450 60  0000 C CNN
-F 1 "TMC429" H 6150 2500 60  0000 C CNN
-F 2 "mouse_reach_controller:QFN-5x5-32" H 6000 4300 60  0001 C CNN
-F 3 "" H 6100 4400 60  0001 C CNN
-F 4 "1460-1071-1-ND" H 6200 4500 60  0001 C CNN "Vendor Part Number"
-F 5 "IC MOTOR CONTROLLER SPI 32QFN" H 6300 4600 60  0001 C CNN "Description"
-F 6 "Digi-Key" H 6400 4700 60  0001 C CNN "Vendor"
-F 7 "Trinamic Motion Control GmbH" H 5750 3450 50  0001 C CNN "Manufacturer"
-F 8 "TMC429-LI-T" H 5750 3450 50  0001 C CNN "Manufacturer Part Number"
-	1    5750 3450
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 7950 1550 1350 1000
 U 618487C2
@@ -392,4 +376,20 @@ Wire Wire Line
 	7950 4650 7850 4650
 Text Label 7850 4650 2    50   ~ 0
 UART_2
+$Comp
+L mouse_reach_controller:TMC429 U?
+U 1 1 618A656B
+P 5750 3450
+F 0 "U?" H 6000 4400 60  0000 C CNN
+F 1 "TMC429" H 6150 2500 60  0000 C CNN
+F 2 "mouse_reach_controller:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm" H 6000 4300 60  0001 C CNN
+F 3 "" H 6100 4400 60  0001 C CNN
+F 4 "1460-1071-1-ND" H 6200 4500 60  0001 C CNN "Vendor Part Number"
+F 5 "IC MOTOR CONTROLLER SPI 32QFN" H 6300 4600 60  0001 C CNN "Description"
+F 6 "Digi-Key" H 6400 4700 60  0001 C CNN "Vendor"
+F 7 "Trinamic Motion Control GmbH" H 5750 3450 50  0001 C CNN "Manufacturer"
+F 8 "TMC429-LI-T" H 5750 3450 50  0001 C CNN "Manufacturer Part Number"
+	1    5750 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

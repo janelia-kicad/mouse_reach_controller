@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "mouse_reach_controller"
 Date ""
 Rev "1.0"
@@ -177,13 +177,30 @@ Wire Wire Line
 Text Label 6150 2600 2    50   ~ 0
 MISO
 $Sheet
-S 6250 3550 1000 750 
+S 6250 3550 1050 500 
 U 6189524A
 F0 "buzzer_driver" 50
 F1 "buzzer_driver.sch" 50
+F2 "VCC" U L 6250 3650 50 
+F3 "GND" U L 6250 3750 50 
+F4 "ENABLE" I L 6250 3950 50 
 $EndSheet
 Wire Wire Line
 	4200 1550 4300 1550
 Text Label 4300 1550 0    50   ~ 0
 VCC
+Wire Wire Line
+	6250 3650 6150 3650
+Text Label 6150 3650 2    50   ~ 0
+VCC
+Wire Wire Line
+	6250 3750 6150 3750
+Text Label 6150 3750 2    50   ~ 0
+GND
+$Sheet
+S 6250 4650 1050 700 
+U 6189CAF8
+F0 "audio_controller" 50
+F1 "audio_controller.sch" 50
+$EndSheet
 $EndSCHEMATC
