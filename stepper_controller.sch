@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L mouse_reach_controller:CLK_32MHZ CLK?
+L mouse_reach_controller:CLK_32MHZ CLK1
 U 1 1 61843C2F
 P 3200 3550
-F 0 "CLK?" H 3250 3850 60  0000 L CNN
+F 0 "CLK1" H 3250 3850 60  0000 L CNN
 F 1 "CLK_32MHZ" H 3250 3250 60  0000 L CNN
 F 2 "mouse_reach_controller:CTS_SMD_4_7X5MM" H 3350 3750 60  0001 C CNN
 F 3 "" H 3200 3550 60  0001 C CNN
@@ -30,10 +30,10 @@ F 8 "CB3LV-3C-32M000000" H 3200 3550 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:0.1uF_0402 C?
+L mouse_reach_controller:0.1uF_0402 C1
 U 1 1 61844387
 P 2350 3550
-F 0 "C?" H 2400 3650 40  0000 L CNN
+F 0 "C1" H 2400 3650 40  0000 L CNN
 F 1 "0.1uF" H 2350 3550 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 2388 3400 30  0001 C CNN
 F 3 "" H 2350 3550 60  0001 C CNN
@@ -201,10 +201,10 @@ Wire Wire Line
 Text Label 5050 3550 2    50   ~ 0
 ~CS
 $Comp
-L mouse_reach_controller:0.1uF_0402 C?
+L mouse_reach_controller:0.1uF_0402 C2
 U 1 1 61869E11
 P 4250 3600
-F 0 "C?" H 4300 3700 40  0000 L CNN
+F 0 "C2" H 4300 3700 40  0000 L CNN
 F 1 "0.1uF" H 4250 3600 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 4288 3450 30  0001 C CNN
 F 3 "" H 4250 3600 60  0001 C CNN
@@ -240,23 +240,23 @@ Wire Wire Line
 	5750 2300 5750 2200
 Text Label 5750 2200 0    50   ~ 0
 VDD
-Text HLabel 1300 3350 0    50   Input ~ 0
+Text HLabel 1300 3500 0    50   Input ~ 0
 MOSI
-Wire Wire Line
-	1300 3350 1400 3350
-Text Label 1400 3350 0    50   ~ 0
-MOSI
-Text HLabel 1300 3500 0    50   Output ~ 0
-MISO
 Wire Wire Line
 	1300 3500 1400 3500
 Text Label 1400 3500 0    50   ~ 0
+MOSI
+Text HLabel 1300 3650 0    50   Output ~ 0
 MISO
-Text HLabel 1300 3650 0    50   Input ~ 0
-~CS
 Wire Wire Line
 	1300 3650 1400 3650
 Text Label 1400 3650 0    50   ~ 0
+MISO
+Text HLabel 1300 3800 0    50   Input ~ 0
+~CS
+Wire Wire Line
+	1300 3800 1400 3800
+Text Label 1400 3800 0    50   ~ 0
 ~CS
 Text HLabel 1300 3050 0    50   UnSpc ~ 0
 VDD
@@ -270,11 +270,11 @@ Wire Wire Line
 	1300 3200 1400 3200
 Text Label 1400 3200 0    50   ~ 0
 GND
-Text HLabel 1300 3800 0    50   BiDi ~ 0
+Text HLabel 1300 3950 0    50   BiDi ~ 0
 UART_0
 Wire Wire Line
-	1300 3800 1400 3800
-Text Label 1400 3800 0    50   ~ 0
+	1300 3950 1400 3950
+Text Label 1400 3950 0    50   ~ 0
 UART_0
 NoConn ~ 5150 3750
 NoConn ~ 5150 3850
@@ -323,17 +323,17 @@ Wire Wire Line
 	7950 3400 7850 3400
 Text Label 7850 3400 2    50   ~ 0
 UART_1
-Text HLabel 1300 3950 0    50   BiDi ~ 0
-UART_1
-Wire Wire Line
-	1300 3950 1400 3950
-Text Label 1400 3950 0    50   ~ 0
-UART_1
 Text HLabel 1300 4100 0    50   BiDi ~ 0
-UART_2
+UART_1
 Wire Wire Line
 	1300 4100 1400 4100
 Text Label 1400 4100 0    50   ~ 0
+UART_1
+Text HLabel 1300 4250 0    50   BiDi ~ 0
+UART_2
+Wire Wire Line
+	1300 4250 1400 4250
+Text Label 1400 4250 0    50   ~ 0
 UART_2
 $Sheet
 S 7950 4050 1350 1000
@@ -377,10 +377,10 @@ Wire Wire Line
 Text Label 7850 4650 2    50   ~ 0
 UART_2
 $Comp
-L mouse_reach_controller:TMC429 U?
+L mouse_reach_controller:TMC429 U1
 U 1 1 618A656B
 P 5750 3450
-F 0 "U?" H 6000 4400 60  0000 C CNN
+F 0 "U1" H 6000 4400 60  0000 C CNN
 F 1 "TMC429" H 6150 2500 60  0000 C CNN
 F 2 "mouse_reach_controller:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm" H 6000 4300 60  0001 C CNN
 F 3 "" H 6100 4400 60  0001 C CNN
@@ -392,4 +392,10 @@ F 8 "TMC429-LI-T" H 5750 3450 50  0001 C CNN "Manufacturer Part Number"
 	1    5750 3450
 	1    0    0    -1  
 $EndComp
+Text HLabel 1300 3350 0    50   Input ~ 0
+SCK
+Wire Wire Line
+	1300 3350 1400 3350
+Text Label 1400 3350 0    50   ~ 0
+SCK
 $EndSCHEMATC

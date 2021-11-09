@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -14,13 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L mouse_reach_controller:HEADER_02X05_LATCH P?
+L mouse_reach_controller:HEADER_02X05_LATCH P1
 U 1 1 61848F19
 P 7950 3900
-AR Path="/6183F861/618487C2/61848F19" Ref="P?"  Part="1" 
-AR Path="/6183F861/6187A5D3/61848F19" Ref="P?"  Part="1" 
-AR Path="/6183F861/61880876/61848F19" Ref="P?"  Part="1" 
-F 0 "P?" H 7950 4200 50  0000 C CNN
+AR Path="/6183F861/618487C2/61848F19" Ref="P1"  Part="1" 
+AR Path="/6183F861/6187A5D3/61848F19" Ref="P2"  Part="1" 
+AR Path="/6183F861/61880876/61848F19" Ref="P3"  Part="1" 
+F 0 "P2" H 7950 4200 50  0000 C CNN
 F 1 "HEADER_02X05_LATCH" H 7950 3600 50  0000 C CNN
 F 2 "mouse_reach_controller:HEADER_02x05_LATCH" H 7950 2700 60  0001 C CNN
 F 3 "" H 7950 2700 60  0000 C CNN
@@ -33,13 +33,13 @@ F 8 "N3793-6302RB" H 7950 3900 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:SN65LVDM050QDRQ1 U?
+L mouse_reach_controller:SN65LVDM050QDRQ1 U2
 U 1 1 61849A9A
 P 5700 3950
-AR Path="/6183F861/618487C2/61849A9A" Ref="U?"  Part="1" 
-AR Path="/6183F861/6187A5D3/61849A9A" Ref="U?"  Part="1" 
-AR Path="/6183F861/61880876/61849A9A" Ref="U?"  Part="1" 
-F 0 "U?" H 5800 4550 60  0000 C CNN
+AR Path="/6183F861/618487C2/61849A9A" Ref="U2"  Part="1" 
+AR Path="/6183F861/6187A5D3/61849A9A" Ref="U4"  Part="1" 
+AR Path="/6183F861/61880876/61849A9A" Ref="U6"  Part="1" 
+F 0 "U4" H 5800 4550 60  0000 C CNN
 F 1 "SN65LVDM050QDRQ1" H 6200 3350 60  0000 C CNN
 F 2 "mouse_reach_controller:SOIC_16_0.154IN" H 5750 5450 60  0001 C CNN
 F 3 "" H 5700 3950 60  0001 C CNN
@@ -71,7 +71,7 @@ DIR_B
 Wire Wire Line
 	7700 3900 7600 3900
 Text Label 7600 3900 2    50   ~ 0
-UART
+UART_BUFFERED
 Wire Wire Line
 	8200 3900 8300 3900
 Text Label 8300 3900 0    50   ~ 0
@@ -157,13 +157,13 @@ Wire Wire Line
 Text Label 6200 4150 0    50   ~ 0
 REFR
 $Comp
-L mouse_reach_controller:0.1uF_0402 C?
+L mouse_reach_controller:0.1uF_0402 C3
 U 1 1 61850629
 P 4350 3700
-AR Path="/6183F861/618487C2/61850629" Ref="C?"  Part="1" 
-AR Path="/6183F861/6187A5D3/61850629" Ref="C?"  Part="1" 
-AR Path="/6183F861/61880876/61850629" Ref="C?"  Part="1" 
-F 0 "C?" H 4400 3800 40  0000 L CNN
+AR Path="/6183F861/618487C2/61850629" Ref="C3"  Part="1" 
+AR Path="/6183F861/6187A5D3/61850629" Ref="C4"  Part="1" 
+AR Path="/6183F861/61880876/61850629" Ref="C5"  Part="1" 
+F 0 "C4" H 4400 3800 40  0000 L CNN
 F 1 "0.1uF" H 4350 3700 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 4388 3550 30  0001 C CNN
 F 3 "" H 4350 3700 60  0001 C CNN
@@ -185,13 +185,13 @@ Wire Wire Line
 Text Label 4350 3400 0    50   ~ 0
 VDD
 $Comp
-L mouse_reach_controller:100_0402 R?
+L mouse_reach_controller:100_0402 R1
 U 1 1 6185273A
 P 3500 3700
-AR Path="/6183F861/618487C2/6185273A" Ref="R?"  Part="1" 
-AR Path="/6183F861/6187A5D3/6185273A" Ref="R?"  Part="1" 
-AR Path="/6183F861/61880876/6185273A" Ref="R?"  Part="1" 
-F 0 "R?" H 3550 3700 40  0000 L CNN
+AR Path="/6183F861/618487C2/6185273A" Ref="R1"  Part="1" 
+AR Path="/6183F861/6187A5D3/6185273A" Ref="R3"  Part="1" 
+AR Path="/6183F861/61880876/6185273A" Ref="R5"  Part="1" 
+F 0 "R3" H 3550 3700 40  0000 L CNN
 F 1 "100" V 3500 3700 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 3430 3700 30  0001 C CNN
 F 3 "" H 3500 3700 30  0000 C CNN
@@ -213,13 +213,13 @@ Wire Wire Line
 Text Label 3500 4050 0    50   ~ 0
 REF_B
 $Comp
-L mouse_reach_controller:100_0402 R?
+L mouse_reach_controller:100_0402 R2
 U 1 1 61854492
 P 3800 3700
-AR Path="/6183F861/618487C2/61854492" Ref="R?"  Part="1" 
-AR Path="/6183F861/6187A5D3/61854492" Ref="R?"  Part="1" 
-AR Path="/6183F861/61880876/61854492" Ref="R?"  Part="1" 
-F 0 "R?" H 3850 3700 40  0000 L CNN
+AR Path="/6183F861/618487C2/61854492" Ref="R2"  Part="1" 
+AR Path="/6183F861/6187A5D3/61854492" Ref="R4"  Part="1" 
+AR Path="/6183F861/61880876/61854492" Ref="R6"  Part="1" 
+F 0 "R4" H 3850 3700 40  0000 L CNN
 F 1 "100" V 3800 3700 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 3730 3700 30  0001 C CNN
 F 3 "" H 3800 3700 30  0000 C CNN
@@ -282,4 +282,44 @@ Wire Wire Line
 	2400 4400 2500 4400
 Text Label 2500 4400 0    50   ~ 0
 REFR
+$Comp
+L mouse_reach_controller:BUFFER_TRI_STATE_SMALL U3
+U 1 1 6191AAE4
+P 4000 5250
+AR Path="/6183F861/618487C2/6191AAE4" Ref="U3"  Part="1" 
+AR Path="/6183F861/6187A5D3/6191AAE4" Ref="U5"  Part="1" 
+AR Path="/6183F861/61880876/6191AAE4" Ref="U7"  Part="1" 
+F 0 "U5" H 4100 5550 40  0000 L CNN
+F 1 "BUFFER_TRI_STATE_SMALL" H 4050 4950 40  0000 L CNN
+F 2 "mouse_reach_controller:MICROPAK2_6LEAD" H 4000 6150 60  0001 C CNN
+F 3 "" H 4000 6150 60  0001 C CNN
+F 4 "Digi-Key" H 4000 6150 60  0001 C CNN "Vendor"
+F 5 "NC7SZ125FHXCT-ND" H 4000 6150 60  0001 C CNN "Vendor Part Number"
+F 6 "IC BUF NON-INVERT 5.5V" H 4000 6150 60  0001 C CNN "Description"
+F 7 "ON Semiconductor" H 4000 6150 50  0001 C CNN "Manufacturer"
+F 8 "NC7SZ125FHX" H 4000 6150 50  0001 C CNN "Manufacturer Part Number"
+F 9 "6-UFDFN" H 4000 6150 50  0001 C CNN "Package"
+	1    4000 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5150 3600 5150
+Wire Wire Line
+	3700 5350 3600 5350
+Text Label 3600 5150 2    50   ~ 0
+GND
+Text Label 3600 5350 2    50   ~ 0
+UART
+Text Label 4000 4800 0    50   ~ 0
+VDD
+Wire Wire Line
+	4000 4900 4000 4800
+Wire Wire Line
+	4000 5600 4000 5700
+Wire Wire Line
+	4300 5250 4400 5250
+Text Label 4400 5250 0    50   ~ 0
+UART_BUFFERED
+Text Label 4000 5700 0    50   ~ 0
+GND
 $EndSCHEMATC
