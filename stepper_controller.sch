@@ -62,13 +62,13 @@ Wire Wire Line
 	2350 3350 2350 3250
 Wire Wire Line
 	2350 3750 2350 3850
-Text Label 3200 4000 0    50   ~ 0
+Text Label 3200 4000 2    50   ~ 0
 GND
 Text Label 3650 3550 0    50   ~ 0
 CLK
 Text Label 2350 3250 0    50   ~ 0
 VDD
-Text Label 2350 3850 0    50   ~ 0
+Text Label 2350 3850 2    50   ~ 0
 GND
 $Sheet
 S 7950 1550 1350 1000
@@ -146,7 +146,7 @@ Wire Wire Line
 	5850 4600 5950 4600
 Wire Wire Line
 	5750 4600 5750 4700
-Text Label 5750 4700 0    50   ~ 0
+Text Label 5750 4700 2    50   ~ 0
 GND
 Wire Wire Line
 	5150 3050 5050 3050
@@ -223,7 +223,7 @@ Wire Wire Line
 	4250 3800 4250 3900
 Text Label 4250 3300 0    50   ~ 0
 VDD
-Text Label 4250 3900 0    50   ~ 0
+Text Label 4250 3900 2    50   ~ 0
 GND
 Wire Wire Line
 	5650 2350 5650 2300
@@ -376,11 +376,17 @@ Wire Wire Line
 	7950 4650 7850 4650
 Text Label 7850 4650 2    50   ~ 0
 UART_2
+Text HLabel 1300 3350 0    50   Input ~ 0
+SCK
+Wire Wire Line
+	1300 3350 1400 3350
+Text Label 1400 3350 0    50   ~ 0
+SCK
 $Comp
 L mouse_reach_controller:TMC429 U1
-U 1 1 618A656B
+U 1 1 618D3993
 P 5750 3450
-F 0 "U1" H 6000 4400 60  0000 C CNN
+F 0 "U1" H 6050 4450 60  0000 C CNN
 F 1 "TMC429" H 6150 2500 60  0000 C CNN
 F 2 "mouse_reach_controller:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm" H 6000 4300 60  0001 C CNN
 F 3 "" H 6100 4400 60  0001 C CNN
@@ -392,10 +398,4 @@ F 8 "TMC429-LI-T" H 5750 3450 50  0001 C CNN "Manufacturer Part Number"
 	1    5750 3450
 	1    0    0    -1  
 $EndComp
-Text HLabel 1300 3350 0    50   Input ~ 0
-SCK
-Wire Wire Line
-	1300 3350 1400 3350
-Text Label 1400 3350 0    50   ~ 0
-SCK
 $EndSCHEMATC

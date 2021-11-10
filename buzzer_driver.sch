@@ -24,7 +24,7 @@ Wire Wire Line
 Connection ~ 4350 3600
 Wire Wire Line
 	4350 3600 4400 3600
-Text Label 4350 3700 0    50   ~ 0
+Text Label 4350 3700 2    50   ~ 0
 GND
 Wire Wire Line
 	4350 2550 4350 2450
@@ -61,49 +61,33 @@ Wire Wire Line
 	6000 3250 6000 3350
 Text Label 6000 2950 0    50   ~ 0
 VM
-Text Label 6000 3350 0    50   ~ 0
+Text Label 6000 3350 2    50   ~ 0
 GND
-Text HLabel 2550 2550 0    50   UnSpc ~ 0
+Text HLabel 1950 2250 0    50   UnSpc ~ 0
 VCC
 Wire Wire Line
-	2550 2550 2650 2550
-Text Label 2650 2550 0    50   ~ 0
+	1950 2250 2050 2250
+Text Label 2050 2250 0    50   ~ 0
 VCC
-Text HLabel 2550 2700 0    50   UnSpc ~ 0
+Text HLabel 1950 2400 0    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	2550 2700 2650 2700
-Text Label 2650 2700 0    50   ~ 0
+	1950 2400 2050 2400
+Text Label 2050 2400 0    50   ~ 0
 GND
-Text HLabel 2550 2850 0    50   Input ~ 0
+Text HLabel 1950 2550 0    50   Input ~ 0
 ENABLE
 Wire Wire Line
-	2550 2850 2650 2850
-Text Label 2650 2850 0    50   ~ 0
+	1950 2550 2050 2550
+Text Label 2050 2550 0    50   ~ 0
 ENABLE
-$Comp
-L mouse_reach_controller:TERM_BLK_HDR_2POS_VERT_0.2IN T1
-U 1 1 619421DE
-P 6800 3100
-F 0 "T1" H 6878 3142 50  0000 L CNN
-F 1 "TERM_BLK_HDR_2POS_VERT_0.2IN" H 6878 3050 50  0000 L CNN
-F 2 "mouse_reach_controller:TERM_BLK_HDR_2POS_VERT_0.2IN" H 6700 3150 60  0001 C CNN
-F 3 "" H 6800 3100 60  0000 C CNN
-F 4 "Digi-Key" H 6900 3350 60  0001 C CNN "Vendor"
-F 5 "277-1150-ND" H 7000 3450 60  0001 C CNN "Vendor Part Number"
-F 6 "TERM BLOCK HDR 2POS VERT 5.08MM" H 7100 3550 60  0001 C CNN "Description"
-F 7 "Phoenix Contact" H 6800 3100 50  0001 C CNN "Manufacturer"
-F 8 "1755736" H 6800 3100 50  0001 C CNN "Manufacturer Part Number"
-	1    6800 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6600 3050 6500 3050
 Wire Wire Line
 	6600 3150 6500 3150
-Text Label 6500 3050 2    50   ~ 0
-VM
 Text Label 6500 3150 2    50   ~ 0
+VM
+Text Label 6500 3050 2    50   ~ 0
 GND
 $Comp
 L mouse_reach_controller:MIC94091YC6-TR U8
@@ -121,4 +105,45 @@ F 8 "MIC94091YC6-TR" H 4350 5000 50  0001 C CNN "Manufacturer Part Number"
 	1    4350 3050
 	1    0    0    -1  
 $EndComp
+$Comp
+L mouse_reach_controller:TERM_BLK_HDR_2POS_90DEG_0.2IN T1
+U 1 1 618E0BFD
+P 6800 3100
+F 0 "T1" H 6878 3142 50  0000 L CNN
+F 1 "TERM_BLK_HDR_2POS_90DEG_0.2IN" H 6878 3050 50  0000 L CNN
+F 2 "mouse_reach_controller:TERM_BLK_HDR_2POS_90DEG_0.2IN" H 6700 3150 60  0001 C CNN
+F 3 "" H 6800 3100 60  0000 C CNN
+F 4 "Digi-Key" H 6900 3350 60  0001 C CNN "Vendor"
+F 5 "277-1106-ND" H 7000 3450 60  0001 C CNN "Vendor Part Number"
+F 6 "TERM BLOCK HDR 2POS 90DEG 5.08MM" H 7100 3550 60  0001 C CNN "Description"
+F 7 "Phoenix Contact" H 6800 3100 50  0001 C CNN "Manufacturer"
+F 8 "1757242" H 6800 3100 50  0001 C CNN "Manufacturer Part Number"
+	1    6800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L mouse_reach_controller:2.2uF_0402 C9
+U 1 1 618EDD35
+P 2900 3050
+F 0 "C9" H 2950 3150 40  0000 L CNN
+F 1 "2.2uF" H 2900 3050 30  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" H 2938 2900 30  0001 C CNN
+F 3 "" H 2900 3050 60  0000 C CNN
+F 4 "Digi-Key" H 3000 3250 60  0001 C CNN "Vendor"
+F 5 "445-9028-1-ND" H 3100 3350 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 2.2UF 35V X5R" H 3200 3450 60  0001 C CNN "Description"
+F 7 "0402" H 2900 3050 50  0001 C CNN "Package"
+F 8 "TDK Corporation" H 2900 3050 50  0001 C CNN "Manufacturer"
+F 9 "C1005X5R1V225K050BC" H 2900 3050 50  0001 C CNN "Manufacturer Part Number"
+	1    2900 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2850 2900 2750
+Text Label 2900 2750 0    50   ~ 0
+VCC
+Wire Wire Line
+	2900 3250 2900 3350
+Text Label 2900 3350 2    50   ~ 0
+GND
 $EndSCHEMATC

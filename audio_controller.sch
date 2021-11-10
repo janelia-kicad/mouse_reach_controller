@@ -14,22 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L mouse_reach_controller:SGTL5000 U10
-U 1 1 618AE1F5
-P 5350 3400
-F 0 "U10" H 5800 4100 60  0000 C CNN
-F 1 "SGTL5000" H 5800 2550 60  0000 C CNN
-F 2 "mouse_reach_controller:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm" H 5650 4000 60  0001 C CNN
-F 3 "" H 5350 3400 60  0001 C CNN
-F 4 "Digi-Key" H 5850 4200 60  0001 C CNN "Vendor"
-F 5 "SGTL5000XNAA3R2CT-ND" H 5950 4300 60  0001 C CNN "Vendor Part Number"
-F 6 "Stereo Audio Interface 32-QFN" H 6050 4400 60  0001 C CNN "Description"
-F 7 "NXP USA Inc." H 5350 3400 50  0001 C CNN "Manufacturer"
-F 8 "SGTL5000XNAA3R2" H 5350 3400 50  0001 C CNN "Manufacturer Part Number"
-	1    5350 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L mouse_reach_controller:600@100MHz_1210 L1
 U 1 1 618B1046
 P 5400 2000
@@ -46,10 +30,10 @@ F 8 "FBMH3225HM601NT" H 5400 2000 50  0001 C CNN "Manufacturer Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L mouse_reach_controller:0.1uF_0402 C8
+L mouse_reach_controller:0.1uF_0402 C12
 U 1 1 618B25D3
 P 5800 2250
-F 0 "C8" H 5850 2350 40  0000 L CNN
+F 0 "C12" H 5850 2350 40  0000 L CNN
 F 1 "0.1uF" H 5800 2250 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 5838 2100 30  0001 C CNN
 F 3 "" H 5800 2250 60  0001 C CNN
@@ -63,10 +47,10 @@ F 9 "CC0402ZRY5V8BB104" H 5800 2250 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:0.1uF_0402 C6
+L mouse_reach_controller:0.1uF_0402 C10
 U 1 1 618B28C7
 P 5050 2250
-F 0 "C6" H 5100 2350 40  0000 L CNN
+F 0 "C10" H 5100 2350 40  0000 L CNN
 F 1 "0.1uF" H 5050 2250 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 5088 2100 30  0001 C CNN
 F 3 "" H 5050 2250 60  0001 C CNN
@@ -97,10 +81,10 @@ F 9 "SOT23-3" H 2300 2950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:0.1uF_0402 C10
+L mouse_reach_controller:0.1uF_0402 C14
 U 1 1 618B708D
 P 1900 3200
-F 0 "C10" H 1950 3300 40  0000 L CNN
+F 0 "C14" H 1950 3300 40  0000 L CNN
 F 1 "0.1uF" H 1900 3200 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 1938 3050 30  0001 C CNN
 F 3 "" H 1900 3200 60  0001 C CNN
@@ -176,10 +160,10 @@ Connection ~ 5450 4450
 Wire Wire Line
 	5450 4450 5550 4450
 $Comp
-L mouse_reach_controller:2.2uF_0402 C7
+L mouse_reach_controller:2.2uF_0402 C11
 U 1 1 618BE49F
 P 5600 2250
-F 0 "C7" H 5650 2350 40  0000 L CNN
+F 0 "C11" H 5650 2350 40  0000 L CNN
 F 1 "2.2uF" H 5600 2250 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 5638 2100 30  0001 C CNN
 F 3 "" H 5600 2250 60  0000 C CNN
@@ -193,10 +177,10 @@ F 9 "C1005X5R1V225K050BC" H 5600 2250 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:2.2uF_0402 C9
+L mouse_reach_controller:2.2uF_0402 C13
 U 1 1 618BF8D1
 P 1700 3200
-F 0 "C9" H 1750 3300 40  0000 L CNN
+F 0 "C13" H 1750 3300 40  0000 L CNN
 F 1 "2.2uF" H 1700 3200 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 1738 3050 30  0001 C CNN
 F 3 "" H 1700 3200 60  0000 C CNN
@@ -210,10 +194,10 @@ F 9 "C1005X5R1V225K050BC" H 1700 3200 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:2.2uF_0402 C11
+L mouse_reach_controller:2.2uF_0402 C15
 U 1 1 618C094A
 P 2700 3200
-F 0 "C11" H 2750 3300 40  0000 L CNN
+F 0 "C15" H 2750 3300 40  0000 L CNN
 F 1 "2.2uF" H 2700 3200 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 2738 3050 30  0001 C CNN
 F 3 "" H 2700 3200 60  0000 C CNN
@@ -227,10 +211,10 @@ F 9 "C1005X5R1V225K050BC" H 2700 3200 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:0.15uF_0402 C12
+L mouse_reach_controller:0.15uF_0402 C16
 U 1 1 618C67E7
 P 3900 3950
-F 0 "C12" H 3950 4050 40  0000 L CNN
+F 0 "C16" H 3950 4050 40  0000 L CNN
 F 1 "0.15uF" H 3900 3950 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 3938 3800 30  0001 C CNN
 F 3 "" H 3900 3950 60  0000 C CNN
@@ -444,10 +428,10 @@ Connection ~ 5050 2000
 Text Label 4950 2000 2    50   ~ 0
 VDD
 $Comp
-L user_power:PWR_FLAG #FLG01
+L user_power:PWR_FLAG #FLG03
 U 1 1 618FBD96
 P 5800 1900
-F 0 "#FLG01" H 5800 1975 50  0001 C CNN
+F 0 "#FLG03" H 5800 1975 50  0001 C CNN
 F 1 "PWR_FLAG" H 5800 2075 50  0000 C CNN
 F 2 "" H 5800 1900 50  0001 C CNN
 F 3 "~" H 5800 1900 50  0001 C CNN
@@ -511,4 +495,20 @@ Wire Wire Line
 	1200 2200 1300 2200
 Text Label 1300 2200 0    50   ~ 0
 I2S_DOUT
+$Comp
+L mouse_reach_controller:SGTL5000 U10
+U 1 1 618CDA5A
+P 5350 3400
+F 0 "U10" H 5800 4100 60  0000 C CNN
+F 1 "SGTL5000" H 5800 2550 60  0000 C CNN
+F 2 "mouse_reach_controller:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm" H 5650 4000 60  0001 C CNN
+F 3 "" H 5350 3400 60  0001 C CNN
+F 4 "Digi-Key" H 5850 4200 60  0001 C CNN "Vendor"
+F 5 "SGTL5000XNAA3R2CT-ND" H 5950 4300 60  0001 C CNN "Vendor Part Number"
+F 6 "Stereo Audio Interface 32-QFN" H 6050 4400 60  0001 C CNN "Description"
+F 7 "NXP USA Inc." H 5350 3400 50  0001 C CNN "Manufacturer"
+F 8 "SGTL5000XNAA3R2" H 5350 3400 50  0001 C CNN "Manufacturer Part Number"
+	1    5350 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
