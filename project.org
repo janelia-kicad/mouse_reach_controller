@@ -1,0 +1,16 @@
+* Header                                                           :noexport:
+
+  #+MACRO: name mouse_reach_controller
+  #+MACRO: version 1.0
+  #+MACRO: license Open-Source Hardware
+  #+MACRO: url https://github.com/janelia-kicad/mouse_reach_controller
+  #+AUTHOR: Peter Polidoro
+  #+EMAIL: peter@polidoro.io
+
+* Description
+
+  This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
+
+* Assembly Instructions
+
+  - Solder surface mount and through hole components onto the pcb.

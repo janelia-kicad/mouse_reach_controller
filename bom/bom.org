@@ -1,0 +1,24 @@
+# Created 2021-11-12 Fri 09:31
+* Bill of Materials
+#+results: pcb-parts
+| Item | Reference(s)                        | Quantity | Manufacturer                 | Manufacturer Part Number | Vendor   | Vendor Part Number        | Description                                         | Package |
+|------+-------------------------------------+----------+------------------------------+--------------------------+----------+---------------------------+-----------------------------------------------------+---------|
+|    1 | C1 C10 C12 C14 C2 C3 C4 C5 C6 C7 C8 |       11 | Yageo                        | CC0402ZRY5V8BB104        | Digi-Key | 311-1375-1-ND             | CAP CER 0.1UF 25V Y5V                               |    0402 |
+|    2 | C11 C13 C15 C9                      |        4 | TDK Corporation              | C1005X5R1V225K050BC      | Digi-Key | 445-9028-1-ND             | CAP CER 2.2UF 35V X5R                               |    0402 |
+|    3 | C16                                 |        1 | YAGEO                        | CC0402KRX5R7BB154        | Digi-Key | 13-CC0402KRX5R7BB154CT-ND | CAP CER 0.15UF 16V X5R                              |    0402 |
+|    4 | CLK1                                |        1 | CTS-Frequency Controls       | CB3LV-3C-32M000000       | Digi-Key | CTX277LVCT-ND             | XTAL OSC XO 32.0000MHZ HCMOS TTL                    |         |
+|    5 | D1                                  |        1 | Comchip Technology           | CDBQR0230L               | Digi-Key | 641-1275-1-ND             | DIODE SCHOTTKY 30V 200MA                            |    0402 |
+|    6 | J1                                  |        1 | CUI Devices                  | SJ-3523-SMT-TR           | Digi-Key | CP-3523SJCT-ND            | 3.50mm Headphone Phone Jack Stereo Connector Solder |         |
+|    7 | L1                                  |        1 | Taiyo Yuden                  | FBMH3225HM601NT          | Digi-Key | 587-1755-1-ND             | FERRITE BEAD 600 OHM 1210 1LN                       |         |
+|    8 | P1 P2 P3                            |        3 | 3M                           | N3793-6302RB             | Digi-Key | MHS10N-ND                 | CONN HEADER VERT 10POS 2.54MM                       |         |
+|    9 | R1 R2 R3 R4 R5 R6                   |        6 | Stackpole Electronics Inc    | RMCF0402FT100R           | Digi-Key | RMCF0402FT100RCT-ND       | RES 100 OHM 1% 1/16W                                |    0402 |
+|   10 | R7 R8                               |        2 | YAGEO                        | RC0402FR-072K21L         | Digi-Key | 311-2.21KLRCT-ND          | RES 2.21K OHM 1% 1/16W                              |    0402 |
+|   11 | T1                                  |        1 | Phoenix Contact              | 1757242                  | Digi-Key | 277-1106-ND               | TERM BLOCK HDR 2POS 90DEG 5.08MM                    |         |
+|   12 | TEENSY1                             |       28 | Mill-Max Manufacturing Corp. | 0305-0-15-15-47-27-10-0  | Digi-Key | ED90331-ND                | CONN PIN RCPT .025-.037 SOLDER                      |         |
+|   13 | U1                                  |        1 | Trinamic Motion Control GmbH | TMC429-LI-T              | Digi-Key | 1460-1071-1-ND            | IC MOTOR CONTROLLER SPI 32QFN                       |         |
+|   14 | U10                                 |        1 | NXP USA Inc.                 | SGTL5000XNAA3R2          | Digi-Key | SGTL5000XNAA3R2CT-ND      | Stereo Audio Interface 32-QFN                       |         |
+|   15 | U2 U4 U6                            |        3 | Texas Instruments            | SN65LVDM050QDRQ1         | Digi-Key | 296-15386-1-ND            | IC TRANSCEIVER FULL 2/2                             | 16-SOIC |
+|   16 | U3 U5 U7                            |        3 | ON Semiconductor             | NC7SZ125FHX              | Digi-Key | NC7SZ125FHXCT-ND          | IC BUF NON-INVERT 5.5V                              | 6-UFDFN |
+|   17 | U8                                  |        1 | Microchip Technology         | MIC94091YC6-TR           | Digi-Key | 576-3486-1-ND             | IC PWR SWITCH P-CHAN 1:1                            |         |
+|   18 | U9                                  |        1 | Richtek USA Inc.             | RT9076-15GV              | Digi-Key | 1028-1470-1-ND            | IC REG LINEAR 1.5V 250MA                            | SOT23-3 |
+|      | FID1 FID2 FID3 FID4 MH1 MH2 MH3 MH4 |        8 |                              |                          |          |                           |                                                     |         |
