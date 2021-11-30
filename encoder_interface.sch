@@ -170,10 +170,10 @@ $EndComp
 Text Label 5500 4550 0    50   ~ 0
 VDD
 $Comp
-L mouse_reach_controller:2.21k_0402 R9
+L mouse_reach_controller:2.21k_0402 R11
 U 1 1 619C4F2B
 P 5250 2350
-F 0 "R9" H 5300 2350 40  0000 L CNN
+F 0 "R11" H 5300 2350 40  0000 L CNN
 F 1 "2.21k" V 5250 2350 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 5180 2350 30  0001 C CNN
 F 3 "" H 5250 2350 30  0000 C CNN
@@ -191,10 +191,10 @@ Wire Wire Line
 Text Label 5250 2000 0    50   ~ 0
 VDD
 $Comp
-L mouse_reach_controller:0.1uF_0402 C17
+L mouse_reach_controller:0.1uF_0402 C19
 U 1 1 619C6AD8
 P 4000 3950
-F 0 "C17" H 4050 4050 40  0000 L CNN
+F 0 "C19" H 4050 4050 40  0000 L CNN
 F 1 "0.1uF" H 4000 3950 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 4038 3800 30  0001 C CNN
 F 3 "" H 4000 3950 60  0001 C CNN
@@ -216,10 +216,10 @@ Wire Wire Line
 Text Label 4000 4250 2    50   ~ 0
 GND
 $Comp
-L mouse_reach_controller:0.1uF_0402 C18
+L mouse_reach_controller:0.1uF_0402 C20
 U 1 1 619C78A9
 P 4050 5000
-F 0 "C18" H 4100 5100 40  0000 L CNN
+F 0 "C20" H 4100 5100 40  0000 L CNN
 F 1 "0.1uF" H 4050 5000 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 4088 4850 30  0001 C CNN
 F 3 "" H 4050 5000 60  0001 C CNN
@@ -245,10 +245,10 @@ Wire Wire Line
 Text Label 5250 2700 2    50   ~ 0
 CHANNEL_A
 $Comp
-L mouse_reach_controller:2.21k_0402 R10
+L mouse_reach_controller:2.21k_0402 R12
 U 1 1 619C9259
 P 5900 2350
-F 0 "R10" H 5950 2350 40  0000 L CNN
+F 0 "R12" H 5950 2350 40  0000 L CNN
 F 1 "2.21k" V 5900 2350 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 5830 2350 30  0001 C CNN
 F 3 "" H 5900 2350 30  0000 C CNN

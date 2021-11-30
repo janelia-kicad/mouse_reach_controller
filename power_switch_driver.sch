@@ -144,7 +144,7 @@ L mouse_reach_controller:100uF_POL C9
 U 1 1 61997FC4
 P 2900 3050
 F 0 "C9" H 2989 3080 50  0000 L CNN
-F 1 "100uF_POL" H 2989 3004 30  0000 L CNN
+F 1 "100uF" H 2989 3004 30  0000 L CNN
 F 2 "mouse_reach_controller:CP_Elec_6.3x7.7_WURTH" H 2810 3020 60  0001 C CNN
 F 3 "" H 2910 3120 60  0001 C CNN
 F 4 "Digi-Key" H 3010 3220 60  0001 C CNN "Vendor"
@@ -171,10 +171,10 @@ Wire Wire Line
 Text Label 3350 2300 2    50   ~ 0
 VBB
 $Comp
-L mouse_reach_controller:DRV103 U?
+L mouse_reach_controller:DRV103 U8
 U 1 1 619F717F
 P 4800 2950
-F 0 "U?" H 5000 3250 60  0000 C CNN
+F 0 "U8" H 5000 3250 60  0000 C CNN
 F 1 "DRV103" H 5150 2650 60  0000 C CNN
 F 2 "mouse_reach_controller:SOIC_8" H 5050 2650 60  0001 C CNN
 F 3 "" H 4800 2950 60  0000 C CNN
@@ -188,11 +188,11 @@ F 9 "8SOIC" H 4800 2950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:0.1uF_0402 C?
+L mouse_reach_controller:0.1uF_0402 C10
 U 1 1 619F931B
 P 3350 3050
-F 0 "C?" H 3465 3080 40  0000 L CNN
-F 1 "0.1uF_0402" H 3465 3011 30  0000 L CNN
+F 0 "C10" H 3465 3080 40  0000 L CNN
+F 1 "0.1uF" H 3465 3011 30  0000 L CNN
 F 2 "mouse_reach_controller:SM0402" H 3388 2900 30  0001 C CNN
 F 3 "" H 3350 3050 60  0001 C CNN
 F 4 "Digi-Key" H 3450 3250 60  0001 C CNN "Vendor"
@@ -222,20 +222,84 @@ Wire Wire Line
 Wire Wire Line
 	4950 3300 4950 3400
 $Comp
-L mouse_reach_controller:150k_0402 R?
-U 1 1 619FBFE8
-P 4550 3650
-F 0 "R?" H 4600 3650 40  0000 L CNN
-F 1 "150k" V 4550 3650 30  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" V 4480 3650 30  0001 C CNN
-F 3 "" V 4630 3650 30  0000 C CNN
-F 4 "Digi-Key" V 4730 3750 60  0001 C CNN "Vendor"
-F 5 "P150KLCT-ND" V 4830 3850 60  0001 C CNN "Vendor Part Number"
-F 6 "RES SMD 150K OHM 1% 1/10W" V 4930 3950 60  0001 C CNN "Description"
-F 7 "Panasonic Electronic Components" H 4550 3650 50  0001 C CNN "Manufacturer"
-F 8 "ERJ-2RKF1503X" H 4550 3650 50  0001 C CNN "Manufacturer Part Number"
-F 9 "0402" H 4550 3650 50  0001 C CNN "Package"
-	1    4550 3650
+L mouse_reach_controller:150k_0402 R7
+U 1 1 61A71F0F
+P 4150 3750
+F 0 "R7" H 4200 3750 40  0000 L CNN
+F 1 "150k" V 4150 3750 30  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" V 4080 3750 30  0001 C CNN
+F 3 "" V 4230 3750 30  0000 C CNN
+F 4 "Digi-Key" V 4330 3850 60  0001 C CNN "Vendor"
+F 5 "P150KLCT-ND" V 4430 3950 60  0001 C CNN "Vendor Part Number"
+F 6 "RES SMD 150K OHM 1% 1/10W" V 4530 4050 60  0001 C CNN "Description"
+F 7 "Panasonic Electronic Components" H 4150 3750 50  0001 C CNN "Manufacturer"
+F 8 "ERJ-2RKF1503X" H 4150 3750 50  0001 C CNN "Manufacturer Part Number"
+F 9 "0402" H 4150 3750 50  0001 C CNN "Package"
+	1    4150 3750
 	1    0    0    -1  
 $EndComp
+Text Notes 4100 3900 1    50   ~ 0
+60%
+$Comp
+L mouse_reach_controller:205k_0402 R8
+U 1 1 61A73928
+P 4850 3750
+F 0 "R8" H 4900 3750 40  0000 L CNN
+F 1 "205k" V 4850 3750 30  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" V 4780 3750 30  0001 C CNN
+F 3 "" V 4930 3750 30  0000 C CNN
+F 4 "Digi-Key" V 5030 3850 60  0001 C CNN "Vendor"
+F 5 "P205KLCT-ND" V 5130 3950 60  0001 C CNN "Vendor Part Number"
+F 6 "RES SMD 205K OHM 1% 1/10W" V 5230 4050 60  0001 C CNN "Description"
+F 7 "Panasonic Electronic Components" H 4850 3750 50  0001 C CNN "Manufacturer"
+F 8 "ERJ-2RKF2053X" H 4850 3750 50  0001 C CNN "Manufacturer Part Number"
+F 9 "0402" H 4850 3750 50  0001 C CNN "Package"
+	1    4850 3750
+	1    0    0    -1  
+$EndComp
+Text Notes 4800 3900 1    50   ~ 0
+25kHz
+$Comp
+L mouse_reach_controller:10uF_0402 C11
+U 1 1 61A753EA
+P 4500 3750
+F 0 "C11" H 4550 3850 40  0000 L CNN
+F 1 "10uF" H 4500 3750 30  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" H 4538 3600 30  0001 C CNN
+F 3 "" H 4500 3750 60  0000 C CNN
+F 4 "Digi-Key" H 4600 3950 60  0001 C CNN "Vendor"
+F 5 "490-13233-1-ND" H 4700 4050 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 10UF 6.3V X6S" H 4800 4150 60  0001 C CNN "Description"
+F 7 "0402" H 4500 3750 50  0001 C CNN "Package"
+	1    4500 3750
+	1    0    0    -1  
+$EndComp
+Text Notes 4400 3900 1    50   ~ 0
+11ms
+Text Label 4850 4100 0    50   ~ 0
+GND
+Wire Wire Line
+	4850 4000 4850 4100
+Text Label 4500 4050 0    50   ~ 0
+GND
+Wire Wire Line
+	4500 3950 4500 4050
+Text Label 4150 4100 0    50   ~ 0
+GND
+Wire Wire Line
+	4150 4000 4150 4100
+Wire Wire Line
+	4850 3300 4850 3500
+Wire Wire Line
+	4750 3300 4750 3400
+Wire Wire Line
+	4750 3400 4500 3400
+Wire Wire Line
+	4500 3400 4500 3550
+Wire Wire Line
+	4650 3300 4650 3350
+Wire Wire Line
+	4650 3350 4150 3350
+Wire Wire Line
+	4150 3350 4150 3500
 $EndSCHEMATC

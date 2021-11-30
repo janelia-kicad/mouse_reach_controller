@@ -30,10 +30,10 @@ F 8 "FBMH3225HM601NT" H 5400 2000 50  0001 C CNN "Manufacturer Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L mouse_reach_controller:0.1uF_0402 C12
+L mouse_reach_controller:0.1uF_0402 C14
 U 1 1 618B25D3
 P 5800 2250
-F 0 "C12" H 5850 2350 40  0000 L CNN
+F 0 "C14" H 5850 2350 40  0000 L CNN
 F 1 "0.1uF" H 5800 2250 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 5838 2100 30  0001 C CNN
 F 3 "" H 5800 2250 60  0001 C CNN
@@ -47,10 +47,10 @@ F 9 "CC0402ZRY5V8BB104" H 5800 2250 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:0.1uF_0402 C10
+L mouse_reach_controller:0.1uF_0402 C12
 U 1 1 618B28C7
 P 5050 2250
-F 0 "C10" H 5100 2350 40  0000 L CNN
+F 0 "C12" H 5100 2350 40  0000 L CNN
 F 1 "0.1uF" H 5050 2250 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 5088 2100 30  0001 C CNN
 F 3 "" H 5050 2250 60  0001 C CNN
@@ -81,10 +81,10 @@ F 9 "SOT23-3" H 2300 2950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:0.1uF_0402 C14
+L mouse_reach_controller:0.1uF_0402 C16
 U 1 1 618B708D
 P 1900 3200
-F 0 "C14" H 1950 3300 40  0000 L CNN
+F 0 "C16" H 1950 3300 40  0000 L CNN
 F 1 "0.1uF" H 1900 3200 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 1938 3050 30  0001 C CNN
 F 3 "" H 1900 3200 60  0001 C CNN
@@ -160,10 +160,10 @@ Connection ~ 5450 4450
 Wire Wire Line
 	5450 4450 5550 4450
 $Comp
-L mouse_reach_controller:2.2uF_0402 C11
+L mouse_reach_controller:2.2uF_0402 C13
 U 1 1 618BE49F
 P 5600 2250
-F 0 "C11" H 5650 2350 40  0000 L CNN
+F 0 "C13" H 5650 2350 40  0000 L CNN
 F 1 "2.2uF" H 5600 2250 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 5638 2100 30  0001 C CNN
 F 3 "" H 5600 2250 60  0000 C CNN
@@ -177,10 +177,10 @@ F 9 "C1005X5R1V225K050BC" H 5600 2250 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:2.2uF_0402 C13
+L mouse_reach_controller:2.2uF_0402 C15
 U 1 1 618BF8D1
 P 1700 3200
-F 0 "C13" H 1750 3300 40  0000 L CNN
+F 0 "C15" H 1750 3300 40  0000 L CNN
 F 1 "2.2uF" H 1700 3200 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 1738 3050 30  0001 C CNN
 F 3 "" H 1700 3200 60  0000 C CNN
@@ -194,10 +194,10 @@ F 9 "C1005X5R1V225K050BC" H 1700 3200 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:2.2uF_0402 C15
+L mouse_reach_controller:2.2uF_0402 C17
 U 1 1 618C094A
 P 2700 3200
-F 0 "C15" H 2750 3300 40  0000 L CNN
+F 0 "C17" H 2750 3300 40  0000 L CNN
 F 1 "2.2uF" H 2700 3200 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 2738 3050 30  0001 C CNN
 F 3 "" H 2700 3200 60  0000 C CNN
@@ -211,10 +211,10 @@ F 9 "C1005X5R1V225K050BC" H 2700 3200 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:0.15uF_0402 C16
+L mouse_reach_controller:0.15uF_0402 C18
 U 1 1 618C67E7
 P 3900 3950
-F 0 "C16" H 3950 4050 40  0000 L CNN
+F 0 "C18" H 3950 4050 40  0000 L CNN
 F 1 "0.15uF" H 3900 3950 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 3938 3800 30  0001 C CNN
 F 3 "" H 3900 3950 60  0000 C CNN
@@ -229,10 +229,10 @@ F 9 "CC0402KRX5R7BB154" H 3900 3950 50  0001 C CNN "Manufacturer Part Number"
 $EndComp
 NoConn ~ 4550 3750
 $Comp
-L mouse_reach_controller:2.21k_0402 R7
+L mouse_reach_controller:2.21k_0402 R9
 U 1 1 618CF78A
 P 3650 2250
-F 0 "R7" H 3700 2250 40  0000 L CNN
+F 0 "R9" H 3700 2250 40  0000 L CNN
 F 1 "2.21k" V 3650 2250 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 3580 2250 30  0001 C CNN
 F 3 "" H 3650 2250 30  0000 C CNN
@@ -246,10 +246,10 @@ F 9 "RC0402FR-072K21L" H 3650 2250 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:2.21k_0402 R8
+L mouse_reach_controller:2.21k_0402 R10
 U 1 1 618D0072
 P 3850 2250
-F 0 "R8" H 3900 2250 40  0000 L CNN
+F 0 "R10" H 3900 2250 40  0000 L CNN
 F 1 "2.21k" V 3850 2250 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 3780 2250 30  0001 C CNN
 F 3 "" H 3850 2250 30  0000 C CNN

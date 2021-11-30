@@ -110,6 +110,30 @@ X ~ 2 0 -100 73 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 10uF_0402
+#
+DEF 10uF_0402 C 0 10 N Y 1 F N
+F0 "C" 0 100 40 H V L CNN
+F1 "10uF_0402" 0 0 30 H V C CNN
+F2 "mouse_reach_controller:SM0402" 38 -150 30 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 100 200 60 H I C CNN "Vendor"
+F5 "490-13233-1-ND" 200 300 60 H I C CNN "Vendor Part Number"
+F6 "CAP CER 10UF 6.3V X6S" 300 400 60 H I C CNN "Description"
+F7 "0402" 0 0 50 H I C CNN "Package"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 150k_0402
 #
 DEF 150k_0402 R 0 0 N Y 1 F N
@@ -187,6 +211,33 @@ P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
 X ~ 1 0 200 170 D 40 40 1 1 P
 X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 205k_0402
+#
+DEF 205k_0402 R 0 0 N Y 1 F N
+F0 "R" 80 0 40 V V C CNN
+F1 "205k_0402" 0 0 30 V V C CNN
+F2 "mouse_reach_controller:SM0402" -70 0 30 V I C CNN
+F3 "" 80 0 30 V V C CNN
+F4 "Digi-Key" 180 100 60 V I C CNN "Vendor"
+F5 "P205KLCT-ND" 280 200 60 V I C CNN "Vendor Part Number"
+F6 "RES SMD 205K OHM 1% 1/10W" 380 300 60 V I C CNN "Description"
+F7 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer"
+F8 "ERJ-2RKF2053X" 0 0 50 H I C CNN "Manufacturer Part Number"
+F9 "0402" 0 0 50 H I C CNN "Package"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 12 N
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
