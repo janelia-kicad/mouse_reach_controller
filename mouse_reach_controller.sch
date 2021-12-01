@@ -327,66 +327,66 @@ $EndComp
 $Comp
 L mouse_reach_controller:BNC_DOUBLE_RA P1
 U 1 1 6198046D
-P 1800 4200
-F 0 "P1" H 1800 4467 50  0000 C CNN
-F 1 "BNC_DOUBLE_RA" H 1800 4375 50  0000 C CNN
-F 2 "mouse_reach_controller:BNC_DOUBLE" H 1800 3000 60  0001 C CNN
-F 3 "" H 1800 3000 60  0000 C CNN
-F 4 "Digi-Key" H 1900 4450 60  0001 C CNN "Vendor"
-F 5 "ACX1655-ND" H 2000 4550 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN BNC JACK R/A 75 OHM PCB" H 2100 4650 60  0001 C CNN "Description"
-F 7 "Amphenol RF" H 1800 4200 60  0001 C CNN "Manufacturer"
-F 8 "112661" H 1800 4200 60  0001 C CNN "Manufacturer Part Number"
-	1    1800 4200
+P 2000 4500
+F 0 "P1" H 2000 4767 50  0000 C CNN
+F 1 "BNC_DOUBLE_RA" H 2000 4675 50  0000 C CNN
+F 2 "mouse_reach_controller:BNC_DOUBLE" H 2000 3300 60  0001 C CNN
+F 3 "" H 2000 3300 60  0000 C CNN
+F 4 "Digi-Key" H 2100 4750 60  0001 C CNN "Vendor"
+F 5 "ACX1655-ND" H 2200 4850 60  0001 C CNN "Vendor Part Number"
+F 6 "CONN BNC JACK R/A 75 OHM PCB" H 2300 4950 60  0001 C CNN "Description"
+F 7 "Amphenol RF" H 2000 4500 60  0001 C CNN "Manufacturer"
+F 8 "112661" H 2000 4500 60  0001 C CNN "Manufacturer Part Number"
+	1    2000 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 4150 2150 4150
-Text Label 2150 4150 0    50   ~ 0
+	2250 4450 2350 4450
+Text Label 2350 4450 0    50   ~ 0
 GND
 Wire Wire Line
-	2050 4250 2150 4250
-Text Label 2150 4250 0    50   ~ 0
+	2250 4550 2350 4550
+Text Label 2350 4550 0    50   ~ 0
 GND
 Wire Wire Line
-	1550 4250 1450 4250
-Text Label 1450 4250 2    50   ~ 0
+	1750 4550 1650 4550
+Text Label 1650 4550 2    50   ~ 0
 BNC_B
 Wire Wire Line
-	1550 4150 1450 4150
-Text Label 1450 4150 2    50   ~ 0
+	1750 4450 1650 4450
+Text Label 1650 4450 2    50   ~ 0
 BNC_A
 $Comp
 L mouse_reach_controller:BNC_DOUBLE_RA P2
 U 1 1 619839F7
-P 1800 4650
-F 0 "P2" H 1800 4917 50  0000 C CNN
-F 1 "BNC_DOUBLE_RA" H 1800 4825 50  0000 C CNN
-F 2 "mouse_reach_controller:BNC_DOUBLE" H 1800 3450 60  0001 C CNN
-F 3 "" H 1800 3450 60  0000 C CNN
-F 4 "Digi-Key" H 1900 4900 60  0001 C CNN "Vendor"
-F 5 "ACX1655-ND" H 2000 5000 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN BNC JACK R/A 75 OHM PCB" H 2100 5100 60  0001 C CNN "Description"
-F 7 "Amphenol RF" H 1800 4650 60  0001 C CNN "Manufacturer"
-F 8 "112661" H 1800 4650 60  0001 C CNN "Manufacturer Part Number"
-	1    1800 4650
+P 2000 4950
+F 0 "P2" H 2000 5217 50  0000 C CNN
+F 1 "BNC_DOUBLE_RA" H 2000 5125 50  0000 C CNN
+F 2 "mouse_reach_controller:BNC_DOUBLE" H 2000 3750 60  0001 C CNN
+F 3 "" H 2000 3750 60  0000 C CNN
+F 4 "Digi-Key" H 2100 5200 60  0001 C CNN "Vendor"
+F 5 "ACX1655-ND" H 2200 5300 60  0001 C CNN "Vendor Part Number"
+F 6 "CONN BNC JACK R/A 75 OHM PCB" H 2300 5400 60  0001 C CNN "Description"
+F 7 "Amphenol RF" H 2000 4950 60  0001 C CNN "Manufacturer"
+F 8 "112661" H 2000 4950 60  0001 C CNN "Manufacturer Part Number"
+	1    2000 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 4600 2150 4600
-Text Label 2150 4600 0    50   ~ 0
+	2250 4900 2350 4900
+Text Label 2350 4900 0    50   ~ 0
 GND
 Wire Wire Line
-	2050 4700 2150 4700
-Text Label 2150 4700 0    50   ~ 0
+	2250 5000 2350 5000
+Text Label 2350 5000 0    50   ~ 0
 GND
 Wire Wire Line
-	1550 4700 1450 4700
-Text Label 1450 4700 2    50   ~ 0
+	1750 5000 1650 5000
+Text Label 1650 5000 2    50   ~ 0
 BNC_D
 Wire Wire Line
-	1550 4600 1450 4600
-Text Label 1450 4600 2    50   ~ 0
+	1750 4900 1650 4900
+Text Label 1650 4900 2    50   ~ 0
 BNC_C
 Wire Wire Line
 	1700 1950 1600 1950
@@ -449,4 +449,180 @@ Text Label 1600 2550 2    50   ~ 0
 ENCODER_B
 NoConn ~ 4200 2550
 NoConn ~ 4200 2650
+$Comp
+L mouse_reach_controller:LED_RED_0402 L1
+U 1 1 61A91A26
+P 1450 6350
+F 0 "L1" V 1412 6429 50  0000 L CNN
+F 1 "LED" V 1496 6429 40  0000 L CNN
+F 2 "mouse_reach_controller:LED_0402" H 1350 6650 60  0001 C CNN
+F 3 "" H 1450 6350 60  0000 C CNN
+F 4 "LED RED CLEAR 2SMD" H 1750 6750 60  0001 C CNN "Description"
+F 5 "0402" H 1450 6800 60  0001 C CNN "Package"
+F 6 "Kingbright" H 1450 6900 60  0001 C CNN "Manufacturer"
+F 7 "APHHS1005LSECK/J3-PF" H 1450 6650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 1450 6950 60  0001 C CNN "Vendor"
+F 9 "754-2123-1-ND" H 1450 6650 60  0001 C CNN "Vendor Part Number"
+	1    1450 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L mouse_reach_controller:750_0402 R1
+U 1 1 61A94247
+P 1450 5800
+F 0 "R1" H 1500 5800 40  0000 L CNN
+F 1 "750" V 1450 5800 40  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" V 1380 5800 30  0001 C CNN
+F 3 "" H 1450 5800 30  0000 C CNN
+F 4 "Digi-Key" V 1630 5900 60  0001 C CNN "Vendor"
+F 5 "311-750LRCT-ND" V 1730 6000 60  0001 C CNN "Vendor Part Number"
+F 6 "RES 750 OHM 1% 1/16W" V 1830 6100 60  0001 C CNN "Description"
+F 7 "0402" H 1450 5800 50  0001 C CNN "Package"
+F 8 "YAGEO" H 1450 5800 50  0001 C CNN "Manufacturer"
+F 9 "RC0402FR-07750RL" H 1450 5800 50  0001 C CNN "Manufacturer Part Number"
+	1    1450 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 6050 1450 6150
+Wire Wire Line
+	1450 5550 1450 5450
+Wire Wire Line
+	1450 6550 1450 6650
+Text Label 1450 6650 2    50   ~ 0
+GND
+Text Label 1450 5450 2    50   ~ 0
+BNC_A
+$Comp
+L mouse_reach_controller:LED_RED_0402 L2
+U 1 1 61A9E67F
+P 1850 6350
+F 0 "L2" V 1812 6429 50  0000 L CNN
+F 1 "LED" V 1896 6429 40  0000 L CNN
+F 2 "mouse_reach_controller:LED_0402" H 1750 6650 60  0001 C CNN
+F 3 "" H 1850 6350 60  0000 C CNN
+F 4 "LED RED CLEAR 2SMD" H 2150 6750 60  0001 C CNN "Description"
+F 5 "0402" H 1850 6800 60  0001 C CNN "Package"
+F 6 "Kingbright" H 1850 6900 60  0001 C CNN "Manufacturer"
+F 7 "APHHS1005LSECK/J3-PF" H 1850 6650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 1850 6950 60  0001 C CNN "Vendor"
+F 9 "754-2123-1-ND" H 1850 6650 60  0001 C CNN "Vendor Part Number"
+	1    1850 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L mouse_reach_controller:750_0402 R2
+U 1 1 61A9E7D9
+P 1850 5800
+F 0 "R2" H 1900 5800 40  0000 L CNN
+F 1 "750" V 1850 5800 40  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" V 1780 5800 30  0001 C CNN
+F 3 "" H 1850 5800 30  0000 C CNN
+F 4 "Digi-Key" V 2030 5900 60  0001 C CNN "Vendor"
+F 5 "311-750LRCT-ND" V 2130 6000 60  0001 C CNN "Vendor Part Number"
+F 6 "RES 750 OHM 1% 1/16W" V 2230 6100 60  0001 C CNN "Description"
+F 7 "0402" H 1850 5800 50  0001 C CNN "Package"
+F 8 "YAGEO" H 1850 5800 50  0001 C CNN "Manufacturer"
+F 9 "RC0402FR-07750RL" H 1850 5800 50  0001 C CNN "Manufacturer Part Number"
+	1    1850 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 6050 1850 6150
+Wire Wire Line
+	1850 5550 1850 5450
+Wire Wire Line
+	1850 6550 1850 6650
+Text Label 1850 6650 2    50   ~ 0
+GND
+Text Label 1850 5450 2    50   ~ 0
+BNC_B
+$Comp
+L mouse_reach_controller:LED_RED_0402 L3
+U 1 1 61AA28ED
+P 2250 6350
+F 0 "L3" V 2212 6429 50  0000 L CNN
+F 1 "LED" V 2296 6429 40  0000 L CNN
+F 2 "mouse_reach_controller:LED_0402" H 2150 6650 60  0001 C CNN
+F 3 "" H 2250 6350 60  0000 C CNN
+F 4 "LED RED CLEAR 2SMD" H 2550 6750 60  0001 C CNN "Description"
+F 5 "0402" H 2250 6800 60  0001 C CNN "Package"
+F 6 "Kingbright" H 2250 6900 60  0001 C CNN "Manufacturer"
+F 7 "APHHS1005LSECK/J3-PF" H 2250 6650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 2250 6950 60  0001 C CNN "Vendor"
+F 9 "754-2123-1-ND" H 2250 6650 60  0001 C CNN "Vendor Part Number"
+	1    2250 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L mouse_reach_controller:750_0402 R3
+U 1 1 61AA2A6D
+P 2250 5800
+F 0 "R3" H 2300 5800 40  0000 L CNN
+F 1 "750" V 2250 5800 40  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" V 2180 5800 30  0001 C CNN
+F 3 "" H 2250 5800 30  0000 C CNN
+F 4 "Digi-Key" V 2430 5900 60  0001 C CNN "Vendor"
+F 5 "311-750LRCT-ND" V 2530 6000 60  0001 C CNN "Vendor Part Number"
+F 6 "RES 750 OHM 1% 1/16W" V 2630 6100 60  0001 C CNN "Description"
+F 7 "0402" H 2250 5800 50  0001 C CNN "Package"
+F 8 "YAGEO" H 2250 5800 50  0001 C CNN "Manufacturer"
+F 9 "RC0402FR-07750RL" H 2250 5800 50  0001 C CNN "Manufacturer Part Number"
+	1    2250 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 6050 2250 6150
+Wire Wire Line
+	2250 5550 2250 5450
+Wire Wire Line
+	2250 6550 2250 6650
+Text Label 2250 6650 2    50   ~ 0
+GND
+Text Label 2250 5450 2    50   ~ 0
+BNC_C
+$Comp
+L mouse_reach_controller:LED_RED_0402 L4
+U 1 1 61AA2A82
+P 2650 6350
+F 0 "L4" V 2612 6429 50  0000 L CNN
+F 1 "LED" V 2696 6429 40  0000 L CNN
+F 2 "mouse_reach_controller:LED_0402" H 2550 6650 60  0001 C CNN
+F 3 "" H 2650 6350 60  0000 C CNN
+F 4 "LED RED CLEAR 2SMD" H 2950 6750 60  0001 C CNN "Description"
+F 5 "0402" H 2650 6800 60  0001 C CNN "Package"
+F 6 "Kingbright" H 2650 6900 60  0001 C CNN "Manufacturer"
+F 7 "APHHS1005LSECK/J3-PF" H 2650 6650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 2650 6950 60  0001 C CNN "Vendor"
+F 9 "754-2123-1-ND" H 2650 6650 60  0001 C CNN "Vendor Part Number"
+	1    2650 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L mouse_reach_controller:750_0402 R4
+U 1 1 61AA2A92
+P 2650 5800
+F 0 "R4" H 2700 5800 40  0000 L CNN
+F 1 "750" V 2650 5800 40  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" V 2580 5800 30  0001 C CNN
+F 3 "" H 2650 5800 30  0000 C CNN
+F 4 "Digi-Key" V 2830 5900 60  0001 C CNN "Vendor"
+F 5 "311-750LRCT-ND" V 2930 6000 60  0001 C CNN "Vendor Part Number"
+F 6 "RES 750 OHM 1% 1/16W" V 3030 6100 60  0001 C CNN "Description"
+F 7 "0402" H 2650 5800 50  0001 C CNN "Package"
+F 8 "YAGEO" H 2650 5800 50  0001 C CNN "Manufacturer"
+F 9 "RC0402FR-07750RL" H 2650 5800 50  0001 C CNN "Manufacturer Part Number"
+	1    2650 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 6050 2650 6150
+Wire Wire Line
+	2650 5550 2650 5450
+Wire Wire Line
+	2650 6550 2650 6650
+Text Label 2650 6650 2    50   ~ 0
+GND
+Text Label 2650 5450 2    50   ~ 0
+BNC_D
 $EndSCHEMATC

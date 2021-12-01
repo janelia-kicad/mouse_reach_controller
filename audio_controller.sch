@@ -14,22 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L mouse_reach_controller:600@100MHz_1210 L1
-U 1 1 618B1046
-P 5400 2000
-F 0 "L1" V 5550 2000 50  0000 C CNN
-F 1 "600@100MHz_1210" V 5450 2000 50  0000 C CNN
-F 2 "mouse_reach_controller:SM1210" H 5330 1940 50  0001 C CNN
-F 3 "" H 5400 2000 50  0000 C CNN
-F 4 "Digi-Key" H 5530 2140 60  0001 C CNN "Vendor"
-F 5 "587-1755-1-ND" H 5630 2240 60  0001 C CNN "Vendor Part Number"
-F 6 "FERRITE BEAD 600 OHM 1210 1LN" H 5730 2340 60  0001 C CNN "Description"
-F 7 "Taiyo Yuden" H 5400 2000 50  0001 C CNN "Manufacturer"
-F 8 "FBMH3225HM601NT" H 5400 2000 50  0001 C CNN "Manufacturer Part Number"
-	1    5400 2000
-	0    -1   -1   0   
-$EndComp
-$Comp
 L mouse_reach_controller:0.1uF_0402 C14
 U 1 1 618B25D3
 P 5800 2250
@@ -229,10 +213,10 @@ F 9 "CC0402KRX5R7BB154" H 3900 3950 50  0001 C CNN "Manufacturer Part Number"
 $EndComp
 NoConn ~ 4550 3750
 $Comp
-L mouse_reach_controller:2.21k_0402 R9
+L mouse_reach_controller:2.21k_0402 R14
 U 1 1 618CF78A
 P 3650 2250
-F 0 "R9" H 3700 2250 40  0000 L CNN
+F 0 "R14" H 3700 2250 40  0000 L CNN
 F 1 "2.21k" V 3650 2250 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 3580 2250 30  0001 C CNN
 F 3 "" H 3650 2250 30  0000 C CNN
@@ -246,10 +230,10 @@ F 9 "RC0402FR-072K21L" H 3650 2250 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:2.21k_0402 R10
+L mouse_reach_controller:2.21k_0402 R15
 U 1 1 618D0072
 P 3850 2250
-F 0 "R10" H 3900 2250 40  0000 L CNN
+F 0 "R15" H 3900 2250 40  0000 L CNN
 F 1 "2.21k" V 3850 2250 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 3780 2250 30  0001 C CNN
 F 3 "" H 3850 2250 30  0000 C CNN
@@ -510,5 +494,21 @@ F 7 "NXP USA Inc." H 5350 3400 50  0001 C CNN "Manufacturer"
 F 8 "SGTL5000XNAA3R2" H 5350 3400 50  0001 C CNN "Manufacturer Part Number"
 	1    5350 3400
 	1    0    0    -1  
+$EndComp
+$Comp
+L mouse_reach_controller:600@100MHz_1210 I1
+U 1 1 61AD1319
+P 5400 2000
+F 0 "I1" V 5587 2000 50  0000 C CNN
+F 1 "600" V 5495 2000 50  0000 C CNN
+F 2 "mouse_reach_controller:SM1210" H 5330 1940 50  0001 C CNN
+F 3 "" H 5400 2000 50  0000 C CNN
+F 4 "Digi-Key" H 5530 2140 60  0001 C CNN "Vendor"
+F 5 "587-1755-1-ND" H 5630 2240 60  0001 C CNN "Vendor Part Number"
+F 6 "FERRITE BEAD 600 OHM 1210 1LN" H 5730 2340 60  0001 C CNN "Description"
+F 7 "Taiyo Yuden" H 5400 2000 50  0001 C CNN "Manufacturer"
+F 8 "FBMH3225HM601NT" H 5400 2000 50  0001 C CNN "Manufacturer Part Number"
+	1    5400 2000
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

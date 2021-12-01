@@ -14,26 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L mouse_reach_controller:CLK_32MHZ CLK1
-U 1 1 61843C2F
-P 3200 3550
-F 0 "CLK1" H 3250 3850 60  0000 L CNN
-F 1 "CLK_32MHZ" H 3250 3250 60  0000 L CNN
-F 2 "mouse_reach_controller:CTS_SMD_4_7X5MM" H 3350 3750 60  0001 C CNN
-F 3 "" H 3200 3550 60  0001 C CNN
-F 4 "Digi-Key" H 3550 3950 60  0001 C CNN "Vendor"
-F 5 "CTX277LVCT-ND" H 3650 4050 60  0001 C CNN "Vendor Part Number"
-F 6 "XTAL OSC XO 32.0000MHZ HCMOS TTL" H 3750 4150 60  0001 C CNN "Description"
-F 7 "CTS-Frequency Controls" H 3200 3550 50  0001 C CNN "Manufacturer"
-F 8 "CB3LV-3C-32M000000" H 3200 3550 50  0001 C CNN "Manufacturer Part Number"
-	1    3200 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L mouse_reach_controller:0.1uF_0402 C1
+L mouse_reach_controller:0.1uF_0402 C2
 U 1 1 61844387
 P 2350 3550
-F 0 "C1" H 2400 3650 40  0000 L CNN
+F 0 "C2" H 2400 3650 40  0000 L CNN
 F 1 "0.1uF" H 2350 3550 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 2388 3400 30  0001 C CNN
 F 3 "" H 2350 3550 60  0001 C CNN
@@ -201,29 +185,29 @@ Wire Wire Line
 Text Label 5050 3550 2    50   ~ 0
 ~CS
 $Comp
-L mouse_reach_controller:0.1uF_0402 C2
+L mouse_reach_controller:0.1uF_0402 C1
 U 1 1 61869E11
-P 4250 3600
-F 0 "C2" H 4300 3700 40  0000 L CNN
-F 1 "0.1uF" H 4250 3600 30  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" H 4288 3450 30  0001 C CNN
-F 3 "" H 4250 3600 60  0001 C CNN
-F 4 "Digi-Key" H 4350 3800 60  0001 C CNN "Vendor"
-F 5 "311-1375-1-ND" H 4450 3900 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 0.1UF 25V Y5V" H 4550 4000 60  0001 C CNN "Description"
-F 7 "0402" H 4250 3600 50  0001 C CNN "Package"
-F 8 "Yageo" H 4250 3600 50  0001 C CNN "Manufacturer"
-F 9 "CC0402ZRY5V8BB104" H 4250 3600 50  0001 C CNN "Manufacturer Part Number"
-	1    4250 3600
+P 4450 3450
+F 0 "C1" H 4500 3550 40  0000 L CNN
+F 1 "0.1uF" H 4450 3450 30  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" H 4488 3300 30  0001 C CNN
+F 3 "" H 4450 3450 60  0001 C CNN
+F 4 "Digi-Key" H 4550 3650 60  0001 C CNN "Vendor"
+F 5 "311-1375-1-ND" H 4650 3750 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 0.1UF 25V Y5V" H 4750 3850 60  0001 C CNN "Description"
+F 7 "0402" H 4450 3450 50  0001 C CNN "Package"
+F 8 "Yageo" H 4450 3450 50  0001 C CNN "Manufacturer"
+F 9 "CC0402ZRY5V8BB104" H 4450 3450 50  0001 C CNN "Manufacturer Part Number"
+	1    4450 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 3400 4250 3300
+	4450 3250 4450 3150
 Wire Wire Line
-	4250 3800 4250 3900
-Text Label 4250 3300 0    50   ~ 0
+	4450 3650 4450 3750
+Text Label 4450 3150 0    50   ~ 0
 VDD
-Text Label 4250 3900 2    50   ~ 0
+Text Label 4450 3750 2    50   ~ 0
 GND
 Wire Wire Line
 	5650 2350 5650 2300
@@ -396,6 +380,22 @@ F 6 "Digi-Key" H 6400 4700 60  0001 C CNN "Vendor"
 F 7 "Trinamic Motion Control GmbH" H 5750 3450 50  0001 C CNN "Manufacturer"
 F 8 "TMC429-LI-T" H 5750 3450 50  0001 C CNN "Manufacturer Part Number"
 	1    5750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L mouse_reach_controller:CLK_32MHZ_WURTH CLK1
+U 1 1 61ADFDD8
+P 3200 3550
+F 0 "CLK1" H 3300 3850 60  0000 L CNN
+F 1 "CLK_32MHZ" H 3250 3250 60  0000 L CNN
+F 2 "mouse_reach_controller:XTAL_WURTH" H 3150 4750 60  0001 C CNN
+F 3 "" H 3200 3550 60  0001 C CNN
+F 4 "Digi-Key" H 3150 4450 60  0001 C CNN "Vendor"
+F 5 "732-831068248CT-ND" H 3250 4550 60  0001 C CNN "Vendor Part Number"
+F 6 "XTAL OSC XO 32.0000MHZ CMOS" H 3350 4650 60  0001 C CNN "Description"
+F 7 "Würth Elektronik" H 3150 4850 50  0001 C CNN "Manufacturer"
+F 8 "831068248" H 3200 4950 50  0001 C CNN "Manufacturer Part Number"
+	1    3200 3550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
