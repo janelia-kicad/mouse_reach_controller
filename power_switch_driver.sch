@@ -13,337 +13,304 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 5550 4250 0    50   ~ 0
+Text Label 5450 4350 2    50   ~ 0
 GND
-Text Label 4950 3750 2    50   ~ 0
+Text Label 5100 3950 2    50   ~ 0
 ENABLE
-Text Label 5250 3350 0    50   ~ 0
+Text Label 5450 3600 0    50   ~ 0
+OUT
+Wire Wire Line
+	5850 2850 5850 2750
+Wire Wire Line
+	5850 3050 5850 3150
+Text Label 5850 2750 0    50   ~ 0
 VBB
-Text Label 5850 3800 0    50   ~ 0
+Text Label 5850 3150 2    50   ~ 0
 OUT
-Wire Wire Line
-	7400 4200 7400 4100
-Wire Wire Line
-	7400 4400 7400 4500
-Text Label 7400 4100 0    50   ~ 0
-VBB
-Text Label 7400 4500 2    50   ~ 0
-OUT
-Text HLabel 1950 2400 0    50   UnSpc ~ 0
+Text HLabel 1750 2400 0    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	1950 2400 2050 2400
-Text Label 2050 2400 0    50   ~ 0
+	1750 2400 1850 2400
+Text Label 1850 2400 0    50   ~ 0
 GND
-Text HLabel 1950 2550 0    50   Input ~ 0
+Text HLabel 1750 2550 0    50   Input ~ 0
 ENABLE
 Wire Wire Line
-	1950 2550 2050 2550
-Text Label 2050 2550 0    50   ~ 0
+	1750 2550 1850 2550
+Text Label 1850 2550 0    50   ~ 0
 ENABLE
 Wire Wire Line
-	8000 4200 7900 4200
+	6450 2850 6350 2850
 Wire Wire Line
-	8000 4300 7900 4300
-Text Label 7900 4300 2    50   ~ 0
+	6450 2950 6350 2950
+Text Label 6350 2950 2    50   ~ 0
 OUT
-Text Label 7900 4200 2    50   ~ 0
+Text Label 6350 2850 2    50   ~ 0
 VBB
 $Comp
 L mouse_reach_controller:TERM_BLK_HDR_2POS_90DEG_0.2IN T1
 U 1 1 618E0BFD
-P 8200 4250
-F 0 "T1" H 8278 4292 50  0000 L CNN
-F 1 "TERM_BLK_HDR_2POS_90DEG_0.2IN" H 8278 4200 50  0000 L CNN
-F 2 "mouse_reach_controller:TERM_BLK_HDR_2POS_90DEG_0.2IN" H 8100 4300 60  0001 C CNN
-F 3 "" H 8200 4250 60  0000 C CNN
-F 4 "Digi-Key" H 8300 4500 60  0001 C CNN "Vendor"
-F 5 "277-1106-ND" H 8400 4600 60  0001 C CNN "Vendor Part Number"
-F 6 "TERM BLOCK HDR 2POS 90DEG 5.08MM" H 8500 4700 60  0001 C CNN "Description"
-F 7 "Phoenix Contact" H 8200 4250 50  0001 C CNN "Manufacturer"
-F 8 "1757242" H 8200 4250 50  0001 C CNN "Manufacturer Part Number"
-	1    8200 4250
+P 6650 2900
+F 0 "T1" H 6728 2942 50  0000 L CNN
+F 1 "TERM_BLK_HDR_2POS_90DEG_0.2IN" H 6728 2850 50  0000 L CNN
+F 2 "mouse_reach_controller:TERM_BLK_HDR_2POS_90DEG_0.2IN" H 6550 2950 60  0001 C CNN
+F 3 "" H 6650 2900 60  0000 C CNN
+F 4 "Digi-Key" H 6750 3150 60  0001 C CNN "Vendor"
+F 5 "277-1106-ND" H 6850 3250 60  0001 C CNN "Vendor Part Number"
+F 6 "TERM BLOCK HDR 2POS 90DEG 5.08MM" H 6950 3350 60  0001 C CNN "Description"
+F 7 "Phoenix Contact" H 6650 2900 50  0001 C CNN "Manufacturer"
+F 8 "1757242" H 6650 2900 50  0001 C CNN "Manufacturer Part Number"
+	1    6650 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 3800 3500 3700
-Text Label 3500 3700 0    50   ~ 0
+	3900 3850 3900 3750
+Text Label 3900 3750 0    50   ~ 0
 VBB
 Wire Wire Line
-	3500 4000 3500 4100
-Text Label 3500 4100 2    50   ~ 0
+	3900 4050 3900 4150
+Text Label 3900 4150 2    50   ~ 0
 GND
 $Comp
 L mouse_reach_controller:DIODE_SCHOTTKY_45V_10A D2
 U 1 1 6198BB45
-P 7400 4300
-F 0 "D2" V 7400 4369 50  0000 L CNN
-F 1 "DIODE_SCHOTTKY_45V_10A" H 7120 4220 50  0001 L CNN
-F 2 "mouse_reach_controller:CFP15" H 7250 4280 60  0001 C CNN
-F 3 "" H 7350 4380 60  0001 C CNN
-F 4 "DIODE SCHOTTKY 45V 10A" H 7650 4680 60  0001 C CNN "Description"
-F 5 "CFP15" H 7400 4300 60  0001 C CNN "Package"
-F 6 "Nexperia USA Inc." H 7400 4300 60  0001 C CNN "Manufacturer"
-F 7 "PMEG45U10EPDAZ" H 7400 4300 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Digi-Key" H 7400 4300 60  0001 C CNN "Vendor"
-F 9 "1727-7645-1-ND" H 7400 4300 60  0001 C CNN "Vendor Part Number"
-	1    7400 4300
+P 5850 2950
+F 0 "D2" V 5850 3019 50  0000 L CNN
+F 1 "DIODE_SCHOTTKY_45V_10A" H 5570 2870 50  0001 L CNN
+F 2 "mouse_reach_controller:CFP15" H 5700 2930 60  0001 C CNN
+F 3 "" H 5800 3030 60  0001 C CNN
+F 4 "DIODE SCHOTTKY 45V 10A" H 6100 3330 60  0001 C CNN "Description"
+F 5 "CFP15" H 5850 2950 60  0001 C CNN "Package"
+F 6 "Nexperia USA Inc." H 5850 2950 60  0001 C CNN "Manufacturer"
+F 7 "PMEG45U10EPDAZ" H 5850 2950 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 5850 2950 60  0001 C CNN "Vendor"
+F 9 "1727-7645-1-ND" H 5850 2950 60  0001 C CNN "Vendor Part Number"
+	1    5850 2950
 	0    1    1    0   
 $EndComp
 $Comp
 L mouse_reach_controller:PWR_JACK_2.1x5.5_SMD_RA P6
 U 1 1 6199465D
-P 3900 2200
-F 0 "P6" H 3978 2242 50  0000 L CNN
-F 1 "PWR_JACK_2.1x5.5_SMD_RA" H 3978 2150 50  0000 L CNN
-F 2 "mouse_reach_controller:DCJACK_3PAD_SMD_RA" H 3800 2250 60  0001 C CNN
-F 3 "" H 3900 2350 60  0000 C CNN
-F 4 "Digi-Key" H 4000 2450 60  0001 C CNN "Vendor"
-F 5 "CP-036AHPJCT-ND" H 4100 2550 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN PWR JACK 2X5.5MM SOLDER" H 4200 2650 60  0001 C CNN "Description"
-F 7 "CUI Devices" H 3900 2200 50  0001 C CNN "Manufacturer"
-F 8 "PJ-036AH-SMT-TR" H 3900 2200 50  0001 C CNN "Manufacturer Part Number"
-	1    3900 2200
+P 3300 2250
+F 0 "P6" H 3378 2292 50  0000 L CNN
+F 1 "PWR_JACK_2.1x5.5_SMD_RA" H 3378 2200 50  0000 L CNN
+F 2 "mouse_reach_controller:DCJACK_3PAD_SMD_RA" H 3200 2300 60  0001 C CNN
+F 3 "" H 3300 2400 60  0000 C CNN
+F 4 "Digi-Key" H 3400 2500 60  0001 C CNN "Vendor"
+F 5 "CP-036AHPJCT-ND" H 3500 2600 60  0001 C CNN "Vendor Part Number"
+F 6 "CONN PWR JACK 2X5.5MM SOLDER" H 3600 2700 60  0001 C CNN "Description"
+F 7 "CUI Devices" H 3300 2250 50  0001 C CNN "Manufacturer"
+F 8 "PJ-036AH-SMT-TR" H 3300 2250 50  0001 C CNN "Manufacturer Part Number"
+	1    3300 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 2150 3600 2150
+	3100 2200 3000 2200
 Wire Wire Line
-	3700 2250 3600 2250
-Text Label 3600 2150 2    50   ~ 0
+	3100 2300 3000 2300
+Text Label 3000 2200 2    50   ~ 0
 VAA
-Text Label 3600 2250 2    50   ~ 0
+Text Label 3000 2300 2    50   ~ 0
 GND
 Wire Wire Line
-	4000 2750 4100 2750
+	3400 2800 3500 2800
 Wire Wire Line
-	3800 2750 3700 2750
+	3200 2800 3100 2800
 $Comp
 L mouse_reach_controller:DIODE_SCHOTTKY_45V_10A D1
 U 1 1 6199573F
-P 3900 2750
-F 0 "D1" V 3900 2819 50  0000 L CNN
-F 1 "DIODE_SCHOTTKY_45V_10A" H 3620 2670 50  0001 L CNN
-F 2 "mouse_reach_controller:CFP15" H 3750 2730 60  0001 C CNN
-F 3 "" H 3850 2830 60  0001 C CNN
-F 4 "DIODE SCHOTTKY 45V 10A" H 4150 3130 60  0001 C CNN "Description"
-F 5 "CFP15" H 3900 2750 60  0001 C CNN "Package"
-F 6 "Nexperia USA Inc." H 3900 2750 60  0001 C CNN "Manufacturer"
-F 7 "PMEG45U10EPDAZ" H 3900 2750 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Digi-Key" H 3900 2750 60  0001 C CNN "Vendor"
-F 9 "1727-7645-1-ND" H 3900 2750 60  0001 C CNN "Vendor Part Number"
-	1    3900 2750
+P 3300 2800
+F 0 "D1" V 3300 2869 50  0000 L CNN
+F 1 "DIODE_SCHOTTKY_45V_10A" H 3020 2720 50  0001 L CNN
+F 2 "mouse_reach_controller:CFP15" H 3150 2780 60  0001 C CNN
+F 3 "" H 3250 2880 60  0001 C CNN
+F 4 "DIODE SCHOTTKY 45V 10A" H 3550 3180 60  0001 C CNN "Description"
+F 5 "CFP15" H 3300 2800 60  0001 C CNN "Package"
+F 6 "Nexperia USA Inc." H 3300 2800 60  0001 C CNN "Manufacturer"
+F 7 "PMEG45U10EPDAZ" H 3300 2800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 3300 2800 60  0001 C CNN "Vendor"
+F 9 "1727-7645-1-ND" H 3300 2800 60  0001 C CNN "Vendor Part Number"
+	1    3300 2800
 	-1   0    0    1   
 $EndComp
-Text Label 3700 2750 2    50   ~ 0
+Text Label 3100 2800 2    50   ~ 0
 VAA
-Text Label 4100 2750 0    50   ~ 0
+Text Label 3500 2800 0    50   ~ 0
 VBB
 $Comp
 L mouse_reach_controller:100uF_POL C9
 U 1 1 61997FC4
-P 3500 3900
-F 0 "C9" H 3589 3930 50  0000 L CNN
-F 1 "100uF" H 3589 3854 30  0000 L CNN
-F 2 "mouse_reach_controller:CP_Elec_6.3x7.7_WURTH" H 3410 3870 60  0001 C CNN
-F 3 "" H 3510 3970 60  0001 C CNN
-F 4 "Digi-Key" H 3610 4070 60  0001 C CNN "Vendor"
-F 5 "732-8511-1-ND" H 3710 4170 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP ALUM 100UF 20% 35V" H 3810 4270 60  0001 C CNN "Description"
-F 7 "Würth Elektronik" H 3500 3900 50  0001 C CNN "Manufacturer"
-F 8 "865080545012" H 3500 3900 50  0001 C CNN "Manufacturer Part Number"
-	1    3500 3900
+P 3900 3950
+F 0 "C9" H 3989 3980 50  0000 L CNN
+F 1 "100uF" H 3989 3904 30  0000 L CNN
+F 2 "mouse_reach_controller:CP_Elec_6.3x7.7_WURTH" H 3810 3920 60  0001 C CNN
+F 3 "" H 3910 4020 60  0001 C CNN
+F 4 "Digi-Key" H 4010 4120 60  0001 C CNN "Vendor"
+F 5 "732-8511-1-ND" H 4110 4220 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP ALUM 100UF 20% 35V" H 4210 4320 60  0001 C CNN "Description"
+F 7 "Würth Elektronik" H 3900 3950 50  0001 C CNN "Manufacturer"
+F 8 "865080545012" H 3900 3950 50  0001 C CNN "Manufacturer Part Number"
+	1    3900 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L user_power:PWR_FLAG #FLG02
 U 1 1 619DA357
-P 4500 2750
-F 0 "#FLG02" H 4500 2825 50  0001 C CNN
-F 1 "PWR_FLAG" H 4500 2925 50  0000 C CNN
-F 2 "" H 4500 2750 50  0001 C CNN
-F 3 "~" H 4500 2750 50  0001 C CNN
-	1    4500 2750
+P 3900 2800
+F 0 "#FLG02" H 3900 2875 50  0001 C CNN
+F 1 "PWR_FLAG" H 3900 2975 50  0000 C CNN
+F 2 "" H 3900 2800 50  0001 C CNN
+F 3 "~" H 3900 2800 50  0001 C CNN
+	1    3900 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 2750 4500 2850
-Text Label 4500 2850 2    50   ~ 0
+	3900 2800 3900 2900
+Text Label 3900 2900 2    50   ~ 0
 VBB
-$Comp
-L mouse_reach_controller:DRV103 U8
-U 1 1 619F717F
-P 5400 3800
-F 0 "U8" H 5600 4100 60  0000 C CNN
-F 1 "DRV103" H 5750 3500 60  0000 C CNN
-F 2 "mouse_reach_controller:SOIC_8" H 5650 3500 60  0001 C CNN
-F 3 "" H 5400 3800 60  0000 C CNN
-F 4 "Digi-Key" H 5850 3700 60  0001 C CNN "Vendor"
-F 5 "296-11622-ND" H 5950 3800 60  0001 C CNN "Vendor Part Number"
-F 6 "IC LO-SIDE DRIVER PWM" H 6050 3900 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 5400 3800 50  0001 C CNN "Manufacturer"
-F 8 "DRV103U" H 5400 3800 50  0001 C CNN "Manufacturer Part Number"
-F 9 "8SOIC" H 5400 3800 50  0001 C CNN "Package"
-	1    5400 3800
-	1    0    0    -1  
-$EndComp
 $Comp
 L mouse_reach_controller:0.1uF_0402 C10
 U 1 1 619F931B
-P 3950 3900
-F 0 "C10" H 4065 3930 40  0000 L CNN
-F 1 "0.1uF" H 4065 3861 30  0000 L CNN
-F 2 "mouse_reach_controller:SM0402" H 3988 3750 30  0001 C CNN
-F 3 "" H 3950 3900 60  0001 C CNN
-F 4 "Digi-Key" H 4050 4100 60  0001 C CNN "Vendor"
-F 5 "311-1375-1-ND" H 4150 4200 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 0.1UF 25V Y5V" H 4250 4300 60  0001 C CNN "Description"
-F 7 "0402" H 3950 3900 50  0001 C CNN "Package"
-F 8 "Yageo" H 3950 3900 50  0001 C CNN "Manufacturer"
-F 9 "CC0402ZRY5V8BB104" H 3950 3900 50  0001 C CNN "Manufacturer Part Number"
-	1    3950 3900
+P 4350 3950
+F 0 "C10" H 4465 3980 40  0000 L CNN
+F 1 "0.1uF" H 4465 3911 30  0000 L CNN
+F 2 "mouse_reach_controller:SM0402" H 4388 3800 30  0001 C CNN
+F 3 "" H 4350 3950 60  0001 C CNN
+F 4 "Digi-Key" H 4450 4150 60  0001 C CNN "Vendor"
+F 5 "311-1375-1-ND" H 4550 4250 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 0.1UF 25V Y5V" H 4650 4350 60  0001 C CNN "Description"
+F 7 "0402" H 4350 3950 50  0001 C CNN "Package"
+F 8 "Yageo" H 4350 3950 50  0001 C CNN "Manufacturer"
+F 9 "CC0402ZRY5V8BB104" H 4350 3950 50  0001 C CNN "Manufacturer Part Number"
+	1    4350 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 3700 3950 3600
-Text Label 3950 3600 0    50   ~ 0
+	4350 3750 4350 3650
+Text Label 4350 3650 0    50   ~ 0
 VBB
 Wire Wire Line
-	3950 4100 3950 4200
-Text Label 3950 4200 2    50   ~ 0
+	4350 4150 4350 4250
+Text Label 4350 4250 2    50   ~ 0
 GND
-Wire Wire Line
-	5750 3800 5850 3800
-NoConn ~ 5750 3650
-Wire Wire Line
-	5250 3450 5250 3350
-Wire Wire Line
-	4950 3750 5050 3750
-Wire Wire Line
-	5550 4150 5550 4250
 $Comp
-L mouse_reach_controller:150k_0402 R12
-U 1 1 61A71F0F
-P 4750 4600
-F 0 "R12" H 4800 4600 40  0000 L CNN
-F 1 "150k" V 4750 4600 30  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" V 4680 4600 30  0001 C CNN
-F 3 "" V 4830 4600 30  0000 C CNN
-F 4 "Digi-Key" V 4930 4700 60  0001 C CNN "Vendor"
-F 5 "P150KLCT-ND" V 5030 4800 60  0001 C CNN "Vendor Part Number"
-F 6 "RES SMD 150K OHM 1% 1/10W" V 5130 4900 60  0001 C CNN "Description"
-F 7 "Panasonic Electronic Components" H 4750 4600 50  0001 C CNN "Manufacturer"
-F 8 "ERJ-2RKF1503X" H 4750 4600 50  0001 C CNN "Manufacturer Part Number"
-F 9 "0402" H 4750 4600 50  0001 C CNN "Package"
-	1    4750 4600
-	1    0    0    -1  
-$EndComp
-Text Notes 4700 4750 1    50   ~ 0
-60%
-$Comp
-L mouse_reach_controller:205k_0402 R13
-U 1 1 61A73928
-P 5450 4600
-F 0 "R13" H 5500 4600 40  0000 L CNN
-F 1 "205k" V 5450 4600 30  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" V 5380 4600 30  0001 C CNN
-F 3 "" V 5530 4600 30  0000 C CNN
-F 4 "Digi-Key" V 5630 4700 60  0001 C CNN "Vendor"
-F 5 "P205KLCT-ND" V 5730 4800 60  0001 C CNN "Vendor Part Number"
-F 6 "RES SMD 205K OHM 1% 1/10W" V 5830 4900 60  0001 C CNN "Description"
-F 7 "Panasonic Electronic Components" H 5450 4600 50  0001 C CNN "Manufacturer"
-F 8 "ERJ-2RKF2053X" H 5450 4600 50  0001 C CNN "Manufacturer Part Number"
-F 9 "0402" H 5450 4600 50  0001 C CNN "Package"
-	1    5450 4600
-	1    0    0    -1  
-$EndComp
-Text Notes 5400 4750 1    50   ~ 0
-25kHz
-$Comp
-L mouse_reach_controller:10uF_0402 C11
-U 1 1 61A753EA
-P 5100 4600
-F 0 "C11" H 5150 4700 40  0000 L CNN
-F 1 "10uF" H 5100 4600 30  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" H 5138 4450 30  0001 C CNN
-F 3 "" H 5100 4600 60  0000 C CNN
-F 4 "Digi-Key" H 5200 4800 60  0001 C CNN "Vendor"
-F 5 "490-13233-1-ND" H 5300 4900 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 10UF 6.3V X6S" H 5400 5000 60  0001 C CNN "Description"
-F 7 "0402" H 5100 4600 50  0001 C CNN "Package"
-	1    5100 4600
-	1    0    0    -1  
-$EndComp
-Text Notes 5000 4750 1    50   ~ 0
-11ms
-Text Label 5450 4950 0    50   ~ 0
-GND
-Wire Wire Line
-	5450 4850 5450 4950
-Text Label 5100 4900 0    50   ~ 0
-GND
-Wire Wire Line
-	5100 4800 5100 4900
-Text Label 4750 4950 0    50   ~ 0
-GND
-Wire Wire Line
-	4750 4850 4750 4950
-Wire Wire Line
-	5450 4150 5450 4350
-Wire Wire Line
-	5350 4150 5350 4250
-Wire Wire Line
-	5350 4250 5100 4250
-Wire Wire Line
-	5100 4250 5100 4400
-Wire Wire Line
-	5250 4150 5250 4200
-Wire Wire Line
-	5250 4200 4750 4200
-Wire Wire Line
-	4750 4200 4750 4350
-$Comp
-L mouse_reach_controller:LED_RED_0402 L5
+L mouse_reach_controller:LED_RED_0402 L7
 U 1 1 61A88F3C
-P 6700 4250
-F 0 "L5" V 6662 4329 50  0000 L CNN
-F 1 "LED" V 6746 4329 40  0000 L CNN
-F 2 "mouse_reach_controller:LED_0402" H 6600 4550 60  0001 C CNN
-F 3 "" H 6700 4250 60  0000 C CNN
-F 4 "LED RED CLEAR 2SMD" H 7000 4650 60  0001 C CNN "Description"
-F 5 "0402" H 6700 4700 60  0001 C CNN "Package"
-F 6 "Kingbright" H 6700 4800 60  0001 C CNN "Manufacturer"
-F 7 "APHHS1005LSECK/J3-PF" H 6700 4550 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Digi-Key" H 6700 4850 60  0001 C CNN "Vendor"
-F 9 "754-2123-1-ND" H 6700 4550 60  0001 C CNN "Vendor Part Number"
-	1    6700 4250
+P 5150 2900
+F 0 "L7" V 5112 2979 50  0000 L CNN
+F 1 "LED" V 5196 2979 40  0000 L CNN
+F 2 "mouse_reach_controller:LED_0402" H 5050 3200 60  0001 C CNN
+F 3 "" H 5150 2900 60  0000 C CNN
+F 4 "LED RED CLEAR 2SMD" H 5450 3300 60  0001 C CNN "Description"
+F 5 "0402" H 5150 3350 60  0001 C CNN "Package"
+F 6 "Kingbright" H 5150 3450 60  0001 C CNN "Manufacturer"
+F 7 "APHHS1005LSECK/J3-PF" H 5150 3200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 5150 3500 60  0001 C CNN "Vendor"
+F 9 "754-2123-1-ND" H 5150 3200 60  0001 C CNN "Vendor Part Number"
+	1    5150 2900
 	0    1    1    0   
 $EndComp
 $Comp
-L mouse_reach_controller:2.21k_0402 R11
+L mouse_reach_controller:2.21k_0402 R13
 U 1 1 61A89B58
-P 6700 3700
-F 0 "R11" H 6771 3739 40  0000 L CNN
-F 1 "2.21k" V 6700 3700 40  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" V 6630 3700 30  0001 C CNN
-F 3 "" H 6700 3700 30  0000 C CNN
-F 4 "Digi-Key" V 6880 3800 60  0001 C CNN "Vendor"
-F 5 "311-2.21KLRCT-ND" V 6980 3900 60  0001 C CNN "Vendor Part Number"
-F 6 "RES 2.21K OHM 1% 1/16W" V 7080 4000 60  0001 C CNN "Description"
-F 7 "0402" H 6700 3700 50  0001 C CNN "Package"
-F 8 "YAGEO" H 6700 3700 50  0001 C CNN "Manufacturer"
-F 9 "RC0402FR-072K21L" H 6700 3700 50  0001 C CNN "Manufacturer Part Number"
-	1    6700 3700
+P 5150 2350
+F 0 "R13" H 5221 2389 40  0000 L CNN
+F 1 "2.21k" V 5150 2350 40  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" V 5080 2350 30  0001 C CNN
+F 3 "" H 5150 2350 30  0000 C CNN
+F 4 "Digi-Key" V 5330 2450 60  0001 C CNN "Vendor"
+F 5 "311-2.21KLRCT-ND" V 5430 2550 60  0001 C CNN "Vendor Part Number"
+F 6 "RES 2.21K OHM 1% 1/16W" V 5530 2650 60  0001 C CNN "Description"
+F 7 "0402" H 5150 2350 50  0001 C CNN "Package"
+F 8 "YAGEO" H 5150 2350 50  0001 C CNN "Manufacturer"
+F 9 "RC0402FR-072K21L" H 5150 2350 50  0001 C CNN "Manufacturer Part Number"
+	1    5150 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 4050 6700 3950
+	5150 2700 5150 2600
 Wire Wire Line
-	6700 3450 6700 3350
-Text Label 6700 3350 0    50   ~ 0
+	5150 2100 5150 2000
+Text Label 5150 2000 0    50   ~ 0
 VBB
 Wire Wire Line
-	6700 4450 6700 4550
-Text Label 6700 4550 2    50   ~ 0
+	5150 3100 5150 3200
+Text Label 5150 3200 2    50   ~ 0
 OUT
+$Comp
+L mouse_reach_controller:ZXMS6006SG U8
+U 1 1 61AA7913
+P 5450 3950
+F 0 "U8" H 5500 4150 60  0000 L CNN
+F 1 "ZXMS6006SG" V 5700 3950 60  0000 C CNN
+F 2 "mouse_reach_controller:SOT-223-3" H 5350 4900 60  0001 C CNN
+F 3 "" H 5450 3950 60  0000 C CNN
+F 4 "Digi-Key" H 5400 5050 60  0001 C CNN "Vendor"
+F 5 "ZXMS6006SGTADICT-ND" H 5500 5150 60  0001 C CNN "Vendor Part Number"
+F 6 "IC PWR DRIVER N-CHAN 1:1" H 5600 5250 60  0001 C CNN "Description"
+F 7 "Diodes Incorporated" H 5450 4800 50  0001 C CNN "Manufacturer"
+F 8 "ZXMS6006SGTA" H 5450 4800 50  0001 C CNN "Manufacturer Part Number"
+F 9 "SOT223" H 5450 4800 50  0001 C CNN "Package"
+	1    5450 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3950 5100 3950
+Wire Wire Line
+	5450 3700 5450 3600
+Wire Wire Line
+	5400 4200 5400 4250
+Wire Wire Line
+	5400 4250 5450 4250
+Wire Wire Line
+	5500 4250 5500 4200
+Wire Wire Line
+	5450 4250 5450 4350
+Connection ~ 5450 4250
+Wire Wire Line
+	5450 4250 5500 4250
+$Comp
+L mouse_reach_controller:LED_RED_0402 L6
+U 1 1 61AB9A8D
+P 4800 2900
+F 0 "L6" V 4762 2979 50  0000 L CNN
+F 1 "LED" V 4846 2979 40  0000 L CNN
+F 2 "mouse_reach_controller:LED_0402" H 4700 3200 60  0001 C CNN
+F 3 "" H 4800 2900 60  0000 C CNN
+F 4 "LED RED CLEAR 2SMD" H 5100 3300 60  0001 C CNN "Description"
+F 5 "0402" H 4800 3350 60  0001 C CNN "Package"
+F 6 "Kingbright" H 4800 3450 60  0001 C CNN "Manufacturer"
+F 7 "APHHS1005LSECK/J3-PF" H 4800 3200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 4800 3500 60  0001 C CNN "Vendor"
+F 9 "754-2123-1-ND" H 4800 3200 60  0001 C CNN "Vendor Part Number"
+	1    4800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L mouse_reach_controller:2.21k_0402 R12
+U 1 1 61AB9B71
+P 4800 2350
+F 0 "R12" H 4871 2389 40  0000 L CNN
+F 1 "2.21k" V 4800 2350 40  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" V 4730 2350 30  0001 C CNN
+F 3 "" H 4800 2350 30  0000 C CNN
+F 4 "Digi-Key" V 4980 2450 60  0001 C CNN "Vendor"
+F 5 "311-2.21KLRCT-ND" V 5080 2550 60  0001 C CNN "Vendor Part Number"
+F 6 "RES 2.21K OHM 1% 1/16W" V 5180 2650 60  0001 C CNN "Description"
+F 7 "0402" H 4800 2350 50  0001 C CNN "Package"
+F 8 "YAGEO" H 4800 2350 50  0001 C CNN "Manufacturer"
+F 9 "RC0402FR-072K21L" H 4800 2350 50  0001 C CNN "Manufacturer Part Number"
+	1    4800 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2700 4800 2600
+Wire Wire Line
+	4800 2100 4800 2000
+Text Label 4800 2000 0    50   ~ 0
+VAA
+Wire Wire Line
+	4800 3100 4800 3200
+Text Label 4800 3200 2    50   ~ 0
+GND
 $EndSCHEMATC

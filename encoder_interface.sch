@@ -114,10 +114,10 @@ Wire Wire Line
 Text Label 2100 6350 2    50   ~ 0
 GND
 $Comp
-L mouse_reach_controller:74LVC1G125GS U14
+L mouse_reach_controller:74LVC1G125GS U13
 U 1 1 619B20CA
 P 2100 5900
-F 0 "U14" H 2200 6200 40  0000 L CNN
+F 0 "U13" H 2200 6200 40  0000 L CNN
 F 1 "74LVC1G125GS" H 2150 5600 40  0000 L CNN
 F 2 "mouse_reach_controller:SOT1202" H 2100 6800 60  0001 C CNN
 F 3 "" H 2100 6800 60  0001 C CNN
@@ -151,10 +151,10 @@ Wire Wire Line
 Text Label 2100 7400 2    50   ~ 0
 GND
 $Comp
-L mouse_reach_controller:74LVC1G125GS U15
+L mouse_reach_controller:74LVC1G125GS U14
 U 1 1 619C2D86
 P 2100 6950
-F 0 "U15" H 2200 7250 40  0000 L CNN
+F 0 "U14" H 2200 7250 40  0000 L CNN
 F 1 "74LVC1G125GS" H 2150 6650 40  0000 L CNN
 F 2 "mouse_reach_controller:SOT1202" H 2100 7850 60  0001 C CNN
 F 3 "" H 2100 7850 60  0001 C CNN
@@ -174,10 +174,10 @@ Wire Wire Line
 Text Label 1250 2800 0    50   ~ 0
 VDD
 $Comp
-L mouse_reach_controller:0.1uF_0402 C22
+L mouse_reach_controller:0.1uF_0402 C21
 U 1 1 619C6AD8
 P 1050 5950
-F 0 "C22" H 1100 6050 40  0000 L CNN
+F 0 "C21" H 1100 6050 40  0000 L CNN
 F 1 "0.1uF" H 1050 5950 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 1088 5800 30  0001 C CNN
 F 3 "" H 1050 5950 60  0001 C CNN
@@ -199,10 +199,10 @@ Wire Wire Line
 Text Label 1050 6250 2    50   ~ 0
 GND
 $Comp
-L mouse_reach_controller:0.1uF_0402 C23
+L mouse_reach_controller:0.1uF_0402 C22
 U 1 1 619C78A9
 P 1050 7000
-F 0 "C23" H 1100 7100 40  0000 L CNN
+F 0 "C22" H 1100 7100 40  0000 L CNN
 F 1 "0.1uF" H 1050 7000 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 1088 6850 30  0001 C CNN
 F 3 "" H 1050 7000 60  0001 C CNN
@@ -300,10 +300,10 @@ Wire Wire Line
 Text Label 3600 3050 2    50   ~ 0
 GND
 $Comp
-L mouse_reach_controller:74LVC1G125GS U12
+L mouse_reach_controller:74LVC1G125GS U11
 U 1 1 61AF6674
 P 3600 2600
-F 0 "U12" H 3700 2900 40  0000 L CNN
+F 0 "U11" H 3700 2900 40  0000 L CNN
 F 1 "74LVC1G125GS" H 3650 2300 40  0000 L CNN
 F 2 "mouse_reach_controller:SOT1202" H 3600 3500 60  0001 C CNN
 F 3 "" H 3600 3500 60  0001 C CNN
@@ -337,10 +337,10 @@ Wire Wire Line
 Text Label 3600 4100 2    50   ~ 0
 GND
 $Comp
-L mouse_reach_controller:74LVC1G125GS U13
+L mouse_reach_controller:74LVC1G125GS U12
 U 1 1 61AF668E
 P 3600 3650
-F 0 "U13" H 3700 3950 40  0000 L CNN
+F 0 "U12" H 3700 3950 40  0000 L CNN
 F 1 "74LVC1G125GS" H 3650 3350 40  0000 L CNN
 F 2 "mouse_reach_controller:SOT1202" H 3600 4550 60  0001 C CNN
 F 3 "" H 3600 4550 60  0001 C CNN
@@ -356,10 +356,10 @@ $EndComp
 Text Label 3600 3200 0    50   ~ 0
 VDD
 $Comp
-L mouse_reach_controller:0.1uF_0402 C20
+L mouse_reach_controller:0.1uF_0402 C19
 U 1 1 61AF669F
 P 2550 2650
-F 0 "C20" H 2600 2750 40  0000 L CNN
+F 0 "C19" H 2600 2750 40  0000 L CNN
 F 1 "0.1uF" H 2550 2650 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 2588 2500 30  0001 C CNN
 F 3 "" H 2550 2650 60  0001 C CNN
@@ -381,10 +381,10 @@ Wire Wire Line
 Text Label 2550 2950 2    50   ~ 0
 GND
 $Comp
-L mouse_reach_controller:0.1uF_0402 C21
+L mouse_reach_controller:0.1uF_0402 C20
 U 1 1 61AF66B3
 P 2550 3700
-F 0 "C21" H 2600 3800 40  0000 L CNN
+F 0 "C20" H 2600 3800 40  0000 L CNN
 F 1 "0.1uF" H 2550 3700 30  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" H 2588 3550 30  0001 C CNN
 F 3 "" H 2550 3700 60  0001 C CNN
@@ -406,10 +406,10 @@ Wire Wire Line
 Text Label 2550 4000 2    50   ~ 0
 GND
 $Comp
-L mouse_reach_controller:100uF_POL C19
+L mouse_reach_controller:100uF_POL C18
 U 1 1 61B05D27
 P 2800 1100
-F 0 "C19" H 2889 1130 50  0000 L CNN
+F 0 "C18" H 2889 1130 50  0000 L CNN
 F 1 "100uF_POL" H 2889 1054 30  0000 L CNN
 F 2 "mouse_reach_controller:CP_Elec_6.3x7.7_WURTH" H 2710 1070 60  0001 C CNN
 F 3 "" H 2810 1170 60  0001 C CNN
@@ -429,20 +429,4 @@ Text Label 2800 900  0    50   ~ 0
 VCC
 Text Label 2800 1300 2    50   ~ 0
 GND
-$Comp
-L mouse_reach_controller:TMC424 U11
-U 1 1 61B0F431
-P 17400 -1200
-F 0 "U11" H 17607 1655 60  0000 C CNN
-F 1 "TMC424" H 17607 1548 60  0000 C CNN
-F 2 "mouse_reach_controller:TQFP-100_14x14mm_P0.5mm" H 17300 2400 60  0001 C CNN
-F 3 "" H 17750 -250 60  0001 C CNN
-F 4 "1460-1046-ND" H 17400 2200 60  0001 C CNN "Vendor Part Number"
-F 5 "IC INTERFACE SPECIALIZED" H 17500 2300 60  0001 C CNN "Description"
-F 6 "Digi-Key" H 17350 2550 60  0001 C CNN "Vendor"
-F 7 "Trinamic Motion Control GmbH" H 17450 2650 50  0001 C CNN "Manufacturer"
-F 8 "TMC424" H 17400 2750 50  0001 C CNN "Manufacturer Part Number"
-	1    17400 -1200
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

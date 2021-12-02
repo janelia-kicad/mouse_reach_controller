@@ -450,10 +450,10 @@ ENCODER_B
 NoConn ~ 4200 2550
 NoConn ~ 4200 2650
 $Comp
-L mouse_reach_controller:LED_RED_0402 L1
+L mouse_reach_controller:LED_RED_0402 L2
 U 1 1 61A91A26
 P 1450 6350
-F 0 "L1" V 1412 6429 50  0000 L CNN
+F 0 "L2" V 1412 6429 50  0000 L CNN
 F 1 "LED" V 1496 6429 40  0000 L CNN
 F 2 "mouse_reach_controller:LED_0402" H 1350 6650 60  0001 C CNN
 F 3 "" H 1450 6350 60  0000 C CNN
@@ -467,10 +467,10 @@ F 9 "754-2123-1-ND" H 1450 6650 60  0001 C CNN "Vendor Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L mouse_reach_controller:750_0402 R1
+L mouse_reach_controller:750_0402 R2
 U 1 1 61A94247
 P 1450 5800
-F 0 "R1" H 1500 5800 40  0000 L CNN
+F 0 "R2" H 1500 5800 40  0000 L CNN
 F 1 "750" V 1450 5800 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 1380 5800 30  0001 C CNN
 F 3 "" H 1450 5800 30  0000 C CNN
@@ -494,10 +494,10 @@ GND
 Text Label 1450 5450 2    50   ~ 0
 BNC_A
 $Comp
-L mouse_reach_controller:LED_RED_0402 L2
+L mouse_reach_controller:LED_RED_0402 L3
 U 1 1 61A9E67F
 P 1850 6350
-F 0 "L2" V 1812 6429 50  0000 L CNN
+F 0 "L3" V 1812 6429 50  0000 L CNN
 F 1 "LED" V 1896 6429 40  0000 L CNN
 F 2 "mouse_reach_controller:LED_0402" H 1750 6650 60  0001 C CNN
 F 3 "" H 1850 6350 60  0000 C CNN
@@ -511,10 +511,10 @@ F 9 "754-2123-1-ND" H 1850 6650 60  0001 C CNN "Vendor Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L mouse_reach_controller:750_0402 R2
+L mouse_reach_controller:750_0402 R3
 U 1 1 61A9E7D9
 P 1850 5800
-F 0 "R2" H 1900 5800 40  0000 L CNN
+F 0 "R3" H 1900 5800 40  0000 L CNN
 F 1 "750" V 1850 5800 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 1780 5800 30  0001 C CNN
 F 3 "" H 1850 5800 30  0000 C CNN
@@ -538,10 +538,10 @@ GND
 Text Label 1850 5450 2    50   ~ 0
 BNC_B
 $Comp
-L mouse_reach_controller:LED_RED_0402 L3
+L mouse_reach_controller:LED_RED_0402 L4
 U 1 1 61AA28ED
 P 2250 6350
-F 0 "L3" V 2212 6429 50  0000 L CNN
+F 0 "L4" V 2212 6429 50  0000 L CNN
 F 1 "LED" V 2296 6429 40  0000 L CNN
 F 2 "mouse_reach_controller:LED_0402" H 2150 6650 60  0001 C CNN
 F 3 "" H 2250 6350 60  0000 C CNN
@@ -555,10 +555,10 @@ F 9 "754-2123-1-ND" H 2250 6650 60  0001 C CNN "Vendor Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L mouse_reach_controller:750_0402 R3
+L mouse_reach_controller:750_0402 R4
 U 1 1 61AA2A6D
 P 2250 5800
-F 0 "R3" H 2300 5800 40  0000 L CNN
+F 0 "R4" H 2300 5800 40  0000 L CNN
 F 1 "750" V 2250 5800 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 2180 5800 30  0001 C CNN
 F 3 "" H 2250 5800 30  0000 C CNN
@@ -582,10 +582,10 @@ GND
 Text Label 2250 5450 2    50   ~ 0
 BNC_C
 $Comp
-L mouse_reach_controller:LED_RED_0402 L4
+L mouse_reach_controller:LED_RED_0402 L5
 U 1 1 61AA2A82
 P 2650 6350
-F 0 "L4" V 2612 6429 50  0000 L CNN
+F 0 "L5" V 2612 6429 50  0000 L CNN
 F 1 "LED" V 2696 6429 40  0000 L CNN
 F 2 "mouse_reach_controller:LED_0402" H 2550 6650 60  0001 C CNN
 F 3 "" H 2650 6350 60  0000 C CNN
@@ -599,10 +599,10 @@ F 9 "754-2123-1-ND" H 2650 6650 60  0001 C CNN "Vendor Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L mouse_reach_controller:750_0402 R4
+L mouse_reach_controller:750_0402 R5
 U 1 1 61AA2A92
 P 2650 5800
-F 0 "R4" H 2700 5800 40  0000 L CNN
+F 0 "R5" H 2700 5800 40  0000 L CNN
 F 1 "750" V 2650 5800 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 2580 5800 30  0001 C CNN
 F 3 "" H 2650 5800 30  0000 C CNN
@@ -625,4 +625,48 @@ Text Label 2650 6650 2    50   ~ 0
 GND
 Text Label 2650 5450 2    50   ~ 0
 BNC_D
+$Comp
+L mouse_reach_controller:LED_RED_0402 L1
+U 1 1 61ABCDD3
+P 900 1950
+F 0 "L1" V 862 2029 50  0000 L CNN
+F 1 "LED" V 946 2029 40  0000 L CNN
+F 2 "mouse_reach_controller:LED_0402" H 800 2250 60  0001 C CNN
+F 3 "" H 900 1950 60  0000 C CNN
+F 4 "LED RED CLEAR 2SMD" H 1200 2350 60  0001 C CNN "Description"
+F 5 "0402" H 900 2400 60  0001 C CNN "Package"
+F 6 "Kingbright" H 900 2500 60  0001 C CNN "Manufacturer"
+F 7 "APHHS1005LSECK/J3-PF" H 900 2250 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 900 2550 60  0001 C CNN "Vendor"
+F 9 "754-2123-1-ND" H 900 2250 60  0001 C CNN "Vendor Part Number"
+	1    900  1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  1650 900  1750
+Wire Wire Line
+	900  1150 900  1050
+Wire Wire Line
+	900  2150 900  2250
+Text Label 900  2250 2    50   ~ 0
+GND
+Text Label 900  1050 2    50   ~ 0
+VCC
+$Comp
+L mouse_reach_controller:1.6k_0402 R1
+U 1 1 61AC6397
+P 900 1400
+F 0 "R1" H 950 1400 40  0000 L CNN
+F 1 "1.6k" V 900 1400 40  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" V 830 1400 30  0001 C CNN
+F 3 "" H 900 1400 30  0000 C CNN
+F 4 "Digi-Key" V 1080 1500 60  0001 C CNN "Vendor"
+F 5 "YAG3045CT-ND" V 1180 1600 60  0001 C CNN "Vendor Part Number"
+F 6 "RES 1.6K OHM 1% 1/16W" V 1280 1700 60  0001 C CNN "Description"
+F 7 "0402" H 900 1400 50  0001 C CNN "Package"
+F 8 "YAGEO" H 900 1400 50  0001 C CNN "Manufacturer"
+F 9 "RC0402FR-071K6L" H 900 1400 50  0001 C CNN "Manufacturer Part Number"
+	1    900  1400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
