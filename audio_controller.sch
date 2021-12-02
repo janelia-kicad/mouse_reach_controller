@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 7 9
 Title ""
 Date ""
 Rev "1.1"
@@ -213,10 +213,10 @@ F 9 "CC0402KRX5R7BB154" H 3900 3950 50  0001 C CNN "Manufacturer Part Number"
 $EndComp
 NoConn ~ 4550 3750
 $Comp
-L mouse_reach_controller:2.21k_0402 R14
+L mouse_reach_controller:2.21k_0402 R10
 U 1 1 618CF78A
 P 3650 2250
-F 0 "R14" H 3700 2250 40  0000 L CNN
+F 0 "R10" H 3700 2250 40  0000 L CNN
 F 1 "2.21k" V 3650 2250 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 3580 2250 30  0001 C CNN
 F 3 "" H 3650 2250 30  0000 C CNN
@@ -230,10 +230,10 @@ F 9 "RC0402FR-072K21L" H 3650 2250 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:2.21k_0402 R15
+L mouse_reach_controller:2.21k_0402 R11
 U 1 1 618D0072
 P 3850 2250
-F 0 "R15" H 3900 2250 40  0000 L CNN
+F 0 "R11" H 3900 2250 40  0000 L CNN
 F 1 "2.21k" V 3850 2250 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 3780 2250 30  0001 C CNN
 F 3 "" H 3850 2250 30  0000 C CNN

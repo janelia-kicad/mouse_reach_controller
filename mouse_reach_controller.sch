@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "mouse_reach_controller"
 Date ""
 Rev "1.1"
@@ -62,224 +62,207 @@ F 3 "" H 9450 1700 50  0001 C CNN
 $EndComp
 NoConn ~ 9250 1700
 $Sheet
-S 6850 1650 1050 1200
+S 7250 2300 1050 1200
 U 6183F861
 F0 "stepper_controller" 50
 F1 "stepper_controller.sch" 50
-F2 "MOSI" I L 6850 2150 50 
-F3 "MISO" O L 6850 2250 50 
-F4 "~CS" I L 6850 2350 50 
-F5 "VDD" U L 6850 1750 50 
-F6 "GND" U L 6850 1850 50 
-F7 "UART_0" B L 6850 2550 50 
-F8 "UART_1" B L 6850 2650 50 
-F9 "UART_2" B L 6850 2750 50 
-F10 "SCK" I L 6850 2050 50 
+F2 "MOSI" I L 7250 2800 50 
+F3 "MISO" O L 7250 2900 50 
+F4 "~CS" I L 7250 3000 50 
+F5 "VDD" U L 7250 2400 50 
+F6 "GND" U L 7250 2500 50 
+F7 "UART_0" B L 7250 3200 50 
+F8 "UART_1" B L 7250 3300 50 
+F9 "UART_2" B L 7250 3400 50 
+F10 "SCK" I L 7250 2700 50 
 $EndSheet
 Wire Wire Line
-	1700 1550 1600 1550
-Text Label 1600 1550 2    50   ~ 0
+	1850 1000 1750 1000
+Text Label 1750 1000 2    50   ~ 0
 GND
 Wire Wire Line
-	4200 1750 4300 1750
-Text Label 4300 1750 0    50   ~ 0
+	4350 1200 4450 1200
+Text Label 4450 1200 0    50   ~ 0
 VDD
 Wire Wire Line
-	6850 1750 6750 1750
-Text Label 6750 1750 2    50   ~ 0
+	7250 2400 7150 2400
+Text Label 7150 2400 2    50   ~ 0
 VDD
 Wire Wire Line
-	6850 1850 6750 1850
-Text Label 6750 1850 2    50   ~ 0
+	7250 2500 7150 2500
+Text Label 7150 2500 2    50   ~ 0
 GND
 Wire Wire Line
-	1700 2750 1600 2750
-Text Label 1600 2750 2    50   ~ 0
+	1850 2200 1750 2200
+Text Label 1750 2200 2    50   ~ 0
 MOSI
 Wire Wire Line
-	1700 2850 1600 2850
-Text Label 1600 2850 2    50   ~ 0
+	1850 2300 1750 2300
+Text Label 1750 2300 2    50   ~ 0
 MISO
 Wire Wire Line
-	1700 2650 1600 2650
-Text Label 1600 2650 2    50   ~ 0
-~CS
+	1850 2100 1750 2100
+Text Label 1750 2100 2    50   ~ 0
+~STEPPER_CS
 Wire Wire Line
-	6850 2350 6750 2350
-Text Label 6750 2350 2    50   ~ 0
-~CS
+	7250 3000 7150 3000
+Text Label 7150 3000 2    50   ~ 0
+~STEPPER_CS
 Wire Wire Line
-	6850 2150 6750 2150
-Text Label 6750 2150 2    50   ~ 0
+	7250 2800 7150 2800
+Text Label 7150 2800 2    50   ~ 0
 MOSI
 Wire Wire Line
-	6850 2250 6750 2250
-Text Label 6750 2250 2    50   ~ 0
+	7250 2900 7150 2900
+Text Label 7150 2900 2    50   ~ 0
 MISO
 $Sheet
-S 6850 1100 1050 300 
+S 7250 1750 1050 300 
 U 6189524A
 F0 "power_switch_driver" 50
 F1 "power_switch_driver.sch" 50
-F2 "GND" U L 6850 1300 50 
-F3 "ENABLE" I L 6850 1200 50 
+F2 "GND" U L 7250 1950 50 
+F3 "ENABLE" I L 7250 1850 50 
 $EndSheet
 Wire Wire Line
-	6850 1300 6750 1300
-Text Label 6750 1300 2    50   ~ 0
+	7250 1950 7150 1950
+Text Label 7150 1950 2    50   ~ 0
 GND
 Wire Wire Line
-	6850 3200 6750 3200
-Text Label 6750 3200 2    50   ~ 0
+	7250 3850 7150 3850
+Text Label 7150 3850 2    50   ~ 0
 VDD
 Wire Wire Line
-	6850 3300 6750 3300
-Text Label 6750 3300 2    50   ~ 0
+	7250 3950 7150 3950
+Text Label 7150 3950 2    50   ~ 0
 GND
 Wire Wire Line
-	4200 2350 4300 2350
-Text Label 4300 2350 0    50   ~ 0
+	4350 1800 4450 1800
+Text Label 4450 1800 0    50   ~ 0
 SDA
 Wire Wire Line
-	6850 3500 6750 3500
-Text Label 6750 3500 2    50   ~ 0
+	7250 4150 7150 4150
+Text Label 7150 4150 2    50   ~ 0
 SDA
 Wire Wire Line
-	4200 2250 4300 2250
-Text Label 4300 2250 0    50   ~ 0
+	4350 1700 4450 1700
+Text Label 4450 1700 0    50   ~ 0
 SCL
 Wire Wire Line
-	6850 3600 6750 3600
-Text Label 6750 3600 2    50   ~ 0
+	7250 4250 7150 4250
+Text Label 7150 4250 2    50   ~ 0
 SCL
 Wire Wire Line
-	1700 2350 1600 2350
+	1850 1800 1750 1800
 Wire Wire Line
-	1700 2450 1600 2450
+	1850 1900 1750 1900
 Wire Wire Line
-	4200 2150 4300 2150
+	4350 1600 4450 1600
 Wire Wire Line
-	4200 2050 4300 2050
+	4350 1500 4450 1500
 Wire Wire Line
-	4200 1850 4300 1850
-Text Label 4300 1850 0    50   ~ 0
+	4350 1300 4450 1300
+Text Label 4450 1300 0    50   ~ 0
 MCLK
 Wire Wire Line
-	6850 3700 6750 3700
-Text Label 6750 3700 2    50   ~ 0
+	7250 4350 7150 4350
+Text Label 7150 4350 2    50   ~ 0
 MCLK
-Text Label 4300 2050 0    50   ~ 0
+Text Label 4450 1500 0    50   ~ 0
 BCLK
 Wire Wire Line
-	6850 3800 6750 3800
-Text Label 6750 3800 2    50   ~ 0
+	7250 4450 7150 4450
+Text Label 7150 4450 2    50   ~ 0
 BCLK
-Text Label 4300 2150 0    50   ~ 0
+Text Label 4450 1600 0    50   ~ 0
 LRCLK
 Wire Wire Line
-	6850 3900 6750 3900
-Text Label 6750 3900 2    50   ~ 0
+	7250 4550 7150 4550
+Text Label 7150 4550 2    50   ~ 0
 LRCLK
 $Sheet
-S 6850 3100 1050 1100
+S 7250 3750 1050 1100
 U 6189CAF8
 F0 "audio_controller" 50
 F1 "audio_controller.sch" 50
-F2 "VDD" U L 6850 3200 50 
-F3 "GND" U L 6850 3300 50 
-F4 "SDA" B L 6850 3500 50 
-F5 "SCL" I L 6850 3600 50 
-F6 "MCLK" I L 6850 3700 50 
-F7 "BCLK" I L 6850 3800 50 
-F8 "LRCLK" I L 6850 3900 50 
-F9 "I2S_DIN" I L 6850 4000 50 
-F10 "I2S_DOUT" O L 6850 4100 50 
+F2 "VDD" U L 7250 3850 50 
+F3 "GND" U L 7250 3950 50 
+F4 "SDA" B L 7250 4150 50 
+F5 "SCL" I L 7250 4250 50 
+F6 "MCLK" I L 7250 4350 50 
+F7 "BCLK" I L 7250 4450 50 
+F8 "LRCLK" I L 7250 4550 50 
+F9 "I2S_DIN" I L 7250 4650 50 
+F10 "I2S_DOUT" O L 7250 4750 50 
 $EndSheet
-Text Label 1600 2350 2    50   ~ 0
+Text Label 1750 1800 2    50   ~ 0
 I2S_DIN
-Text Label 1600 2450 2    50   ~ 0
+Text Label 1750 1900 2    50   ~ 0
 I2S_DOUT
 Wire Wire Line
-	6850 4000 6750 4000
+	7250 4650 7150 4650
 Wire Wire Line
-	6850 4100 6750 4100
-Text Label 6750 4000 2    50   ~ 0
+	7250 4750 7150 4750
+Text Label 7150 4650 2    50   ~ 0
 I2S_DIN
-Text Label 6750 4100 2    50   ~ 0
+Text Label 7150 4750 2    50   ~ 0
 I2S_DOUT
 Wire Wire Line
-	1700 1750 1600 1750
+	1850 1200 1750 1200
 Wire Wire Line
-	6850 2550 6750 2550
+	7250 3200 7150 3200
 Wire Wire Line
-	6850 2650 6750 2650
+	7250 3300 7150 3300
 Wire Wire Line
-	6850 2750 6750 2750
-Text Label 1600 1750 2    50   ~ 0
+	7250 3400 7150 3400
+Text Label 1750 1200 2    50   ~ 0
 UART_0
 Wire Wire Line
-	4200 2750 4300 2750
-Text Label 4300 2750 0    50   ~ 0
+	4350 2200 4450 2200
+Text Label 4450 2200 0    50   ~ 0
 UART_1
 Wire Wire Line
-	4200 2450 4300 2450
-Text Label 4300 2450 0    50   ~ 0
+	4350 1900 4450 1900
+Text Label 4450 1900 0    50   ~ 0
 UART_2
-Text Label 6750 2550 2    50   ~ 0
+Text Label 7150 3200 2    50   ~ 0
 UART_0
-Text Label 6750 2650 2    50   ~ 0
+Text Label 7150 3300 2    50   ~ 0
 UART_1
-Text Label 6750 2750 2    50   ~ 0
+Text Label 7150 3400 2    50   ~ 0
 UART_2
 Wire Wire Line
-	4200 1950 4300 1950
-Text Label 4300 1950 0    50   ~ 0
+	4350 1400 4450 1400
+Text Label 4450 1400 0    50   ~ 0
 POWER_SWITCH_ENABLE
 Wire Wire Line
-	6850 1200 6750 1200
-Text Label 6750 1200 2    50   ~ 0
+	7250 1850 7150 1850
+Text Label 7150 1850 2    50   ~ 0
 POWER_SWITCH_ENABLE
-NoConn ~ 1700 1650
+NoConn ~ 1850 1100
 $Comp
 L user_power:PWR_FLAG #FLG01
 U 1 1 61943980
-P 5150 1250
-F 0 "#FLG01" H 5150 1325 50  0001 C CNN
-F 1 "PWR_FLAG" H 5150 1425 50  0000 C CNN
-F 2 "" H 5150 1250 50  0001 C CNN
-F 3 "~" H 5150 1250 50  0001 C CNN
-	1    5150 1250
+P 2600 3350
+F 0 "#FLG01" H 2600 3425 50  0001 C CNN
+F 1 "PWR_FLAG" H 2600 3525 50  0000 C CNN
+F 2 "" H 2600 3350 50  0001 C CNN
+F 3 "~" H 2600 3350 50  0001 C CNN
+	1    2600 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 1250 5150 1350
-Text Label 5150 1350 2    50   ~ 0
+	2600 3350 2600 3450
+Text Label 2600 3450 2    50   ~ 0
 GND
 Wire Wire Line
-	4200 2850 4300 2850
-Text Label 4300 2850 0    50   ~ 0
+	4350 2300 4450 2300
+Text Label 4450 2300 0    50   ~ 0
 SCK
 Wire Wire Line
-	6850 2050 6750 2050
-Text Label 6750 2050 2    50   ~ 0
+	7250 2700 7150 2700
+Text Label 7150 2700 2    50   ~ 0
 SCK
-$Comp
-L mouse_reach_controller:TEENSY_4.0_PIN_RECEPTACLES TEENSY1
-U 1 1 618DA1A3
-P 2950 2200
-F 0 "TEENSY1" H 2950 3099 60  0000 C CNN
-F 1 "TEENSY_4.0_PIN_RECEPTACLES" H 2950 2992 60  0000 C CNN
-F 2 "mouse_reach_controller:TEENSY_4.0_PIN_RECEPTACLES" H 2950 3250 60  0001 C CNN
-F 3 "" H 3000 4950 60  0000 C CNN
-F 4 "Digi-Key" H 2950 3350 60  0001 C CNN "Vendor"
-F 5 "ED90331-ND" H 2950 3450 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN PIN RCPT .025-.037 SOLDER" H 2950 3550 60  0001 C CNN "Description"
-F 7 "28" H 2950 2200 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp." H 2950 2200 50  0001 C CNN "Manufacturer"
-F 9 "0305-0-15-15-47-27-10-0" H 2950 2200 50  0001 C CNN "Manufacturer Part Number"
-	1    2950 2200
-	1    0    0    -1  
-$EndComp
 $Comp
 L mouse_reach_controller:FIDUCIAL_1.0mm_MASK2mm FID1
 U 1 1 61979994
@@ -324,349 +307,200 @@ F 3 "" H 10600 1700 50  0001 C CNN
 	1    10400 1700
 	1    0    0    -1  
 $EndComp
-$Comp
-L mouse_reach_controller:BNC_DOUBLE_RA P1
-U 1 1 6198046D
-P 2000 4500
-F 0 "P1" H 2000 4767 50  0000 C CNN
-F 1 "BNC_DOUBLE_RA" H 2000 4675 50  0000 C CNN
-F 2 "mouse_reach_controller:BNC_DOUBLE" H 2000 3300 60  0001 C CNN
-F 3 "" H 2000 3300 60  0000 C CNN
-F 4 "Digi-Key" H 2100 4750 60  0001 C CNN "Vendor"
-F 5 "ACX1655-ND" H 2200 4850 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN BNC JACK R/A 75 OHM PCB" H 2300 4950 60  0001 C CNN "Description"
-F 7 "Amphenol RF" H 2000 4500 60  0001 C CNN "Manufacturer"
-F 8 "112661" H 2000 4500 60  0001 C CNN "Manufacturer Part Number"
-	1    2000 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2250 4450 2350 4450
-Text Label 2350 4450 0    50   ~ 0
-GND
+	1850 1400 1750 1400
+Text Label 1750 1400 2    50   ~ 0
+SIGNAL_B
 Wire Wire Line
-	2250 4550 2350 4550
-Text Label 2350 4550 0    50   ~ 0
-GND
+	1850 1300 1750 1300
+Text Label 1750 1300 2    50   ~ 0
+SIGNAL_A
 Wire Wire Line
-	1750 4550 1650 4550
-Text Label 1650 4550 2    50   ~ 0
-BNC_B
+	1850 1600 1750 1600
+Text Label 1750 1600 2    50   ~ 0
+SIGNAL_D
 Wire Wire Line
-	1750 4450 1650 4450
-Text Label 1650 4450 2    50   ~ 0
-BNC_A
-$Comp
-L mouse_reach_controller:BNC_DOUBLE_RA P2
-U 1 1 619839F7
-P 2000 4950
-F 0 "P2" H 2000 5217 50  0000 C CNN
-F 1 "BNC_DOUBLE_RA" H 2000 5125 50  0000 C CNN
-F 2 "mouse_reach_controller:BNC_DOUBLE" H 2000 3750 60  0001 C CNN
-F 3 "" H 2000 3750 60  0000 C CNN
-F 4 "Digi-Key" H 2100 5200 60  0001 C CNN "Vendor"
-F 5 "ACX1655-ND" H 2200 5300 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN BNC JACK R/A 75 OHM PCB" H 2300 5400 60  0001 C CNN "Description"
-F 7 "Amphenol RF" H 2000 4950 60  0001 C CNN "Manufacturer"
-F 8 "112661" H 2000 4950 60  0001 C CNN "Manufacturer Part Number"
-	1    2000 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 4900 2350 4900
-Text Label 2350 4900 0    50   ~ 0
-GND
-Wire Wire Line
-	2250 5000 2350 5000
-Text Label 2350 5000 0    50   ~ 0
-GND
-Wire Wire Line
-	1750 5000 1650 5000
-Text Label 1650 5000 2    50   ~ 0
-BNC_D
-Wire Wire Line
-	1750 4900 1650 4900
-Text Label 1650 4900 2    50   ~ 0
-BNC_C
-Wire Wire Line
-	1700 1950 1600 1950
-Text Label 1600 1950 2    50   ~ 0
-BNC_B
-Wire Wire Line
-	1700 1850 1600 1850
-Text Label 1600 1850 2    50   ~ 0
-BNC_A
-Wire Wire Line
-	1700 2150 1600 2150
-Text Label 1600 2150 2    50   ~ 0
-BNC_D
-Wire Wire Line
-	1700 2050 1600 2050
-Text Label 1600 2050 2    50   ~ 0
-BNC_C
+	1850 1500 1750 1500
+Text Label 1750 1500 2    50   ~ 0
+SIGNAL_C
 $Sheet
-S 6850 4550 1050 700 
+S 7250 5100 1050 1200
 U 61993642
 F0 "encoder_interface" 50
 F1 "encoder_interface.sch" 50
-F2 "VCC" U L 6850 4650 50 
-F3 "VDD" U L 6850 4750 50 
-F4 "GND" U L 6850 4850 50 
-F5 "CHANNEL_A" O L 6850 5050 50 
-F6 "CHANNEL_B" O L 6850 5150 50 
+F2 "VCC" U L 7250 5200 50 
+F3 "VDD" U L 7250 5300 50 
+F4 "GND" U L 7250 5400 50 
+F5 "MOSI" I L 7250 5700 50 
+F6 "MISO" O L 7250 5800 50 
+F7 "~CS" I L 7250 5900 50 
+F8 "SCK" I L 7250 5600 50 
+F9 "~RESET" I L 7250 6100 50 
+F10 "INVERT" I L 7250 6200 50 
 $EndSheet
 Wire Wire Line
-	4200 1550 4300 1550
-Text Label 4300 1550 0    50   ~ 0
+	4350 1000 4450 1000
+Text Label 4450 1000 0    50   ~ 0
 VCC
 Wire Wire Line
-	6850 4750 6750 4750
-Text Label 6750 4750 2    50   ~ 0
+	7250 5300 7150 5300
+Text Label 7150 5300 2    50   ~ 0
 VDD
 Wire Wire Line
-	6850 4850 6750 4850
-Text Label 6750 4850 2    50   ~ 0
+	7250 5400 7150 5400
+Text Label 7150 5400 2    50   ~ 0
 GND
 Wire Wire Line
-	6850 4650 6750 4650
-Text Label 6750 4650 2    50   ~ 0
+	7250 5200 7150 5200
+Text Label 7150 5200 2    50   ~ 0
 VCC
 Wire Wire Line
-	6850 5050 6750 5050
-Text Label 6750 5050 2    50   ~ 0
-ENCODER_A
-Wire Wire Line
-	6850 5150 6750 5150
-Text Label 6750 5150 2    50   ~ 0
-ENCODER_B
-Wire Wire Line
-	1700 2250 1600 2250
-Text Label 1600 2250 2    50   ~ 0
-ENCODER_A
-Wire Wire Line
-	1700 2550 1600 2550
-Text Label 1600 2550 2    50   ~ 0
-ENCODER_B
-NoConn ~ 4200 2550
-NoConn ~ 4200 2650
-$Comp
-L mouse_reach_controller:LED_RED_0402 L2
-U 1 1 61A91A26
-P 1450 6350
-F 0 "L2" V 1412 6429 50  0000 L CNN
-F 1 "LED" V 1496 6429 40  0000 L CNN
-F 2 "mouse_reach_controller:LED_0402" H 1350 6650 60  0001 C CNN
-F 3 "" H 1450 6350 60  0000 C CNN
-F 4 "LED RED CLEAR 2SMD" H 1750 6750 60  0001 C CNN "Description"
-F 5 "0402" H 1450 6800 60  0001 C CNN "Package"
-F 6 "Kingbright" H 1450 6900 60  0001 C CNN "Manufacturer"
-F 7 "APHHS1005LSECK/J3-PF" H 1450 6650 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Digi-Key" H 1450 6950 60  0001 C CNN "Vendor"
-F 9 "754-2123-1-ND" H 1450 6650 60  0001 C CNN "Vendor Part Number"
-	1    1450 6350
-	0    1    1    0   
-$EndComp
-$Comp
-L mouse_reach_controller:750_0402 R2
-U 1 1 61A94247
-P 1450 5800
-F 0 "R2" H 1500 5800 40  0000 L CNN
-F 1 "750" V 1450 5800 40  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" V 1380 5800 30  0001 C CNN
-F 3 "" H 1450 5800 30  0000 C CNN
-F 4 "Digi-Key" V 1630 5900 60  0001 C CNN "Vendor"
-F 5 "311-750LRCT-ND" V 1730 6000 60  0001 C CNN "Vendor Part Number"
-F 6 "RES 750 OHM 1% 1/16W" V 1830 6100 60  0001 C CNN "Description"
-F 7 "0402" H 1450 5800 50  0001 C CNN "Package"
-F 8 "YAGEO" H 1450 5800 50  0001 C CNN "Manufacturer"
-F 9 "RC0402FR-07750RL" H 1450 5800 50  0001 C CNN "Manufacturer Part Number"
-	1    1450 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1450 6050 1450 6150
-Wire Wire Line
-	1450 5550 1450 5450
-Wire Wire Line
-	1450 6550 1450 6650
-Text Label 1450 6650 2    50   ~ 0
-GND
-Text Label 1450 5450 2    50   ~ 0
-BNC_A
-$Comp
-L mouse_reach_controller:LED_RED_0402 L3
-U 1 1 61A9E67F
-P 1850 6350
-F 0 "L3" V 1812 6429 50  0000 L CNN
-F 1 "LED" V 1896 6429 40  0000 L CNN
-F 2 "mouse_reach_controller:LED_0402" H 1750 6650 60  0001 C CNN
-F 3 "" H 1850 6350 60  0000 C CNN
-F 4 "LED RED CLEAR 2SMD" H 2150 6750 60  0001 C CNN "Description"
-F 5 "0402" H 1850 6800 60  0001 C CNN "Package"
-F 6 "Kingbright" H 1850 6900 60  0001 C CNN "Manufacturer"
-F 7 "APHHS1005LSECK/J3-PF" H 1850 6650 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Digi-Key" H 1850 6950 60  0001 C CNN "Vendor"
-F 9 "754-2123-1-ND" H 1850 6650 60  0001 C CNN "Vendor Part Number"
-	1    1850 6350
-	0    1    1    0   
-$EndComp
-$Comp
-L mouse_reach_controller:750_0402 R3
-U 1 1 61A9E7D9
-P 1850 5800
-F 0 "R3" H 1900 5800 40  0000 L CNN
-F 1 "750" V 1850 5800 40  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" V 1780 5800 30  0001 C CNN
-F 3 "" H 1850 5800 30  0000 C CNN
-F 4 "Digi-Key" V 2030 5900 60  0001 C CNN "Vendor"
-F 5 "311-750LRCT-ND" V 2130 6000 60  0001 C CNN "Vendor Part Number"
-F 6 "RES 750 OHM 1% 1/16W" V 2230 6100 60  0001 C CNN "Description"
-F 7 "0402" H 1850 5800 50  0001 C CNN "Package"
-F 8 "YAGEO" H 1850 5800 50  0001 C CNN "Manufacturer"
-F 9 "RC0402FR-07750RL" H 1850 5800 50  0001 C CNN "Manufacturer Part Number"
-	1    1850 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 6050 1850 6150
-Wire Wire Line
-	1850 5550 1850 5450
-Wire Wire Line
-	1850 6550 1850 6650
-Text Label 1850 6650 2    50   ~ 0
-GND
-Text Label 1850 5450 2    50   ~ 0
-BNC_B
-$Comp
-L mouse_reach_controller:LED_RED_0402 L4
-U 1 1 61AA28ED
-P 2250 6350
-F 0 "L4" V 2212 6429 50  0000 L CNN
-F 1 "LED" V 2296 6429 40  0000 L CNN
-F 2 "mouse_reach_controller:LED_0402" H 2150 6650 60  0001 C CNN
-F 3 "" H 2250 6350 60  0000 C CNN
-F 4 "LED RED CLEAR 2SMD" H 2550 6750 60  0001 C CNN "Description"
-F 5 "0402" H 2250 6800 60  0001 C CNN "Package"
-F 6 "Kingbright" H 2250 6900 60  0001 C CNN "Manufacturer"
-F 7 "APHHS1005LSECK/J3-PF" H 2250 6650 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Digi-Key" H 2250 6950 60  0001 C CNN "Vendor"
-F 9 "754-2123-1-ND" H 2250 6650 60  0001 C CNN "Vendor Part Number"
-	1    2250 6350
-	0    1    1    0   
-$EndComp
-$Comp
-L mouse_reach_controller:750_0402 R4
-U 1 1 61AA2A6D
-P 2250 5800
-F 0 "R4" H 2300 5800 40  0000 L CNN
-F 1 "750" V 2250 5800 40  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" V 2180 5800 30  0001 C CNN
-F 3 "" H 2250 5800 30  0000 C CNN
-F 4 "Digi-Key" V 2430 5900 60  0001 C CNN "Vendor"
-F 5 "311-750LRCT-ND" V 2530 6000 60  0001 C CNN "Vendor Part Number"
-F 6 "RES 750 OHM 1% 1/16W" V 2630 6100 60  0001 C CNN "Description"
-F 7 "0402" H 2250 5800 50  0001 C CNN "Package"
-F 8 "YAGEO" H 2250 5800 50  0001 C CNN "Manufacturer"
-F 9 "RC0402FR-07750RL" H 2250 5800 50  0001 C CNN "Manufacturer Part Number"
-	1    2250 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 6050 2250 6150
-Wire Wire Line
-	2250 5550 2250 5450
-Wire Wire Line
-	2250 6550 2250 6650
-Text Label 2250 6650 2    50   ~ 0
-GND
-Text Label 2250 5450 2    50   ~ 0
-BNC_C
-$Comp
-L mouse_reach_controller:LED_RED_0402 L5
-U 1 1 61AA2A82
-P 2650 6350
-F 0 "L5" V 2612 6429 50  0000 L CNN
-F 1 "LED" V 2696 6429 40  0000 L CNN
-F 2 "mouse_reach_controller:LED_0402" H 2550 6650 60  0001 C CNN
-F 3 "" H 2650 6350 60  0000 C CNN
-F 4 "LED RED CLEAR 2SMD" H 2950 6750 60  0001 C CNN "Description"
-F 5 "0402" H 2650 6800 60  0001 C CNN "Package"
-F 6 "Kingbright" H 2650 6900 60  0001 C CNN "Manufacturer"
-F 7 "APHHS1005LSECK/J3-PF" H 2650 6650 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Digi-Key" H 2650 6950 60  0001 C CNN "Vendor"
-F 9 "754-2123-1-ND" H 2650 6650 60  0001 C CNN "Vendor Part Number"
-	1    2650 6350
-	0    1    1    0   
-$EndComp
-$Comp
-L mouse_reach_controller:750_0402 R5
-U 1 1 61AA2A92
-P 2650 5800
-F 0 "R5" H 2700 5800 40  0000 L CNN
-F 1 "750" V 2650 5800 40  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" V 2580 5800 30  0001 C CNN
-F 3 "" H 2650 5800 30  0000 C CNN
-F 4 "Digi-Key" V 2830 5900 60  0001 C CNN "Vendor"
-F 5 "311-750LRCT-ND" V 2930 6000 60  0001 C CNN "Vendor Part Number"
-F 6 "RES 750 OHM 1% 1/16W" V 3030 6100 60  0001 C CNN "Description"
-F 7 "0402" H 2650 5800 50  0001 C CNN "Package"
-F 8 "YAGEO" H 2650 5800 50  0001 C CNN "Manufacturer"
-F 9 "RC0402FR-07750RL" H 2650 5800 50  0001 C CNN "Manufacturer Part Number"
-	1    2650 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 6050 2650 6150
-Wire Wire Line
-	2650 5550 2650 5450
-Wire Wire Line
-	2650 6550 2650 6650
-Text Label 2650 6650 2    50   ~ 0
-GND
-Text Label 2650 5450 2    50   ~ 0
-BNC_D
+	1850 2000 1750 2000
+NoConn ~ 4350 2000
 $Comp
 L mouse_reach_controller:LED_RED_0402 L1
 U 1 1 61ABCDD3
-P 900 1950
-F 0 "L1" V 862 2029 50  0000 L CNN
-F 1 "LED" V 946 2029 40  0000 L CNN
-F 2 "mouse_reach_controller:LED_0402" H 800 2250 60  0001 C CNN
-F 3 "" H 900 1950 60  0000 C CNN
-F 4 "LED RED CLEAR 2SMD" H 1200 2350 60  0001 C CNN "Description"
-F 5 "0402" H 900 2400 60  0001 C CNN "Package"
-F 6 "Kingbright" H 900 2500 60  0001 C CNN "Manufacturer"
-F 7 "APHHS1005LSECK/J3-PF" H 900 2250 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Digi-Key" H 900 2550 60  0001 C CNN "Vendor"
-F 9 "754-2123-1-ND" H 900 2250 60  0001 C CNN "Vendor Part Number"
-	1    900  1950
+P 3000 3600
+F 0 "L1" V 2962 3679 50  0000 L CNN
+F 1 "LED" V 3046 3679 40  0000 L CNN
+F 2 "mouse_reach_controller:LED_0402" H 2900 3900 60  0001 C CNN
+F 3 "" H 3000 3600 60  0000 C CNN
+F 4 "LED RED CLEAR 2SMD" H 3300 4000 60  0001 C CNN "Description"
+F 5 "0402" H 3000 4050 60  0001 C CNN "Package"
+F 6 "Kingbright" H 3000 4150 60  0001 C CNN "Manufacturer"
+F 7 "APHHS1005LSECK/J3-PF" H 3000 3900 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 3000 4200 60  0001 C CNN "Vendor"
+F 9 "754-2123-1-ND" H 3000 3900 60  0001 C CNN "Vendor Part Number"
+	1    3000 3600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	900  1650 900  1750
+	3000 3300 3000 3400
 Wire Wire Line
-	900  1150 900  1050
+	3000 2800 3000 2700
 Wire Wire Line
-	900  2150 900  2250
-Text Label 900  2250 2    50   ~ 0
+	3000 3800 3000 3900
+Text Label 3000 3900 2    50   ~ 0
 GND
-Text Label 900  1050 2    50   ~ 0
+Text Label 3000 2700 2    50   ~ 0
 VCC
 $Comp
 L mouse_reach_controller:1.6k_0402 R1
 U 1 1 61AC6397
-P 900 1400
-F 0 "R1" H 950 1400 40  0000 L CNN
-F 1 "1.6k" V 900 1400 40  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" V 830 1400 30  0001 C CNN
-F 3 "" H 900 1400 30  0000 C CNN
-F 4 "Digi-Key" V 1080 1500 60  0001 C CNN "Vendor"
-F 5 "YAG3045CT-ND" V 1180 1600 60  0001 C CNN "Vendor Part Number"
-F 6 "RES 1.6K OHM 1% 1/16W" V 1280 1700 60  0001 C CNN "Description"
-F 7 "0402" H 900 1400 50  0001 C CNN "Package"
-F 8 "YAGEO" H 900 1400 50  0001 C CNN "Manufacturer"
-F 9 "RC0402FR-071K6L" H 900 1400 50  0001 C CNN "Manufacturer Part Number"
-	1    900  1400
+P 3000 3050
+F 0 "R1" H 3050 3050 40  0000 L CNN
+F 1 "1.6k" V 3000 3050 40  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" V 2930 3050 30  0001 C CNN
+F 3 "" H 3000 3050 30  0000 C CNN
+F 4 "Digi-Key" V 3180 3150 60  0001 C CNN "Vendor"
+F 5 "YAG3045CT-ND" V 3280 3250 60  0001 C CNN "Vendor Part Number"
+F 6 "RES 1.6K OHM 1% 1/16W" V 3380 3350 60  0001 C CNN "Description"
+F 7 "0402" H 3000 3050 50  0001 C CNN "Package"
+F 8 "YAGEO" H 3000 3050 50  0001 C CNN "Manufacturer"
+F 9 "RC0402FR-071K6L" H 3000 3050 50  0001 C CNN "Manufacturer Part Number"
+	1    3000 3050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7250 5900 7150 5900
+Text Label 7150 5900 2    50   ~ 0
+~ENCODER_CS
+Wire Wire Line
+	7250 5700 7150 5700
+Text Label 7150 5700 2    50   ~ 0
+MOSI
+Wire Wire Line
+	7250 5800 7150 5800
+Text Label 7150 5800 2    50   ~ 0
+MISO
+Wire Wire Line
+	7250 5600 7150 5600
+Text Label 7150 5600 2    50   ~ 0
+SCK
+Text Label 1750 2000 2    50   ~ 0
+~ENCODER_CS
+$Sheet
+S 7250 650  1050 800 
+U 61B241BC
+F0 "signal_interface" 50
+F1 "signal_interface.sch" 50
+F2 "VCC" U L 7250 750 50 
+F3 "GND" U L 7250 850 50 
+F4 "SIGNAL_A" I L 7250 1050 50 
+F5 "SIGNAL_B" I L 7250 1150 50 
+F6 "SIGNAL_C" I L 7250 1250 50 
+F7 "SIGNAL_D" I L 7250 1350 50 
+$EndSheet
+Wire Wire Line
+	7250 850  7150 850 
+Text Label 7150 850  2    50   ~ 0
+GND
+Wire Wire Line
+	7250 750  7150 750 
+Text Label 7150 750  2    50   ~ 0
+VCC
+Wire Wire Line
+	7250 1150 7150 1150
+Text Label 7150 1150 2    50   ~ 0
+SIGNAL_B
+Wire Wire Line
+	7250 1050 7150 1050
+Text Label 7150 1050 2    50   ~ 0
+SIGNAL_A
+Wire Wire Line
+	7250 1350 7150 1350
+Text Label 7150 1350 2    50   ~ 0
+SIGNAL_D
+Wire Wire Line
+	7250 1250 7150 1250
+Text Label 7150 1250 2    50   ~ 0
+SIGNAL_C
+Wire Wire Line
+	7250 6100 7150 6100
+Text Label 7150 6100 2    50   ~ 0
+~ENCODER_RESET
+$Comp
+L mouse_reach_controller:TEENSY_4.0_PIN_RECEPTACLES TEENSY1
+U 1 1 618DA1A3
+P 3100 1650
+F 0 "TEENSY1" H 3100 2549 60  0000 C CNN
+F 1 "TEENSY_4.0_PIN_RECEPTACLES" H 3100 2442 60  0000 C CNN
+F 2 "mouse_reach_controller:TEENSY_4.0_PIN_RECEPTACLES" H 3100 2700 60  0001 C CNN
+F 3 "" H 3150 4400 60  0000 C CNN
+F 4 "Digi-Key" H 3100 2800 60  0001 C CNN "Vendor"
+F 5 "ED90331-ND" H 3100 2900 60  0001 C CNN "Vendor Part Number"
+F 6 "CONN PIN RCPT .025-.037 SOLDER" H 3100 3000 60  0001 C CNN "Description"
+F 7 "28" H 3100 1650 50  0001 C CNN "Quantity"
+F 8 "Mill-Max Manufacturing Corp." H 3100 1650 50  0001 C CNN "Manufacturer"
+F 9 "0305-0-15-15-47-27-10-0" H 3100 1650 50  0001 C CNN "Manufacturer Part Number"
+	1    3100 1650
+	1    0    0    -1  
+$EndComp
+Text Label 1750 1700 2    50   ~ 0
+~ENCODER_RESET
+Wire Wire Line
+	1750 1700 1850 1700
+Wire Wire Line
+	7250 6200 7150 6200
+Text Label 7150 6200 2    50   ~ 0
+ENCODER_INVERT
+Wire Wire Line
+	4350 2100 4450 2100
+Text Label 4450 2100 0    50   ~ 0
+ENCODER_INVERT
+$Comp
+L user_power:PWR_FLAG #FLG0101
+U 1 1 61CDA86B
+P 2200 3350
+F 0 "#FLG0101" H 2200 3425 50  0001 C CNN
+F 1 "PWR_FLAG" H 2200 3525 50  0000 C CNN
+F 2 "" H 2200 3350 50  0001 C CNN
+F 3 "~" H 2200 3350 50  0001 C CNN
+	1    2200 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3350 2200 3450
+Text Label 2200 3450 2    50   ~ 0
+VCC
 $EndSCHEMATC

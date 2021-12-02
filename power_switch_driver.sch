@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 9
 Title ""
 Date ""
 Rev "1.1"
@@ -89,10 +89,10 @@ F 9 "1727-7645-1-ND" H 5850 2950 60  0001 C CNN "Vendor Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L mouse_reach_controller:PWR_JACK_2.1x5.5_SMD_RA P6
+L mouse_reach_controller:PWR_JACK_2.1x5.5_SMD_RA P4
 U 1 1 6199465D
 P 3300 2250
-F 0 "P6" H 3378 2292 50  0000 L CNN
+F 0 "P4" H 3378 2292 50  0000 L CNN
 F 1 "PWR_JACK_2.1x5.5_SMD_RA" H 3378 2200 50  0000 L CNN
 F 2 "mouse_reach_controller:DCJACK_3PAD_SMD_RA" H 3200 2300 60  0001 C CNN
 F 3 "" H 3300 2400 60  0000 C CNN
@@ -194,10 +194,10 @@ Wire Wire Line
 Text Label 4350 4250 2    50   ~ 0
 GND
 $Comp
-L mouse_reach_controller:LED_RED_0402 L7
+L mouse_reach_controller:LED_RED_0402 L3
 U 1 1 61A88F3C
 P 5150 2900
-F 0 "L7" V 5112 2979 50  0000 L CNN
+F 0 "L3" V 5112 2979 50  0000 L CNN
 F 1 "LED" V 5196 2979 40  0000 L CNN
 F 2 "mouse_reach_controller:LED_0402" H 5050 3200 60  0001 C CNN
 F 3 "" H 5150 2900 60  0000 C CNN
@@ -211,10 +211,10 @@ F 9 "754-2123-1-ND" H 5150 3200 60  0001 C CNN "Vendor Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L mouse_reach_controller:2.21k_0402 R13
+L mouse_reach_controller:2.21k_0402 R9
 U 1 1 61A89B58
 P 5150 2350
-F 0 "R13" H 5221 2389 40  0000 L CNN
+F 0 "R9" H 5221 2389 40  0000 L CNN
 F 1 "2.21k" V 5150 2350 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 5080 2350 30  0001 C CNN
 F 3 "" H 5150 2350 30  0000 C CNN
@@ -270,10 +270,10 @@ Connection ~ 5450 4250
 Wire Wire Line
 	5450 4250 5500 4250
 $Comp
-L mouse_reach_controller:LED_RED_0402 L6
+L mouse_reach_controller:LED_RED_0402 L2
 U 1 1 61AB9A8D
 P 4800 2900
-F 0 "L6" V 4762 2979 50  0000 L CNN
+F 0 "L2" V 4762 2979 50  0000 L CNN
 F 1 "LED" V 4846 2979 40  0000 L CNN
 F 2 "mouse_reach_controller:LED_0402" H 4700 3200 60  0001 C CNN
 F 3 "" H 4800 2900 60  0000 C CNN
@@ -287,10 +287,10 @@ F 9 "754-2123-1-ND" H 4800 3200 60  0001 C CNN "Vendor Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L mouse_reach_controller:2.21k_0402 R12
+L mouse_reach_controller:2.21k_0402 R8
 U 1 1 61AB9B71
 P 4800 2350
-F 0 "R12" H 4871 2389 40  0000 L CNN
+F 0 "R8" H 4871 2389 40  0000 L CNN
 F 1 "2.21k" V 4800 2350 40  0000 C CNN
 F 2 "mouse_reach_controller:SM0402" V 4730 2350 30  0001 C CNN
 F 3 "" H 4800 2350 30  0000 C CNN
