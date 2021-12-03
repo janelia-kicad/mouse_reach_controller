@@ -439,39 +439,39 @@ $EndComp
 $Comp
 L mouse_reach_controller:0.1uF_0402 C?
 U 1 1 61A9C2A0
-P 3500 1350
+P 3450 1350
 AR Path="/6189CAF8/61A9C2A0" Ref="C?"  Part="1" 
 AR Path="/61993642/61A9C2A0" Ref="C20"  Part="1" 
-F 0 "C20" H 3550 1450 40  0000 L CNN
-F 1 "0.1uF" H 3500 1350 30  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" H 3538 1200 30  0001 C CNN
-F 3 "" H 3500 1350 60  0001 C CNN
-F 4 "Digi-Key" H 3600 1550 60  0001 C CNN "Vendor"
-F 5 "311-1375-1-ND" H 3700 1650 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 0.1UF 25V Y5V" H 3800 1750 60  0001 C CNN "Description"
-F 7 "0402" H 3500 1350 50  0001 C CNN "Package"
-F 8 "Yageo" H 3500 1350 50  0001 C CNN "Manufacturer"
-F 9 "CC0402ZRY5V8BB104" H 3500 1350 50  0001 C CNN "Manufacturer Part Number"
-	1    3500 1350
+F 0 "C20" H 3500 1450 40  0000 L CNN
+F 1 "0.1uF" H 3450 1350 30  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" H 3488 1200 30  0001 C CNN
+F 3 "" H 3450 1350 60  0001 C CNN
+F 4 "Digi-Key" H 3550 1550 60  0001 C CNN "Vendor"
+F 5 "311-1375-1-ND" H 3650 1650 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 0.1UF 25V Y5V" H 3750 1750 60  0001 C CNN "Description"
+F 7 "0402" H 3450 1350 50  0001 C CNN "Package"
+F 8 "Yageo" H 3450 1350 50  0001 C CNN "Manufacturer"
+F 9 "CC0402ZRY5V8BB104" H 3450 1350 50  0001 C CNN "Manufacturer Part Number"
+	1    3450 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L mouse_reach_controller:2.2uF_0402 C?
 U 1 1 61A9C2AC
-P 3300 1350
+P 3250 1350
 AR Path="/6189CAF8/61A9C2AC" Ref="C?"  Part="1" 
 AR Path="/61993642/61A9C2AC" Ref="C19"  Part="1" 
-F 0 "C19" H 3350 1450 40  0000 L CNN
-F 1 "2.2uF" H 3300 1350 30  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" H 3338 1200 30  0001 C CNN
-F 3 "" H 3300 1350 60  0000 C CNN
-F 4 "Digi-Key" H 3400 1550 60  0001 C CNN "Vendor"
-F 5 "445-9028-1-ND" H 3500 1650 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 2.2UF 35V X5R" H 3600 1750 60  0001 C CNN "Description"
-F 7 "0402" H 3300 1350 50  0001 C CNN "Package"
-F 8 "TDK Corporation" H 3300 1350 50  0001 C CNN "Manufacturer"
-F 9 "C1005X5R1V225K050BC" H 3300 1350 50  0001 C CNN "Manufacturer Part Number"
-	1    3300 1350
+F 0 "C19" H 3300 1450 40  0000 L CNN
+F 1 "2.2uF" H 3250 1350 30  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" H 3288 1200 30  0001 C CNN
+F 3 "" H 3250 1350 60  0000 C CNN
+F 4 "Digi-Key" H 3350 1550 60  0001 C CNN "Vendor"
+F 5 "445-9028-1-ND" H 3450 1650 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 2.2UF 35V X5R" H 3550 1750 60  0001 C CNN "Description"
+F 7 "0402" H 3250 1350 50  0001 C CNN "Package"
+F 8 "TDK Corporation" H 3250 1350 50  0001 C CNN "Manufacturer"
+F 9 "C1005X5R1V225K050BC" H 3250 1350 50  0001 C CNN "Manufacturer Part Number"
+	1    3250 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -494,34 +494,32 @@ F 9 "C1005X5R1V225K050BC" H 4300 1350 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 1150 3300 1100
+	3250 1150 3250 1100
 Wire Wire Line
-	3300 1100 3500 1100
+	3250 1100 3450 1100
 Wire Wire Line
-	3500 1150 3500 1100
-Connection ~ 3500 1100
+	3450 1150 3450 1100
+Connection ~ 3450 1100
 Wire Wire Line
-	3500 1100 3550 1100
-Wire Wire Line
-	3300 1100 3200 1100
-Connection ~ 3300 1100
-Text Label 3200 1100 2    50   ~ 0
+	3250 1100 3150 1100
+Connection ~ 3250 1100
+Text Label 3150 1100 2    50   ~ 0
 VDD
 Wire Wire Line
 	4250 1100 4300 1100
 Wire Wire Line
 	4300 1100 4300 1150
 Wire Wire Line
-	3300 1550 3300 1650
+	3250 1550 3250 1650
 Wire Wire Line
-	3500 1550 3500 1650
+	3450 1550 3450 1650
 Wire Wire Line
 	3900 1350 3900 1450
 Wire Wire Line
 	4300 1550 4300 1650
-Text Label 3300 1650 0    50   ~ 0
+Text Label 3250 1650 0    50   ~ 0
 GND
-Text Label 3500 1650 0    50   ~ 0
+Text Label 3450 1650 0    50   ~ 0
 GND
 Text Label 3900 1450 0    50   ~ 0
 GND
@@ -1278,4 +1276,6 @@ Wire Wire Line
 	9900 5600 9900 5700
 Text Label 9900 5700 2    50   ~ 0
 GND
+Wire Wire Line
+	3450 1100 3550 1100
 $EndSCHEMATC
