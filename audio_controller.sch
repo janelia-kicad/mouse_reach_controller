@@ -67,18 +67,18 @@ $EndComp
 $Comp
 L mouse_reach_controller:0.1uF_0402 C15
 U 1 1 618B708D
-P 1900 3200
-F 0 "C15" H 1950 3300 40  0000 L CNN
-F 1 "0.1uF" H 1900 3200 30  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" H 1938 3050 30  0001 C CNN
-F 3 "" H 1900 3200 60  0001 C CNN
-F 4 "Digi-Key" H 2000 3400 60  0001 C CNN "Vendor"
-F 5 "311-1375-1-ND" H 2100 3500 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 0.1UF 25V Y5V" H 2200 3600 60  0001 C CNN "Description"
-F 7 "0402" H 1900 3200 50  0001 C CNN "Package"
-F 8 "Yageo" H 1900 3200 50  0001 C CNN "Manufacturer"
-F 9 "CC0402ZRY5V8BB104" H 1900 3200 50  0001 C CNN "Manufacturer Part Number"
-	1    1900 3200
+P 1850 3200
+F 0 "C15" H 1900 3300 40  0000 L CNN
+F 1 "0.1uF" H 1850 3200 30  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" H 1888 3050 30  0001 C CNN
+F 3 "" H 1850 3200 60  0001 C CNN
+F 4 "Digi-Key" H 1950 3400 60  0001 C CNN "Vendor"
+F 5 "311-1375-1-ND" H 2050 3500 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 0.1UF 25V Y5V" H 2150 3600 60  0001 C CNN "Description"
+F 7 "0402" H 1850 3200 50  0001 C CNN "Package"
+F 8 "Yageo" H 1850 3200 50  0001 C CNN "Manufacturer"
+F 9 "CC0402ZRY5V8BB104" H 1850 3200 50  0001 C CNN "Manufacturer Part Number"
+	1    1850 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -163,18 +163,18 @@ $EndComp
 $Comp
 L mouse_reach_controller:2.2uF_0402 C14
 U 1 1 618BF8D1
-P 1700 3200
-F 0 "C14" H 1750 3300 40  0000 L CNN
-F 1 "2.2uF" H 1700 3200 30  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" H 1738 3050 30  0001 C CNN
-F 3 "" H 1700 3200 60  0000 C CNN
-F 4 "Digi-Key" H 1800 3400 60  0001 C CNN "Vendor"
-F 5 "445-9028-1-ND" H 1900 3500 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 2.2UF 35V X5R" H 2000 3600 60  0001 C CNN "Description"
-F 7 "0402" H 1700 3200 50  0001 C CNN "Package"
-F 8 "TDK Corporation" H 1700 3200 50  0001 C CNN "Manufacturer"
-F 9 "C1005X5R1V225K050BC" H 1700 3200 50  0001 C CNN "Manufacturer Part Number"
-	1    1700 3200
+P 1650 3200
+F 0 "C14" H 1700 3300 40  0000 L CNN
+F 1 "2.2uF" H 1650 3200 30  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" H 1688 3050 30  0001 C CNN
+F 3 "" H 1650 3200 60  0000 C CNN
+F 4 "Digi-Key" H 1750 3400 60  0001 C CNN "Vendor"
+F 5 "445-9028-1-ND" H 1850 3500 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 2.2UF 35V X5R" H 1950 3600 60  0001 C CNN "Description"
+F 7 "0402" H 1650 3200 50  0001 C CNN "Package"
+F 8 "TDK Corporation" H 1650 3200 50  0001 C CNN "Manufacturer"
+F 9 "C1005X5R1V225K050BC" H 1650 3200 50  0001 C CNN "Manufacturer Part Number"
+	1    1650 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -232,18 +232,18 @@ $EndComp
 $Comp
 L mouse_reach_controller:2.21k_0402 R11
 U 1 1 618D0072
-P 3850 2250
-F 0 "R11" H 3900 2250 40  0000 L CNN
-F 1 "2.21k" V 3850 2250 40  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" V 3780 2250 30  0001 C CNN
-F 3 "" H 3850 2250 30  0000 C CNN
-F 4 "Digi-Key" V 4030 2350 60  0001 C CNN "Vendor"
-F 5 "311-2.21KLRCT-ND" V 4130 2450 60  0001 C CNN "Vendor Part Number"
-F 6 "RES 2.21K OHM 1% 1/16W" V 4230 2550 60  0001 C CNN "Description"
-F 7 "0402" H 3850 2250 50  0001 C CNN "Package"
-F 8 "YAGEO" H 3850 2250 50  0001 C CNN "Manufacturer"
-F 9 "RC0402FR-072K21L" H 3850 2250 50  0001 C CNN "Manufacturer Part Number"
-	1    3850 2250
+P 3950 2250
+F 0 "R11" H 4000 2250 40  0000 L CNN
+F 1 "2.21k" V 3950 2250 40  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" V 3880 2250 30  0001 C CNN
+F 3 "" H 3950 2250 30  0000 C CNN
+F 4 "Digi-Key" V 4130 2350 60  0001 C CNN "Vendor"
+F 5 "311-2.21KLRCT-ND" V 4230 2450 60  0001 C CNN "Vendor Part Number"
+F 6 "RES 2.21K OHM 1% 1/16W" V 4330 2550 60  0001 C CNN "Description"
+F 7 "0402" H 3950 2250 50  0001 C CNN "Package"
+F 8 "YAGEO" H 3950 2250 50  0001 C CNN "Manufacturer"
+F 9 "RC0402FR-072K21L" H 3950 2250 50  0001 C CNN "Manufacturer Part Number"
+	1    3950 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -298,34 +298,31 @@ Wire Wire Line
 Text Label 3900 4250 0    50   ~ 0
 GND
 Wire Wire Line
-	1700 3000 1700 2950
+	1650 3000 1650 2950
 Wire Wire Line
-	1700 2950 1900 2950
+	1650 2950 1850 2950
 Wire Wire Line
-	1900 3000 1900 2950
-Connection ~ 1900 2950
+	1850 3000 1850 2950
 Wire Wire Line
-	1900 2950 1950 2950
-Wire Wire Line
-	1700 2950 1600 2950
-Connection ~ 1700 2950
-Text Label 1600 2950 2    50   ~ 0
+	1650 2950 1550 2950
+Connection ~ 1650 2950
+Text Label 1550 2950 2    50   ~ 0
 VDD
 Wire Wire Line
 	2650 2950 2700 2950
 Wire Wire Line
 	2700 2950 2700 3000
 Wire Wire Line
-	1700 3400 1700 3500
+	1650 3400 1650 3500
 Wire Wire Line
-	1900 3400 1900 3500
+	1850 3400 1850 3500
 Wire Wire Line
 	2300 3200 2300 3300
 Wire Wire Line
 	2700 3400 2700 3500
-Text Label 1700 3500 0    50   ~ 0
+Text Label 1650 3500 0    50   ~ 0
 GND
-Text Label 1900 3500 0    50   ~ 0
+Text Label 1850 3500 0    50   ~ 0
 GND
 Text Label 2300 3300 0    50   ~ 0
 GND
@@ -339,18 +336,18 @@ VEE
 Wire Wire Line
 	3650 2000 3650 1900
 Wire Wire Line
-	3850 2000 3850 1900
+	3950 2000 3950 1900
 Wire Wire Line
 	3650 2500 3650 2600
 Wire Wire Line
-	3850 2500 3850 2600
+	3950 2500 3950 2600
 Text Label 3650 1900 0    50   ~ 0
 VDD
-Text Label 3850 1900 0    50   ~ 0
+Text Label 3950 1900 0    50   ~ 0
 VDD
 Text Label 3650 2600 0    50   ~ 0
 SDA
-Text Label 3850 2600 0    50   ~ 0
+Text Label 3950 2600 0    50   ~ 0
 SCL
 Wire Wire Line
 	5350 4450 5350 4550
@@ -496,19 +493,23 @@ F 8 "SGTL5000XNAA3R2" H 5350 3400 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mouse_reach_controller:600@100MHz_1210 I1
-U 1 1 61AD1319
+L mouse_reach_controller:600@100MHz_0402 I1
+U 1 1 61AD8EF1
 P 5400 2000
 F 0 "I1" V 5587 2000 50  0000 C CNN
 F 1 "600" V 5495 2000 50  0000 C CNN
-F 2 "mouse_reach_controller:SM1210" H 5330 1940 50  0001 C CNN
+F 2 "mouse_reach_controller:SM0402" H 5330 1940 50  0001 C CNN
 F 3 "" H 5400 2000 50  0000 C CNN
 F 4 "Digi-Key" H 5530 2140 60  0001 C CNN "Vendor"
-F 5 "587-1755-1-ND" H 5630 2240 60  0001 C CNN "Vendor Part Number"
-F 6 "FERRITE BEAD 600 OHM 1210 1LN" H 5730 2340 60  0001 C CNN "Description"
-F 7 "Taiyo Yuden" H 5400 2000 50  0001 C CNN "Manufacturer"
-F 8 "FBMH3225HM601NT" H 5400 2000 50  0001 C CNN "Manufacturer Part Number"
+F 5 "490-9657-1-ND" H 5630 2240 60  0001 C CNN "Vendor Part Number"
+F 6 "FERRITE BEAD 600 OHM" H 5730 2340 60  0001 C CNN "Description"
+F 7 "Murata Electronics" H 5400 2000 50  0001 C CNN "Manufacturer"
+F 8 "BLM15PX601SN1D" H 5400 2000 50  0001 C CNN "Manufacturer Part Number"
+F 9 "0402" H 5400 2000 50  0001 C CNN "Package"
 	1    5400 2000
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	1950 2950 1850 2950
+Connection ~ 1850 2950
 $EndSCHEMATC
