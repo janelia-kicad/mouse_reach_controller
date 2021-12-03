@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.10"
     },
-    "CreationDate":  "2021-11-12T09:27:16-05:00"
+    "CreationDate":  "2021-12-03T14:56:04-05:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "mouse_reach_controller",
       "GUID": "6d6f7573-655f-4726-9561-63685f636f6e",
-      "Revision": "1.0"
+      "Revision": "1.1"
     },
     "Size":
     {
@@ -32,7 +32,7 @@
       "PadToPad":  0.102,
       "PadToTrack":  0.102,
       "TrackToTrack":  0.102,
-      "MinLineWidth":  0.200,
+      "MinLineWidth":  0.229,
       "TrackToRegion":  0.203,
       "RegionToRegion":  0.203
     }

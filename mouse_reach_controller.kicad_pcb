@@ -36,7 +36,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
@@ -5948,7 +5948,7 @@
   (segment (start 75.9837 70.2687) (end 75.9837 55.4545) (width 0.2286) (layer B.Cu) (net 96))
   (via (at 75.9837 55.4545) (size 0.635) (layers F.Cu B.Cu) (net 96))
 
-  (zone (net 1) (net_name /GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name /GND) (layer F.Cu) (tstamp 61AAB0B5) (hatch edge 0.508)
     (connect_pads (clearance 0.2032))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -8450,7 +8450,7 @@
       )
     )
   )
-  (zone (net 1) (net_name /GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name /GND) (layer B.Cu) (tstamp 61AAB0B2) (hatch edge 0.508)
     (connect_pads (clearance 0.2032))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
