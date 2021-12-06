@@ -1,22 +1,22 @@
 
 # Table of Contents
 
-1.  [Repository Information](#orgc018c63)
-    1.  [Description](#orge9087c7)
-2.  [Images](#orgd6efd9e)
-3.  [Schematic](#orge671a81)
-4.  [Gerbers](#org8eb55c3)
-5.  [Bill of Materials](#org113ca7a)
-    1.  [PCB Parts](#orgc5c71eb)
-    2.  [Supplemental Parts](#orgea4efb9)
-    3.  [Vendor Parts Lists](#org3c15dbf)
-6.  [Supplemental Documentation](#org4fd4226)
-    1.  [Assembly Instructions](#org9cb6e11)
-7.  [Manufacturing Archive](#org9c00308)
+1.  [Repository Information](#orgac216ee)
+    1.  [Description](#org6d4304b)
+2.  [Images](#org9b96fdc)
+3.  [Schematic](#org6dd55b8)
+4.  [Gerbers](#org90d763e)
+5.  [Bill of Materials](#org84dc3fa)
+    1.  [PCB Parts](#org7fa1bf6)
+    2.  [Supplemental Parts](#org51d3ad0)
+    3.  [Vendor Parts Lists](#org9c47184)
+6.  [Supplemental Documentation](#orgecaaf67)
+    1.  [Assembly Instructions](#org7f00b43)
+7.  [Manufacturing Archive](#org2282e9e)
 
 
 
-<a id="orgc018c63"></a>
+<a id="orgac216ee"></a>
 
 # Repository Information
 
@@ -28,19 +28,19 @@
 -   **Email:** peter@polidoro.io
 
 
-<a id="orge9087c7"></a>
+<a id="org6d4304b"></a>
 
 ## Description
 
 This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 
 
-<a id="orgd6efd9e"></a>
+<a id="org9b96fdc"></a>
 
 # Images
 
 
-<a id="orge671a81"></a>
+<a id="org6dd55b8"></a>
 
 # Schematic
 
@@ -60,18 +60,22 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 
 ![img](./schematic/images/schematic06.png)
 
+![img](./schematic/images/schematic07.png)
 
-<a id="org8eb55c3"></a>
+![img](./schematic/images/schematic08.png)
+
+
+<a id="org90d763e"></a>
 
 # Gerbers
 
 
-<a id="org113ca7a"></a>
+<a id="org84dc3fa"></a>
 
 # Bill of Materials
 
 
-<a id="orgc5c71eb"></a>
+<a id="org7fa1bf6"></a>
 
 ## PCB Parts
 
@@ -114,8 +118,8 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 <tbody>
 <tr>
 <td class="org-right">1</td>
-<td class="org-left">C1 C10 C12 C14 C2 C3 C4 C5 C6 C7 C8</td>
-<td class="org-right">11</td>
+<td class="org-left">C1 C10 C11 C13 C15 C2 C20 C22 C23 C24 C25 C26 C27 C28 C29 C3 C30 C31 C32 C33 C34 C35 C36 C37 C38 C39 C4 C40 C41 C42 C43 C44 C5 C6 C7 C8</td>
+<td class="org-right">36</td>
 <td class="org-left">Yageo</td>
 <td class="org-left">CC0402ZRY5V8BB104</td>
 <td class="org-left">Digi-Key</td>
@@ -127,8 +131,8 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 
 <tr>
 <td class="org-right">2</td>
-<td class="org-left">C11 C13 C15 C9</td>
-<td class="org-right">4</td>
+<td class="org-left">C12 C14 C16 C19 C21</td>
+<td class="org-right">5</td>
 <td class="org-left">TDK Corporation</td>
 <td class="org-left">C1005X5R1V225K050BC</td>
 <td class="org-left">Digi-Key</td>
@@ -140,7 +144,7 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 
 <tr>
 <td class="org-right">3</td>
-<td class="org-left">C16</td>
+<td class="org-left">C17</td>
 <td class="org-right">1</td>
 <td class="org-left">YAGEO</td>
 <td class="org-left">CC0402KRX5R7BB154</td>
@@ -153,32 +157,71 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 
 <tr>
 <td class="org-right">4</td>
-<td class="org-left">CLK1</td>
-<td class="org-right">1</td>
-<td class="org-left">CTS-Frequency Controls</td>
-<td class="org-left">CB3LV-3C-32M000000</td>
+<td class="org-left">C18 C9</td>
+<td class="org-right">2</td>
+<td class="org-left">Würth Elektronik</td>
+<td class="org-left">865080545012</td>
 <td class="org-left">Digi-Key</td>
-<td class="org-left">CTX277LVCT-ND</td>
-<td class="org-left">XTAL OSC XO 32.0000MHZ HCMOS TTL</td>
+<td class="org-left">732-8511-1-ND</td>
+<td class="org-left">CAP ALUM 100UF 20% 35V</td>
 <td class="org-right">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-right">5</td>
-<td class="org-left">D1</td>
+<td class="org-left">CLK1</td>
 <td class="org-right">1</td>
-<td class="org-left">Comchip Technology</td>
-<td class="org-left">CDBQR0230L</td>
+<td class="org-left">Würth Elektronik</td>
+<td class="org-left">831068248</td>
 <td class="org-left">Digi-Key</td>
-<td class="org-left">641-1275-1-ND</td>
-<td class="org-left">DIODE SCHOTTKY 30V 200MA</td>
-<td class="org-right">0402</td>
+<td class="org-left">732-831068248CT-ND</td>
+<td class="org-left">XTAL OSC XO 32.0000MHZ CMOS</td>
+<td class="org-right">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-right">6</td>
+<td class="org-left">CLK2</td>
+<td class="org-right">1</td>
+<td class="org-left">Würth Elektronik</td>
+<td class="org-left">831066629</td>
+<td class="org-left">Digi-Key</td>
+<td class="org-left">732-831066629CT-ND</td>
+<td class="org-left">XTAL OSC XO 16.0000MHZ CMOS</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">7</td>
+<td class="org-left">D1 D2</td>
+<td class="org-right">2</td>
+<td class="org-left">Nexperia USA Inc.</td>
+<td class="org-left">PMEG45U10EPDAZ</td>
+<td class="org-left">Digi-Key</td>
+<td class="org-left">1727-7645-1-ND</td>
+<td class="org-left">DIODE SCHOTTKY 45V 10A</td>
+<td class="org-right">CFP15</td>
+</tr>
+
+
+<tr>
+<td class="org-right">8</td>
+<td class="org-left">I1</td>
+<td class="org-right">1</td>
+<td class="org-left">Murata Electronics</td>
+<td class="org-left">BLM15PX601SN1D</td>
+<td class="org-left">Digi-Key</td>
+<td class="org-left">490-9657-1-ND</td>
+<td class="org-left">FERRITE BEAD 600 OHM</td>
+<td class="org-right">0402</td>
+</tr>
+
+
+<tr>
+<td class="org-right">9</td>
 <td class="org-left">J1</td>
 <td class="org-right">1</td>
 <td class="org-left">CUI Devices</td>
@@ -191,20 +234,20 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 
 
 <tr>
+<td class="org-right">10</td>
+<td class="org-left">L1 L2 L3 L4 L5 L6 L7</td>
 <td class="org-right">7</td>
-<td class="org-left">L1</td>
-<td class="org-right">1</td>
-<td class="org-left">Taiyo Yuden</td>
-<td class="org-left">FBMH3225HM601NT</td>
+<td class="org-left">Kingbright</td>
+<td class="org-left">APHHS1005LSECK/J3-PF</td>
 <td class="org-left">Digi-Key</td>
-<td class="org-left">587-1755-1-ND</td>
-<td class="org-left">FERRITE BEAD 600 OHM 1210 1LN</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-left">754-2123-1-ND</td>
+<td class="org-left">LED RED CLEAR 2SMD</td>
+<td class="org-right">0402</td>
 </tr>
 
 
 <tr>
-<td class="org-right">8</td>
+<td class="org-right">11</td>
 <td class="org-left">P1 P2 P3</td>
 <td class="org-right">3</td>
 <td class="org-left">3M</td>
@@ -217,8 +260,73 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 
 
 <tr>
-<td class="org-right">9</td>
-<td class="org-left">R1 R2 R3 R4 R5 R6</td>
+<td class="org-right">12</td>
+<td class="org-left">P4</td>
+<td class="org-right">1</td>
+<td class="org-left">CUI Devices</td>
+<td class="org-left">PJ-036AH-SMT-TR</td>
+<td class="org-left">Digi-Key</td>
+<td class="org-left">CP-036AHPJCT-ND</td>
+<td class="org-left">CONN PWR JACK 2X5.5MM SOLDER</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">13</td>
+<td class="org-left">P5 P6 P7</td>
+<td class="org-right">3</td>
+<td class="org-left">Amphenol RF</td>
+<td class="org-left">112661</td>
+<td class="org-left">Digi-Key</td>
+<td class="org-left">ACX1655-ND</td>
+<td class="org-left">CONN BNC JACK R/A 75 OHM PCB</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">14</td>
+<td class="org-left">R1 R17 R18 R19 R20</td>
+<td class="org-right">5</td>
+<td class="org-left">YAGEO</td>
+<td class="org-left">RC0402FR-071K6L</td>
+<td class="org-left">Digi-Key</td>
+<td class="org-left">YAG3045CT-ND</td>
+<td class="org-left">RES 1.6K OHM 1% 1/16W</td>
+<td class="org-right">0402</td>
+</tr>
+
+
+<tr>
+<td class="org-right">15</td>
+<td class="org-left">R10 R11 R8 R9</td>
+<td class="org-right">4</td>
+<td class="org-left">YAGEO</td>
+<td class="org-left">RC0402FR-072K21L</td>
+<td class="org-left">Digi-Key</td>
+<td class="org-left">311-2.21KLRCT-ND</td>
+<td class="org-left">RES 2.21K OHM 1% 1/16W</td>
+<td class="org-right">0402</td>
+</tr>
+
+
+<tr>
+<td class="org-right">16</td>
+<td class="org-left">R12 R13 R14 R15 R16</td>
+<td class="org-right">5</td>
+<td class="org-left">YAGEO</td>
+<td class="org-left">RC0402JR-0710KL</td>
+<td class="org-left">Digi-Key</td>
+<td class="org-left">311-10KJRCT-ND</td>
+<td class="org-left">RES SMD 10K OHM 5% 1/10W</td>
+<td class="org-right">0402</td>
+</tr>
+
+
+<tr>
+<td class="org-right">17</td>
+<td class="org-left">R2 R3 R4 R5 R6 R7</td>
 <td class="org-right">6</td>
 <td class="org-left">Stackpole Electronics Inc</td>
 <td class="org-left">RMCF0402FT100R</td>
@@ -230,20 +338,7 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 
 
 <tr>
-<td class="org-right">10</td>
-<td class="org-left">R7 R8</td>
-<td class="org-right">2</td>
-<td class="org-left">YAGEO</td>
-<td class="org-left">RC0402FR-072K21L</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">311-2.21KLRCT-ND</td>
-<td class="org-left">RES 2.21K OHM 1% 1/16W</td>
-<td class="org-right">0402</td>
-</tr>
-
-
-<tr>
-<td class="org-right">11</td>
+<td class="org-right">18</td>
 <td class="org-left">T1</td>
 <td class="org-right">1</td>
 <td class="org-left">Phoenix Contact</td>
@@ -256,7 +351,20 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 
 
 <tr>
-<td class="org-right">12</td>
+<td class="org-right">19</td>
+<td class="org-left">T2</td>
+<td class="org-right">1</td>
+<td class="org-left">Phoenix Contact</td>
+<td class="org-left">1757268</td>
+<td class="org-left">Digi-Key</td>
+<td class="org-left">277-1108-ND</td>
+<td class="org-left">TERM BLOCK HDR 4POS 90DEG 5.08MM</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">20</td>
 <td class="org-left">TEENSY1</td>
 <td class="org-right">28</td>
 <td class="org-left">Mill-Max Manufacturing Corp.</td>
@@ -269,7 +377,7 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 
 
 <tr>
-<td class="org-right">13</td>
+<td class="org-right">21</td>
 <td class="org-left">U1</td>
 <td class="org-right">1</td>
 <td class="org-left">Trinamic Motion Control GmbH</td>
@@ -282,7 +390,7 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 
 
 <tr>
-<td class="org-right">14</td>
+<td class="org-right">22</td>
 <td class="org-left">U10</td>
 <td class="org-right">1</td>
 <td class="org-left">NXP USA Inc.</td>
@@ -295,7 +403,46 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 
 
 <tr>
-<td class="org-right">15</td>
+<td class="org-right">23</td>
+<td class="org-left">U11 U9</td>
+<td class="org-right">2</td>
+<td class="org-left">Richtek USA Inc.</td>
+<td class="org-left">RT9076-15GV</td>
+<td class="org-left">Digi-Key</td>
+<td class="org-left">1028-1470-1-ND</td>
+<td class="org-left">IC REG LINEAR 1.5V 250MA</td>
+<td class="org-right">SOT23-3</td>
+</tr>
+
+
+<tr>
+<td class="org-right">24</td>
+<td class="org-left">U12 U13 U15 U16 U17 U18 U19 U20 U3 U5 U7</td>
+<td class="org-right">11</td>
+<td class="org-left">Nexperia USA Inc.</td>
+<td class="org-left">74LVC1G125GS,132</td>
+<td class="org-left">Digi-Key</td>
+<td class="org-left">1727-8033-1-ND</td>
+<td class="org-left">IC BUF NON-INVERT 5.5V</td>
+<td class="org-right">6-XFDFN</td>
+</tr>
+
+
+<tr>
+<td class="org-right">25</td>
+<td class="org-left">U14</td>
+<td class="org-right">1</td>
+<td class="org-left">Trinamic Motion Control GmbH</td>
+<td class="org-left">TMC424</td>
+<td class="org-left">Digi-Key</td>
+<td class="org-left">1460-1046-ND</td>
+<td class="org-left">IC INTERFACE SPECIALIZED</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-right">26</td>
 <td class="org-left">U2 U4 U6</td>
 <td class="org-right">3</td>
 <td class="org-left">Texas Instruments</td>
@@ -308,41 +455,15 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 
 
 <tr>
-<td class="org-right">16</td>
-<td class="org-left">U3 U5 U7</td>
-<td class="org-right">3</td>
-<td class="org-left">ON Semiconductor</td>
-<td class="org-left">NC7SZ125FHX</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">NC7SZ125FHXCT-ND</td>
-<td class="org-left">IC BUF NON-INVERT 5.5V</td>
-<td class="org-right">6-UFDFN</td>
-</tr>
-
-
-<tr>
-<td class="org-right">17</td>
+<td class="org-right">27</td>
 <td class="org-left">U8</td>
 <td class="org-right">1</td>
-<td class="org-left">Microchip Technology</td>
-<td class="org-left">MIC94091YC6-TR</td>
+<td class="org-left">Diodes Incorporated</td>
+<td class="org-left">ZXMS6006SGTA</td>
 <td class="org-left">Digi-Key</td>
-<td class="org-left">576-3486-1-ND</td>
-<td class="org-left">IC PWR SWITCH P-CHAN 1:1</td>
-<td class="org-right">&#xa0;</td>
-</tr>
-
-
-<tr>
-<td class="org-right">18</td>
-<td class="org-left">U9</td>
-<td class="org-right">1</td>
-<td class="org-left">Richtek USA Inc.</td>
-<td class="org-left">RT9076-15GV</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">1028-1470-1-ND</td>
-<td class="org-left">IC REG LINEAR 1.5V 250MA</td>
-<td class="org-right">SOT23-3</td>
+<td class="org-left">ZXMS6006SGTADICT-ND</td>
+<td class="org-left">IC PWR DRIVER N-CHAN 1:1</td>
+<td class="org-right">SOT223</td>
 </tr>
 
 
@@ -361,7 +482,7 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 </table>
 
 
-<a id="orgea4efb9"></a>
+<a id="org51d3ad0"></a>
 
 ## Supplemental Parts
 
@@ -431,7 +552,7 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 </table>
 
 
-<a id="org3c15dbf"></a>
+<a id="org9c47184"></a>
 
 ## Vendor Parts Lists
 
@@ -440,19 +561,19 @@ This board controls the Hantman lab PelletDispenser rig and the RotaryDisk rig.
 [./bom/supplemental\_Digi-Key\_parts.csv](./bom/supplemental_Digi-Key_parts.csv)
 
 
-<a id="org4fd4226"></a>
+<a id="orgecaaf67"></a>
 
 # Supplemental Documentation
 
 
-<a id="org9cb6e11"></a>
+<a id="org7f00b43"></a>
 
 ## Assembly Instructions
 
 -   Solder surface mount and through hole components onto the pcb.
 
 
-<a id="org9c00308"></a>
+<a id="org2282e9e"></a>
 
 # Manufacturing Archive
 
