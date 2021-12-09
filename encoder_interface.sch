@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 9
-Title ""
+Title "mouse_reach_controller"
 Date ""
-Rev ""
-Comp ""
+Rev "1.2"
+Comp "Janelia"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -399,13 +399,13 @@ U 1 1 61B05D27
 P 2400 1300
 F 0 "C18" H 2489 1330 50  0000 L CNN
 F 1 "100uF_POL" H 2489 1254 30  0000 L CNN
-F 2 "mouse_reach_controller:CP_Elec_6.3x7.7_WURTH" H 2310 1270 60  0001 C CNN
+F 2 "mouse_reach_controller:CP_Elec_6.3x8.3_PAN" H 2310 1270 60  0001 C CNN
 F 3 "" H 2410 1370 60  0001 C CNN
 F 4 "Digi-Key" H 2510 1470 60  0001 C CNN "Vendor"
-F 5 "732-8511-1-ND" H 2610 1570 60  0001 C CNN "Vendor Part Number"
+F 5 "10-EEE-FN1V101XVCT-ND" H 2610 1570 60  0001 C CNN "Vendor Part Number"
 F 6 "CAP ALUM 100UF 20% 35V" H 2710 1670 60  0001 C CNN "Description"
-F 7 "Würth Elektronik" H 2400 1300 50  0001 C CNN "Manufacturer"
-F 8 "865080545012" H 2400 1300 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Panasonic Electronic Components" H 2400 1300 50  0001 C CNN "Manufacturer"
+F 8 "EEE-FN1V101XV" H 2400 1300 50  0001 C CNN "Manufacturer Part Number"
 	1    2400 1300
 	1    0    0    -1  
 $EndComp
@@ -694,24 +694,14 @@ NoConn ~ 6100 5200
 NoConn ~ 6100 5300
 Wire Wire Line
 	6100 2400 6000 2400
-Wire Wire Line
-	6100 2500 6000 2500
 Text Label 6000 2400 2    50   ~ 0
 ~RESET
-Text Label 6000 2500 2    50   ~ 0
-INVERT
 Text HLabel 1300 1950 0    50   Input ~ 0
 ~RESET
 Wire Wire Line
 	1300 1950 1400 1950
 Text Label 1400 1950 0    50   ~ 0
 ~RESET
-Text HLabel 1300 2100 0    50   Input ~ 0
-INVERT
-Wire Wire Line
-	1300 2100 1400 2100
-Text Label 1400 2100 0    50   ~ 0
-INVERT
 $Comp
 L mouse_reach_controller:10.0k_0402 R12
 U 1 1 61BCCF8F
@@ -1278,4 +1268,5 @@ Text Label 9900 5700 2    50   ~ 0
 GND
 Wire Wire Line
 	3450 1100 3550 1100
+NoConn ~ 6100 2500
 $EndSCHEMATC

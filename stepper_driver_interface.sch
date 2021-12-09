@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 9
-Title ""
+Title "mouse_reach_controller"
 Date ""
-Rev "1.1"
-Comp ""
+Rev "1.2"
+Comp "Janelia"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -71,7 +71,7 @@ DIR_B
 Wire Wire Line
 	7700 3900 7600 3900
 Text Label 7600 3900 2    50   ~ 0
-UART_BUFFERED
+UART
 Wire Wire Line
 	8200 3900 8300 3900
 Text Label 8300 3900 0    50   ~ 0
@@ -253,11 +253,11 @@ Wire Wire Line
 Text Label 2500 3950 0    50   ~ 0
 DIR
 Text HLabel 2400 4100 0    50   Input ~ 0
-UART
+UART_CPU_TX
 Wire Wire Line
 	2400 4100 2500 4100
 Text Label 2500 4100 0    50   ~ 0
-UART
+UART_CPU_TX
 Text HLabel 2400 3500 0    50   UnSpc ~ 0
 VDD
 Wire Wire Line
@@ -270,84 +270,50 @@ Wire Wire Line
 	2400 3650 2500 3650
 Text Label 2500 3650 0    50   ~ 0
 GND
-Text HLabel 2400 4250 0    50   Output ~ 0
-REF
-Wire Wire Line
-	2400 4250 2500 4250
-Text Label 2500 4250 0    50   ~ 0
-REF
 Text HLabel 2400 4400 0    50   Output ~ 0
-REFR
+REF
 Wire Wire Line
 	2400 4400 2500 4400
 Text Label 2500 4400 0    50   ~ 0
+REF
+Text HLabel 2400 4550 0    50   Output ~ 0
 REFR
 Wire Wire Line
-	3700 5150 3600 5150
+	2400 4550 2500 4550
+Text Label 2500 4550 0    50   ~ 0
+REFR
+Text HLabel 2400 4250 0    50   Output ~ 0
+UART_CPU_RX
 Wire Wire Line
-	3700 5350 3600 5350
-Text Label 3600 5150 2    50   ~ 0
-GND
-Text Label 3600 5350 2    50   ~ 0
+	2400 4250 2500 4250
+Text Label 2500 4250 0    50   ~ 0
 UART
-Text Label 4000 4800 0    50   ~ 0
-VDD
-Wire Wire Line
-	4000 4900 4000 4800
-Wire Wire Line
-	4000 5600 4000 5700
-Wire Wire Line
-	4300 5250 4400 5250
-Text Label 4400 5250 0    50   ~ 0
-UART_BUFFERED
-Text Label 4000 5700 2    50   ~ 0
-GND
 $Comp
-L mouse_reach_controller:0.1uF_0402 C4
-U 1 1 618E6BEA
-P 3150 5250
-AR Path="/6183F861/618487C2/618E6BEA" Ref="C4"  Part="1" 
-AR Path="/6183F861/6187A5D3/618E6BEA" Ref="C6"  Part="1" 
-AR Path="/6183F861/61880876/618E6BEA" Ref="C8"  Part="1" 
-F 0 "C8" H 3200 5350 40  0000 L CNN
-F 1 "0.1uF" H 3150 5250 30  0000 C CNN
-F 2 "mouse_reach_controller:SM0402" H 3188 5100 30  0001 C CNN
-F 3 "" H 3150 5250 60  0001 C CNN
-F 4 "Digi-Key" H 3250 5450 60  0001 C CNN "Vendor"
-F 5 "311-1375-1-ND" H 3350 5550 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 0.1UF 25V Y5V" H 3450 5650 60  0001 C CNN "Description"
-F 7 "0402" H 3150 5250 50  0001 C CNN "Package"
-F 8 "Yageo" H 3150 5250 50  0001 C CNN "Manufacturer"
-F 9 "CC0402ZRY5V8BB104" H 3150 5250 50  0001 C CNN "Manufacturer Part Number"
-	1    3150 5250
+L mouse_reach_controller:1k_0402 R21
+U 1 1 61B50ACF
+P 4000 5400
+AR Path="/6183F861/618487C2/61B50ACF" Ref="R21"  Part="1" 
+AR Path="/6183F861/6187A5D3/61B50ACF" Ref="R22"  Part="1" 
+AR Path="/6183F861/61880876/61B50ACF" Ref="R23"  Part="1" 
+F 0 "R23" H 4050 5400 40  0000 L CNN
+F 1 "1k" V 4000 5400 30  0000 C CNN
+F 2 "mouse_reach_controller:SM0402" V 3930 5400 30  0001 C CNN
+F 3 "" V 4080 5400 30  0000 C CNN
+F 4 "Digi-Key" V 4180 5500 60  0001 C CNN "Vendor"
+F 5 "311-1.00KLRCT-ND" V 4280 5600 60  0001 C CNN "Vendor Part Number"
+F 6 "RES SMD 1K OHM 1% 1/16W" V 4380 5700 60  0001 C CNN "Description"
+F 7 "0402" H 4000 5400 50  0001 C CNN "Package"
+F 8 "YAGEO" H 4000 5400 50  0001 C CNN "Manufacturer"
+F 9 "RC0402FR-071KL" H 4000 5400 50  0001 C CNN "Manufacturer Part Number"
+	1    4000 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 5450 3150 5550
-Text Label 3150 5550 2    50   ~ 0
-GND
+	4000 5150 4000 5050
 Wire Wire Line
-	3150 5050 3150 4950
-Text Label 3150 4950 0    50   ~ 0
-VDD
-$Comp
-L mouse_reach_controller:74LVC1G125GS U3
-U 1 1 619B0379
-P 4000 5250
-AR Path="/6183F861/618487C2/619B0379" Ref="U3"  Part="1" 
-AR Path="/6183F861/6187A5D3/619B0379" Ref="U5"  Part="1" 
-AR Path="/6183F861/61880876/619B0379" Ref="U7"  Part="1" 
-F 0 "U7" H 4100 5550 40  0000 L CNN
-F 1 "74LVC1G125GS" H 4000 4950 40  0000 L CNN
-F 2 "mouse_reach_controller:SOT1202" H 4000 6150 60  0001 C CNN
-F 3 "" H 4000 6150 60  0001 C CNN
-F 4 "Digi-Key" H 4000 6150 60  0001 C CNN "Vendor"
-F 5 "1727-8033-1-ND" H 4000 6150 60  0001 C CNN "Vendor Part Number"
-F 6 "IC BUF NON-INVERT 5.5V" H 4000 6150 60  0001 C CNN "Description"
-F 7 "Nexperia USA Inc." H 4000 6150 50  0001 C CNN "Manufacturer"
-F 8 "74LVC1G125GS,132" H 4000 6150 50  0001 C CNN "Manufacturer Part Number"
-F 9 "6-XFDFN" H 4000 6150 50  0001 C CNN "Package"
-	1    4000 5250
-	1    0    0    -1  
-$EndComp
+	4000 5650 4000 5750
+Text Label 4000 5050 0    50   ~ 0
+UART_CPU_TX
+Text Label 4000 5750 2    50   ~ 0
+UART
 $EndSCHEMATC

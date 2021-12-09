@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
-Title ""
+Title "mouse_reach_controller"
 Date ""
-Rev "1.1"
-Comp ""
+Rev "1.2"
+Comp "Janelia"
 Comment1 ""
 Comment2 ""
 Comment3 ""

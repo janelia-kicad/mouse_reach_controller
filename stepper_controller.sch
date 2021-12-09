@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 9
-Title ""
+Title "mouse_reach_controller"
 Date ""
-Rev "1.1"
-Comp ""
+Rev "1.2"
+Comp "Janelia"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -55,17 +55,18 @@ VDD
 Text Label 2350 3850 2    50   ~ 0
 GND
 $Sheet
-S 7950 1550 1350 1000
+S 7950 1550 1350 700 
 U 618487C2
 F0 "stepper_driver_interface_0" 50
 F1 "stepper_driver_interface.sch" 50
 F2 "STEP" I L 7950 1950 50 
 F3 "DIR" I L 7950 2050 50 
-F4 "UART" I L 7950 2150 50 
-F5 "VDD" U L 7950 1650 50 
-F6 "GND" U L 7950 1750 50 
-F7 "REF" O L 7950 2350 50 
-F8 "REFR" O L 7950 2450 50 
+F4 "VDD" U L 7950 1650 50 
+F5 "GND" U L 7950 1750 50 
+F6 "REF" O R 9300 1650 50 
+F7 "REFR" O R 9300 1750 50 
+F8 "UART_CPU_TX" I L 7950 2150 50 
+F9 "UART_CPU_RX" O R 9300 2150 50 
 $EndSheet
 Wire Wire Line
 	6350 2800 6450 2800
@@ -92,12 +93,12 @@ Wire Wire Line
 Text Label 6450 3100 0    50   ~ 0
 REFR_0
 Wire Wire Line
-	7950 2450 7850 2450
-Text Label 7850 2450 2    50   ~ 0
+	9300 1750 9400 1750
+Text Label 9400 1750 0    50   ~ 0
 REFR_0
 Wire Wire Line
-	7950 2350 7850 2350
-Text Label 7850 2350 2    50   ~ 0
+	9300 1650 9400 1650
+Text Label 9400 1650 0    50   ~ 0
 REF_0
 Wire Wire Line
 	7950 1650 7850 1650
@@ -254,30 +255,31 @@ Wire Wire Line
 	1300 3200 1400 3200
 Text Label 1400 3200 0    50   ~ 0
 GND
-Text HLabel 1300 3950 0    50   BiDi ~ 0
-UART_0
+Text HLabel 1300 3950 0    50   Input ~ 0
+UART_CPU_TX_0
 Wire Wire Line
 	1300 3950 1400 3950
 Text Label 1400 3950 0    50   ~ 0
-UART_0
+UART_CPU_TX_0
 NoConn ~ 5150 3750
 NoConn ~ 5150 3850
 Wire Wire Line
 	7950 2150 7850 2150
 Text Label 7850 2150 2    50   ~ 0
-UART_0
+UART_CPU_TX_0
 $Sheet
-S 7950 2800 1350 1000
+S 7950 2800 1350 700 
 U 6187A5D3
 F0 "stepper_driver_interface_1" 50
 F1 "stepper_driver_interface.sch" 50
 F2 "STEP" I L 7950 3200 50 
 F3 "DIR" I L 7950 3300 50 
-F4 "UART" I L 7950 3400 50 
-F5 "VDD" U L 7950 2900 50 
-F6 "GND" U L 7950 3000 50 
-F7 "REF" O L 7950 3600 50 
-F8 "REFR" O L 7950 3700 50 
+F4 "VDD" U L 7950 2900 50 
+F5 "GND" U L 7950 3000 50 
+F6 "REF" O R 9300 2900 50 
+F7 "REFR" O R 9300 3000 50 
+F8 "UART_CPU_TX" I L 7950 3400 50 
+F9 "UART_CPU_RX" O R 9300 3400 50 
 $EndSheet
 Wire Wire Line
 	7950 3200 7850 3200
@@ -288,12 +290,12 @@ Wire Wire Line
 Text Label 7850 3300 2    50   ~ 0
 DIR_1
 Wire Wire Line
-	7950 3700 7850 3700
-Text Label 7850 3700 2    50   ~ 0
+	9300 3000 9400 3000
+Text Label 9400 3000 0    50   ~ 0
 REFR_1
 Wire Wire Line
-	7950 3600 7850 3600
-Text Label 7850 3600 2    50   ~ 0
+	9300 2900 9400 2900
+Text Label 9400 2900 0    50   ~ 0
 REF_1
 Wire Wire Line
 	7950 2900 7850 2900
@@ -306,31 +308,32 @@ GND
 Wire Wire Line
 	7950 3400 7850 3400
 Text Label 7850 3400 2    50   ~ 0
-UART_1
-Text HLabel 1300 4100 0    50   BiDi ~ 0
-UART_1
+UART_CPU_TX_1
+Text HLabel 1300 4100 0    50   Output ~ 0
+UART_CPU_RX_0
 Wire Wire Line
 	1300 4100 1400 4100
 Text Label 1400 4100 0    50   ~ 0
-UART_1
-Text HLabel 1300 4250 0    50   BiDi ~ 0
-UART_2
+UART_CPU_RX_0
+Text HLabel 1300 4250 0    50   Input ~ 0
+UART_CPU_TX_1
 Wire Wire Line
 	1300 4250 1400 4250
 Text Label 1400 4250 0    50   ~ 0
-UART_2
+UART_CPU_TX_1
 $Sheet
-S 7950 4050 1350 1000
+S 7950 4050 1350 700 
 U 61880876
 F0 "stepper_driver_interface_2" 50
 F1 "stepper_driver_interface.sch" 50
 F2 "STEP" I L 7950 4450 50 
 F3 "DIR" I L 7950 4550 50 
-F4 "UART" I L 7950 4650 50 
-F5 "VDD" U L 7950 4150 50 
-F6 "GND" U L 7950 4250 50 
-F7 "REF" O L 7950 4850 50 
-F8 "REFR" O L 7950 4950 50 
+F4 "VDD" U L 7950 4150 50 
+F5 "GND" U L 7950 4250 50 
+F6 "REF" O R 9300 4150 50 
+F7 "REFR" O R 9300 4250 50 
+F8 "UART_CPU_TX" I L 7950 4650 50 
+F9 "UART_CPU_RX" O R 9300 4650 50 
 $EndSheet
 Wire Wire Line
 	7950 4450 7850 4450
@@ -341,12 +344,12 @@ Wire Wire Line
 Text Label 7850 4550 2    50   ~ 0
 DIR_2
 Wire Wire Line
-	7950 4950 7850 4950
-Text Label 7850 4950 2    50   ~ 0
+	9300 4250 9400 4250
+Text Label 9400 4250 0    50   ~ 0
 REFR_2
 Wire Wire Line
-	7950 4850 7850 4850
-Text Label 7850 4850 2    50   ~ 0
+	9300 4150 9400 4150
+Text Label 9400 4150 0    50   ~ 0
 REF_2
 Wire Wire Line
 	7950 4150 7850 4150
@@ -359,7 +362,7 @@ GND
 Wire Wire Line
 	7950 4650 7850 4650
 Text Label 7850 4650 2    50   ~ 0
-UART_2
+UART_CPU_TX_2
 Text HLabel 1300 3350 0    50   Input ~ 0
 SCK
 Wire Wire Line
@@ -398,4 +401,34 @@ F 8 "831068248" H 3200 4950 50  0001 C CNN "Manufacturer Part Number"
 	1    3200 3550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9300 2150 9400 2150
+Text Label 9400 2150 0    50   ~ 0
+UART_CPU_RX_0
+Wire Wire Line
+	9300 3400 9400 3400
+Text Label 9400 3400 0    50   ~ 0
+UART_CPU_RX_1
+Wire Wire Line
+	9300 4650 9400 4650
+Text Label 9400 4650 0    50   ~ 0
+UART_CPU_RX_2
+Text HLabel 1300 4400 0    50   Output ~ 0
+UART_CPU_RX_1
+Wire Wire Line
+	1300 4400 1400 4400
+Text Label 1400 4400 0    50   ~ 0
+UART_CPU_RX_1
+Text HLabel 1300 4550 0    50   Input ~ 0
+UART_CPU_TX_2
+Wire Wire Line
+	1300 4550 1400 4550
+Text Label 1400 4550 0    50   ~ 0
+UART_CPU_TX_2
+Text HLabel 1300 4700 0    50   Output ~ 0
+UART_CPU_RX_2
+Wire Wire Line
+	1300 4700 1400 4700
+Text Label 1400 4700 0    50   ~ 0
+UART_CPU_RX_2
 $EndSCHEMATC

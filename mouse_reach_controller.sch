@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 9
 Title "mouse_reach_controller"
 Date ""
-Rev "1.1"
+Rev "1.2"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
@@ -71,10 +71,13 @@ F3 "MISO" O L 7250 2900 50
 F4 "~CS" I L 7250 3000 50 
 F5 "VDD" U L 7250 2400 50 
 F6 "GND" U L 7250 2500 50 
-F7 "UART_0" B L 7250 3200 50 
-F8 "UART_1" B L 7250 3300 50 
-F9 "UART_2" B L 7250 3400 50 
-F10 "SCK" I L 7250 2700 50 
+F7 "SCK" I L 7250 2700 50 
+F8 "UART_CPU_TX_0" I L 7250 3200 50 
+F9 "UART_CPU_RX_0" O R 8300 2700 50 
+F10 "UART_CPU_TX_1" I L 7250 3300 50 
+F11 "UART_CPU_RX_1" O R 8300 2800 50 
+F12 "UART_CPU_TX_2" I L 7250 3400 50 
+F13 "UART_CPU_RX_2" O R 8300 2900 50 
 $EndSheet
 Wire Wire Line
 	1850 1000 1750 1000
@@ -216,30 +219,29 @@ Wire Wire Line
 Wire Wire Line
 	7250 3400 7150 3400
 Text Label 1750 1200 2    50   ~ 0
-UART_0
+UART_CPU_TX_0
 Wire Wire Line
 	4350 2200 4450 2200
 Text Label 4450 2200 0    50   ~ 0
-UART_1
+UART_CPU_TX_1
 Wire Wire Line
 	4350 1900 4450 1900
 Text Label 4450 1900 0    50   ~ 0
-UART_2
+UART_CPU_TX_2
 Text Label 7150 3200 2    50   ~ 0
-UART_0
+UART_CPU_TX_0
 Text Label 7150 3300 2    50   ~ 0
-UART_1
+UART_CPU_TX_1
 Text Label 7150 3400 2    50   ~ 0
-UART_2
+UART_CPU_TX_2
 Wire Wire Line
 	4350 1400 4450 1400
-Text Label 4450 1400 0    50   ~ 0
+Text Label 1750 1600 2    50   ~ 0
 POWER_SWITCH_ENABLE
 Wire Wire Line
 	7250 1850 7150 1850
 Text Label 7150 1850 2    50   ~ 0
 POWER_SWITCH_ENABLE
-NoConn ~ 1850 1100
 $Comp
 L user_power:PWR_FLAG #FLG01
 U 1 1 61943980
@@ -309,22 +311,22 @@ F 3 "" H 10600 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1850 1400 1750 1400
-Text Label 1750 1400 2    50   ~ 0
+Text Label 1750 1500 2    50   ~ 0
 SIGNAL_B
 Wire Wire Line
 	1850 1300 1750 1300
-Text Label 1750 1300 2    50   ~ 0
+Text Label 4450 1400 0    50   ~ 0
 SIGNAL_A
 Wire Wire Line
 	1850 1600 1750 1600
-Text Label 1750 1600 2    50   ~ 0
+Text Label 1750 1300 2    50   ~ 0
 SIGNAL_D
 Wire Wire Line
 	1850 1500 1750 1500
-Text Label 1750 1500 2    50   ~ 0
+Text Label 1750 1400 2    50   ~ 0
 SIGNAL_C
 $Sheet
-S 7250 5100 1050 1200
+S 7250 5100 1050 1100
 U 61993642
 F0 "encoder_interface" 50
 F1 "encoder_interface.sch" 50
@@ -336,7 +338,6 @@ F6 "MISO" O L 7250 5800 50
 F7 "~CS" I L 7250 5900 50 
 F8 "SCK" I L 7250 5600 50 
 F9 "~RESET" I L 7250 6100 50 
-F10 "INVERT" I L 7250 6200 50 
 $EndSheet
 Wire Wire Line
 	4350 1000 4450 1000
@@ -356,7 +357,6 @@ Text Label 7150 5200 2    50   ~ 0
 VCC
 Wire Wire Line
 	1850 2000 1750 2000
-NoConn ~ 4350 2000
 $Comp
 L mouse_reach_controller:LED_RED_0402 L1
 U 1 1 61ABCDD3
@@ -480,14 +480,6 @@ Text Label 1750 1700 2    50   ~ 0
 ~ENCODER_RESET
 Wire Wire Line
 	1750 1700 1850 1700
-Wire Wire Line
-	7250 6200 7150 6200
-Text Label 7150 6200 2    50   ~ 0
-ENCODER_INVERT
-Wire Wire Line
-	4350 2100 4450 2100
-Text Label 4450 2100 0    50   ~ 0
-ENCODER_INVERT
 $Comp
 L user_power:PWR_FLAG #FLG0101
 U 1 1 61CDA86B
@@ -503,4 +495,28 @@ Wire Wire Line
 	2200 3350 2200 3450
 Text Label 2200 3450 2    50   ~ 0
 VCC
+Wire Wire Line
+	1850 1100 1750 1100
+Text Label 1750 1100 2    50   ~ 0
+UART_CPU_RX_0
+Wire Wire Line
+	4350 2100 4450 2100
+Text Label 4450 2100 0    50   ~ 0
+UART_CPU_RX_1
+Wire Wire Line
+	4350 2000 4450 2000
+Text Label 4450 2000 0    50   ~ 0
+UART_CPU_RX_2
+Wire Wire Line
+	8300 2700 8400 2700
+Text Label 8400 2700 0    50   ~ 0
+UART_CPU_RX_0
+Wire Wire Line
+	8300 2800 8400 2800
+Text Label 8400 2800 0    50   ~ 0
+UART_CPU_RX_1
+Wire Wire Line
+	8300 2900 8400 2900
+Text Label 8400 2900 0    50   ~ 0
+UART_CPU_RX_2
 $EndSCHEMATC

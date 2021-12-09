@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 9
-Title ""
+Title "mouse_reach_controller"
 Date ""
-Rev "1.1"
-Comp ""
+Rev "1.2"
+Comp "Janelia"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -143,13 +143,13 @@ U 1 1 61997FC4
 P 3900 3950
 F 0 "C9" H 3989 3980 50  0000 L CNN
 F 1 "100uF" H 3989 3904 30  0000 L CNN
-F 2 "mouse_reach_controller:CP_Elec_6.3x7.7_WURTH" H 3810 3920 60  0001 C CNN
+F 2 "mouse_reach_controller:CP_Elec_6.3x8.3_PAN" H 3810 3920 60  0001 C CNN
 F 3 "" H 3910 4020 60  0001 C CNN
 F 4 "Digi-Key" H 4010 4120 60  0001 C CNN "Vendor"
-F 5 "732-8511-1-ND" H 4110 4220 60  0001 C CNN "Vendor Part Number"
+F 5 "10-EEE-FN1V101XVCT-ND" H 4110 4220 60  0001 C CNN "Vendor Part Number"
 F 6 "CAP ALUM 100UF 20% 35V" H 4210 4320 60  0001 C CNN "Description"
-F 7 "Würth Elektronik" H 3900 3950 50  0001 C CNN "Manufacturer"
-F 8 "865080545012" H 3900 3950 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Panasonic Electronic Components" H 3900 3950 50  0001 C CNN "Manufacturer"
+F 8 "EEE-FN1V101XV" H 3900 3950 50  0001 C CNN "Manufacturer Part Number"
 	1    3900 3950
 	1    0    0    -1  
 $EndComp
