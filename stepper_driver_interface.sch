@@ -253,11 +253,11 @@ Wire Wire Line
 Text Label 2500 3950 0    50   ~ 0
 DIR
 Text HLabel 2400 4100 0    50   Input ~ 0
-UART_CPU_TX
+UART_DRIVER_RX
 Wire Wire Line
 	2400 4100 2500 4100
 Text Label 2500 4100 0    50   ~ 0
-UART_CPU_TX
+UART_DRIVER_RX
 Text HLabel 2400 3500 0    50   UnSpc ~ 0
 VDD
 Wire Wire Line
@@ -283,7 +283,7 @@ Wire Wire Line
 Text Label 2500 4550 0    50   ~ 0
 REFR
 Text HLabel 2400 4250 0    50   Output ~ 0
-UART_CPU_RX
+UART_DRIVER_TX
 Wire Wire Line
 	2400 4250 2500 4250
 Text Label 2500 4250 0    50   ~ 0
@@ -313,7 +313,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 5650 4000 5750
 Text Label 4000 5050 0    50   ~ 0
-UART_CPU_TX
+UART_DRIVER_RX
 Text Label 4000 5750 2    50   ~ 0
 UART
 $EndSCHEMATC
