@@ -1,7 +1,7 @@
 * Header                                                           :noexport:
 
   #+MACRO: name mouse_reach_controller
-  #+MACRO: version 1.0
+  #+MACRO: version 1.2
   #+MACRO: license Open-Source Hardware
   #+MACRO: url https://github.com/janelia-kicad/mouse_reach_controller
   #+AUTHOR: Peter Polidoro
