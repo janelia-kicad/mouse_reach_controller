@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name power)(type Legacy)(uri ${KIPRJMOD}/power.lib)(options "")(descr "")(disabled))
-  (lib (name mouse_reach_controller)(type Legacy)(uri ${KIPRJMOD}/mouse_reach_controller.lib)(options "")(descr ""))
-)

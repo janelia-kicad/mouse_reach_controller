@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name mouse_reach_controller)(type KiCad)(uri ${KIPRJMOD}/mouse_reach_controller.pretty)(options "")(descr ""))
-)
